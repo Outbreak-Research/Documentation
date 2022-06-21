@@ -24,6 +24,8 @@ markdown_extensions:
 nav:
 - Home: index.md
 - 3D: 3D\index.md
+- Sound: Sound\index.md
+- Textures: Textures\index.md
 
 plugins:
   - search
