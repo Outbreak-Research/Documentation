@@ -22,10 +22,10 @@ This is a collaborative effort to reverse engineer the game data and mechanics o
 | .sdt           | Audio file        | sound                      |                                                                     | |
 | .snd           | Raw Sound Data    | sound                      | Uses compression ADPCM(Adaptive Differential Pulse-Code Modulation) | MFAudio |
 | .sld           |                   |                            |                                                                     | |
-| .rdt           |                   | multiplayer data           |                                                                     | |
+| .rdt           |                   | multiplayer data           | Used in ingame scripts                                              | |
 | .tbl           |                   |                            |                                                                     | |
 | .itt           |                   |                            |                                                                     | |
-| .evb           |                   | event list                 |                                                                     | |
+| .evb           |                   | event list                 | Used in ingame scripts                                              | |
 | .npc           |                   | NPC data                   |                                                                     | |
 | .sto           |                   |                            |                                                                     | |
 | .lig           |                   |                            |                                                                     | |
