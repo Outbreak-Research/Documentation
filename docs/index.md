@@ -15,3 +15,23 @@ This is a collaborative effort to reverse engineer the game data and mechanics o
 | .bin           | Binary file       | non-text data              | Can store anything, usually not related to text                     | |
 | .txt           |                   | text                       | A standard text document                                            | Word, Notepad, Notepad++ |
 | .wmd           |                   |                            |                                                                     | |
+| .mat           |                   |                            |                                                                     | |
+| .tsb           |                   |                            |                                                                     | |
+| .tq            |                   |                            |                                                                     | |
+| .snp           |                   |                            |                                                                     | |
+| .sdt           | Audio file        | sound                      |                                                                     | |
+| .snd           | Raw Sound Data    | sound                      | Uses compression ADPCM(Adaptive Differential Pulse-Code Modulation) | MFAudio |
+| .sld           |                   |                            |                                                                     | |
+| .rdt           |                   | multiplayer data           |                                                                     | |
+| .tbl           |                   |                            |                                                                     | |
+| .itt           |                   |                            |                                                                     | |
+| .evb           |                   | event list                 |                                                                     | |
+| .npc           |                   | NPC data                   |                                                                     | |
+| .sto           |                   |                            |                                                                     | |
+| .lig           |                   |                            |                                                                     | |
+| .fog           |                   |                            |                                                                     | |
+| .rtp           |                   |                            |                                                                     | |
+| .emd           |                   | enemy data                 |                                                                     | |
+| .epp           |                   |                            |                                                                     | |
+| .sgl           |                   | single player data         |                                                                     | |
+| .adx           |                   | sound                      | Mainly tracks played in rooms                                       | |
