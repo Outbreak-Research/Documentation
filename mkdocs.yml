@@ -23,13 +23,15 @@ markdown_extensions:
 
 nav:
 - Home: index.md
+- Game Data:
+  - game data/index.md
 - 3D:
   - 3D/index.md
   - Model file formats: 3D/models.md
 - Sound: 
-  - Sound/index.md
+  - sound/index.md
 - Textures: 
-  - Textures/index.md
+  - textures/index.md
 
 plugins:
   - search
