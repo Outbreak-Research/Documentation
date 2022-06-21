@@ -1,5 +1,6 @@
 # RESIDENT EVIL OUTBREAK SERIES Characters, Enemies, and Object Data Tables
-version 1.1 by Richard Mandel
+- version 1.1 by Richard Mandel
+- revision 1.2 by Bia10
 
 ## Introduction
 
@@ -14,15 +15,14 @@ gameplay or high-poly cutscene forms.
 
 My thanks to Rusty, DXP, and all their friends over at the RE 123 Modding Forums for their original research.
 
-
 ## General Observations
 
 Here's a good rule-of-thumb regarding Outbreak character model resolutions:
 
-Super lo-res/lo-poly (>1200 polys) - distance shots of zombies
-Lo-res/lo-poly (@2000 polys) - general gameplay
-Mid-res/mid-poly (@3500 polys) - main characters and some cutscene models
-Hi-res/hi-poly (@7000+ polys) - almost all cutscene models
+- Super lo-res/lo-poly (>1200 polys) - distance shots of zombies
+- Lo-res/lo-poly (~2000 polys) - general gameplay
+- Mid-res/mid-poly (~3500 polys) - main characters and some cutscene models
+- Hi-res/hi-poly (>7000 polys) - almost all cutscene models
 
 Likewise, gameplay objects will be fairly low in poly count (usually less than 1000 polys, frequently less than 300)
 and cutscene objects fairly high (2000-3000 or higher).
@@ -45,64 +45,46 @@ High-poly model textures from later Resident Evil games - beginning with RE0 and
 textures (as of 2014), and these are usually for dedicated body parts - head, torso, limbs, and so on. This is not a hard-and-fast
 rule - especially where monsters and mutants are concerned - but it helps.
 
-
 ### Player Characters (this is P0x_xx in File 1)
 
-P00 - Kevin Ryman (policeman)
-
-00 - RPD uniform
-01 - Final cutscene (cowboy duds)
-02 - Casual (RPD bomber jacket with plaid shirt and jeans)
-
-P01 - Mark Wilkins (security guard)
-
-00 - Security guard uniform
-01 - Final cutscene (polor shirt and shorts)
-01 - Army dress greens, rank of lt. colonel (Vietnam service)
-
-P02 - Jim Chapman (subway worker)
-
-00 - Subway worker unform
-01 - Final cutscene ("hoopz dudz")
-02 - Bicycle messenger
-
-P03 - George Hamilton (surgeon)
-
-00 - Green suit with vest and tie
-01 - Raccoon Volunteer Corps outfit
-02 - Hospital scrubs with mask
-
-P04 - David King (plumber and handyman)
-
-00 - Plumber's outfit
-01 - Casual (open-neck white shirt with gold chain and sport jacket)
-02 - Bare-chested
-
-P05 - Alyssa Ashcroft (journalist)
-
-00 - Newspaper reporter
-01 - Black workout togs with hair bun and green goggles
-(somewhat similar to outfit worn in final cutscene)
-02 - Red slip and heels (same as Alice in first RE feature film)
-03 - Dojo clothes, aka "karate outfit"
-04 - Marathon runner
-
-P06 - Yoko Suzuki (former Umbrella employee)
-
-00 - University student
-01 - Simple long green dress
-02 - High school gym clothes (Japanese style)
-03 - Traditional green Chinese pantsuit with Mao cap
-04 - High school swimsuit (Japanese style)
-
-P07 - Cindy Lennox (waitress)
-
-00 - Waitress uniform
-01 - Final cutscene (blue blouse with white capri pants)
-02 - Playboy bunny suit
-03 - Black leathers and boots
-04 - White bikini (both parts) and "Daisy Dukes" mini-shorts
-
+1. P00 - Kevin Ryman (policeman)
+    +  00 - RPD uniform
+    +  01 - Final cutscene (cowboy duds)
+    +  02 - Casual (RPD bomber jacket with plaid shirt and jeans)
+2. P01 - Mark Wilkins (security guard)
+    + 00 - Security guard uniform
+    + 01 - Final cutscene (polor shirt and shorts)
+    + 01 - Army dress greens, rank of lt. colonel (Vietnam service)
+3. P02 - Jim Chapman (subway worker)
+    + 00 - Subway worker unform
+    + 01 - Final cutscene ("hoopz dudz")
+    + 02 - Bicycle messenger
+4. P03 - George Hamilton (surgeon)
+    + 00 - Green suit with vest and tie
+    + 01 - Raccoon Volunteer Corps outfit
+    + 02 - Hospital scrubs with mask
+5. P04 - David King (plumber and handyman)
+    + 00 - Plumber's outfit
+    + 01 - Casual (open-neck white shirt with gold chain and sport jacket)
+    + 02 - Bare-chested
+6. P05 - Alyssa Ashcroft (journalist)
+    + 00 - Newspaper reporter
+    + 01 - Black workout togs with hair bun and green goggles (somewhat similar to outfit worn in final cutscene)
+    + 02 - Red slip and heels (same as Alice in first RE feature film)
+    + 03 - Dojo clothes, aka "karate outfit"
+    + 04 - Marathon runner
+7. P06 - Yoko Suzuki (former Umbrella employee)
+    + 00 - University student
+    + 01 - Simple long green dress
+    + 02 - High school gym clothes (Japanese style)
+    + 03 - Traditional green Chinese pantsuit with Mao cap
+    + 04 - High school swimsuit (Japanese style)
+8. P07 - Cindy Lennox (waitress)
+    + 00 - Waitress uniform
+    + 01 - Final cutscene (blue blouse with white capri pants)
+    + 02 - Playboy bunny suit
+    + 03 - Black leathers and boots
+    + 04 - White bikini (both parts) and "Daisy Dukes" mini-shorts
 
 ### N20x - Player Character Cameos
 
@@ -120,27 +102,27 @@ are identical to the regular player character gameplay models and can be treated
 There are no player character cameo models of alternate outfits, although they could undoubtedly be swapped in as needed with the
 appropriate data from the normal player character model table.
 
-N200 - Kevin
-N201 - Mark
-N202 - Jim
-N203 - George
-N204 - David
-N205 - Alyssa
-N206 - Yoko
-N207 - Cindy
+1. N200 - Kevin
+2. N201 - Mark
+3. N202 - Jim
+4. N203 - George
+5. N204 - David
+6. N205 - Alyssa
+7. N206 - Yoko
+8. N207 - Cindy
 
 ### HP0x - High Poly (HP) Player Characters
 
 These are used exclusively for generating in-game cutscenes. There are no hi-poly versions of player character alternate outfits.
 
-HP00 - Kevin
-HP01 - Mark
-HP02 - Jim
-HP03 - George
-HP04 - David
-HP05 - Alyssa
-HP06 - Yoko
-HP07 - Cindy
+1. HP00 - Kevin
+2. HP01 - Mark
+3. HP02 - Jim
+4. HP03 - George
+5. HP04 - David
+6. HP05 - Alyssa
+7. HP06 - Yoko
+8. HP07 - Cindy
 
 ### E0x_xx - Enemies (gameplay resolution monsters and zombies)
 
