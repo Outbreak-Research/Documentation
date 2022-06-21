@@ -23,7 +23,9 @@ markdown_extensions:
 
 nav:
 - Home: index.md
-- 3D: 3D\index.md
+- 3D:
+  - General Observations: 3D\index.md
+  - Model file formats: 3D\models.md
 - Sound: Sound\index.md
 - Textures: Textures\index.md
 
