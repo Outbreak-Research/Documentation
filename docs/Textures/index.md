@@ -1,4 +1,4 @@
-# Textures
+# Textures files
 
 ## TIM2 file format
 
