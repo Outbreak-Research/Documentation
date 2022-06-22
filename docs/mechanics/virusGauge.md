@@ -35,5 +35,5 @@
 
 - Billy max virus gauge = 151200
 - Billy virus gauge increment = 30
-- Billy virus gauge multiplier = 1,2
+- Billy virus gauge multiplier = 1.2
 - Billy virus gauge: ${\displaystyle {\frac {(30 * 1.2 * 1) * 100} {151200}} = 0.0238095238 \approx 0.02 \%}$

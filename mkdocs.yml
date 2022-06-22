@@ -29,6 +29,7 @@ nav:
 - Mechanics:
   - mechanics/index.md
   - Virus Gauge: mechanics/virusGauge.md
+  - Character Speed: mechanics/characterSpeed.md
 - 3D:
   - 3D/index.md
   - Model file formats: 3D/models.md

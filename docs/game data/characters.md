@@ -584,7 +584,7 @@ Offset 00-03 > Virus gauge increment
 
 ### NPCs animation speed table
 
-Values decide much fast NPC moving animations are played.
+Values decide how much fast NPC moving animations are played.
 
 - 4 bytes float
 
