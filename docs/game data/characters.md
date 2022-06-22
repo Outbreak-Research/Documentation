@@ -214,6 +214,17 @@ Every 12 bytes is 1 MC and every 4 bytes float define scaling along 1 axis:
 - Y-axis 4 bytes float
 - Z-axis 4 bytes float
 
+| Main Character | X-axis | Y-axis | Z-axis |
+| -------------- | ------ | ------ | ------ |
+|  Kevin         | 1.05   | 1.05   | 1.05   |
+|  Mark          | 1.10   | 1.10   | 1.10   |
+|  Jim           | 1.01   | 1.01   | 1.01   |
+|  George        | 1.02   | 1.02   | 1.02   |
+|  David         | 1.06   | 1.06   | 1.06   |
+|  Alyssa        | 1.02   | 1.02   | 1.02   |
+|  Yoko          | 0.95   | 0.95   | 0.95   |
+|  Cindy         | 1.01   | 1.01   | 1.01   |
+ 
 #### File #1
 
 ??? info "Authors metadata"
@@ -284,6 +295,17 @@ Describes the HP data of main characters.
 
 - 2 bytes are HP of 1 MC.
 
+| Main Character | HP   |
+| -------------- | ---- |
+|  Kevin         | 2300 |
+|  Mark          | 3000 |
+|  Jim           | 1800 |
+|  George        | 2100 |
+|  David         | 2200 |
+|  Alyssa        | 2000 |
+|  Yoko          | 1300 |
+|  Cindy         | 1500 |
+
 #### File #1
 
 ??? info "Authors metadata"
@@ -342,17 +364,16 @@ Describes the HP range table for NPCs.
 - 2 bytes describe the max range
 - 4 bytes compose one range
 
-The table contains 8 HP ranges:
-```
-1. 500 - 800
-2. 900 - 1200
-3. 1300 - 1600
-4. 2000 - 2500
-5. 2600 - 3000
-6. 3100 - 3500
-7. 3600 - 4000
-8. 2000 - 2999 this seems to be unused
-```
+| Index  | HP range    | Note  |
+| ------ | ----------- | ----- |
+|  1     | 500 - 800   ||
+|  2     | 900 - 1200  ||
+|  3     | 1300 - 1600 ||
+|  4     | 2000 - 2500 ||
+|  5     | 2600 - 3000 ||
+|  6     | 3100 - 3500 ||
+|  7     | 3600 - 4000 ||
+|  8     | 2000 - 2999 | unused? |
 
 #### File #1 
 
@@ -414,6 +435,17 @@ This table encodes virus gauge increment multiplier by which virus gauge grows e
 
 - 4 bytes float is 1 increment multiplier
 
+| Index  | Multiplier |
+| ------ | ---------- |
+|  1     | 0.50 |
+|  2     | 0.70 |
+|  3     | 0.90 |
+|  4     | 1.00 |
+|  5     | 1.20 |
+|  6     | 1.40 |
+|  7     | 1.60 |
+|  8     | 1.00 |
+
 #### File #1
 
 ??? info "Authors metadata"
@@ -471,6 +503,17 @@ Offset 00-03 > VIRUS GAUGE INCREMENT MULTIPLIER > CHARACTERISTIC
 Maximum virus gage before character turns zombie, values are defined for MC types. NPCs inherit these values from their base MC type.
 
 - 4 bytes int
+
+| Main Character | Max virus gauge |
+| -------------- | ------ |
+|  Kevin         | 151200 |
+|  Mark          | 273600 |
+|  Jim           | 100800 |
+|  George        | 345600 |
+|  David         | 345600 |
+|  Alyssa        | 201600 |
+|  Yoko          | 345600 |
+|  Cindy         | 100800 |
 
 #### File #1
 
@@ -530,6 +573,17 @@ Describes values how much virus gauge increases per one tick (1s).
 
 - 4 bytes int
 
+| Main Character | Virus gauge increment |
+| -------------- | --- |
+|  Kevin         | 30 |
+|  Mark          | 60 |
+|  Jim           | 24 |
+|  George        | 60 |
+|  David         | 60 |
+|  Alyssa        | 30 |
+|  Yoko          | 45 |
+|  Cindy         | 15 |
+
 #### File #1
 
 ??? info "Authors metadata"
@@ -587,6 +641,17 @@ Offset 00-03 > Virus gauge increment
 Values decide how much fast NPC moving animations are played.
 
 - 4 bytes float
+
+| Index  | Animation speed |
+| ------ | -----|
+|  1     | 0.60 |
+|  2     | 0.70 |
+|  3     | 0.90 |
+|  4     | 1.00 |
+|  5     | 1.10 |
+|  6     | 1.10 |
+|  7     | 1.10 |
+|  8     | 1.10 |
 
 #### File #1
 
