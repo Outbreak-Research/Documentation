@@ -17,7 +17,7 @@
 
 - MC speed ${\displaystyle = {MC scaling * 100}}$
 
-This formula isn't 100% accurate because doesn't consider the character type animation duration
+This formula isn't 100% accurate because it doesn't consider the character type animation duration.
 
 ### Examples
 
