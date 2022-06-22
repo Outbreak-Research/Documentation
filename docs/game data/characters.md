@@ -581,3 +581,61 @@ Offset 00-03 > Virus gauge increment
     001E5530  3C 00 00 00 1E 00 00 00 2D 00 00 00 0F 00 00 00  <.......-.......
     ---------------------------------------------------------------------------
     ```
+
+### NPCs animation speed table
+
+Values decide much fast NPC moving animations are played.
+
+- 4 bytes float
+
+#### File #1
+
+??? info "Authors metadata"
+    - Author > [Machi](https://github.com/Machi13)
+    - Last update > 19 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 22 June 2022
+
+```
+File > GAME.BIN
+Start > 001A6BD0
+End > 001A6BEF
+```
+
+```
+Offset 00-03 > ANIMATION SPEED > CHARACTERISTIC
+```
+
+??? summary "Raw hex data"
+    ```
+    Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+    ---------------------------------------------------------------------------
+    001A6BD0  9A 99 19 3F 33 33 33 3F 66 66 66 3F 00 00 80 3F  š™.?333?fff?..€?
+    001A6BE0  CD CC 8C 3F 00 00 80 3F 00 00 80 3F 00 00 80 3F  ÍÌŒ?..€?..€?..€?
+    ---------------------------------------------------------------------------
+    ```
+
+#### File #2
+
+??? info "Authors metadata"
+    - Author > [Machi](https://github.com/Machi13)
+    - Last update > 19 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 22 June 2022
+
+```
+Location > 2.DAT
+Start > 001E5460
+End > 0001E547F
+```
+
+```
+Offset 00-03 > ANIMATION SPEED > CHARACTERISTIC
+```
+
+??? summary "Raw hex data"
+    ```
+    Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+    ---------------------------------------------------------------------------
+    001E5460  9A 99 19 3F 33 33 33 3F 66 66 66 3F 00 00 80 3F  š™.?333?fff?..€?
+    001E5470  CD CC 8C 3F CD CC 8C 3F CD CC 8C 3F CD CC 8C 3F  ÍÌŒ?ÍÌŒ?ÍÌŒ?ÍÌŒ?
+    ---------------------------------------------------------------------------
+    ```
