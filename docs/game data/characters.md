@@ -1,5 +1,6 @@
 ## Main Characters(MCs) and other NPCs
 
+This section describes data related to MCs and other NPCs like ther characteristics.
 
 ### NPCs data
 
@@ -270,5 +271,130 @@ Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
 001E5570  14 AE 87 3F 14 AE 87 3F 14 AE 87 3F 5C 8F 82 3F  .®‡?.®‡?.®‡?\.‚?
 001E5580  5C 8F 82 3F 5C 8F 82 3F 33 33 73 3F 33 33 73 3F  \.‚?\.‚?33s?33s?
 001E5590  33 33 73 3F AE 47 81 3F AE 47 81 3F AE 47 81 3F  33s?®G.?®G.?®G.?
+---------------------------------------------------------------------------
+```
+
+### MCs HP
+
+Describes the HP data of main characters.
+
+- 2 bytes are HP of 1 MC.
+
+#### File #1
+
+??? info "Authors Metadata"
+    - Author > [Machi](https://github.com/Machi13)
+    - Last update > 19 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 22 June 2022
+
+```
+File > GAME.BIN
+Start > 001A6ED0
+End > 001A6EDF
+```
+
+```
+Offset 00-01 > HP
+```
+
+```
+Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+---------------------------------------------------------------------------
+001A6ED0  FC 08 B8 0B 08 07 34 08 98 08 D0 07 14 05 DC 05  ü.¸...4.˜.Ð...Ü.
+---------------------------------------------------------------------------
+```
+
+#### File #2
+
+??? info "Authors Metadata"
+    - Author > [Machi](https://github.com/Machi13)
+    - Last update > 19 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 22 June 2022
+
+```    
+Location > 2.DAT
+Start > 001E5760
+End > 0001E576F
+```
+
+```
+Offset 00-01 > HP
+```
+
+```
+Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+---------------------------------------------------------------------------
+001E5760  FC 08 B8 0B 08 07 34 08 98 08 D0 07 14 05 DC 05  ü.¸...4.˜.Ð...Ü.
+---------------------------------------------------------------------------
+```
+
+### NPCs HP range table
+
+Describes the HP range table for NPCs.
+
+- 2 bytes describe the min range
+- 2 bytes describe the max range
+- 4 bytes compose one range
+
+The table contains 8 HP ranges:
+```
+1. 500 - 800
+2. 900 - 1200
+3. 1300 - 1600
+4. 2000 - 2500
+5. 2600 - 3000
+6. 3100 - 3500
+7. 3600 - 4000
+8. 2000 - 2999 this seems to be unused
+```
+
+#### File #1 
+
+??? info "Authors Metadata"
+    - Author > [Machi](https://github.com/Machi13)
+    - Last update > 19 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 22 June 2022
+
+```
+Offset 00-01 > MIN HP RANGE > CHARACTERISTIC
+Offset 02-03 > MAX HP RANGE > CHARACTERISTIC
+```
+
+```
+File > GAME.BIN
+Start > 001A6C10
+End > 001A6C2F
+```
+
+```
+Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+---------------------------------------------------------------------------
+001A6C10  F4 01 20 03 84 03 B0 04 14 05 40 06 D0 07 C4 09  ô. .„.°...@.Ð.Ä.
+001A6C20  28 0A B8 0B 1C 0C AC 0D 10 0E A0 0F D0 07 B7 0B  (.¸...¬... .Ð.·.
+---------------------------------------------------------------------------
+```
+#### File #2 
+
+??? info "Authors Metadata"
+    - Author > [Machi](https://github.com/Machi13)
+    - Last update > 19 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 22 June 2022
+
+```
+Offset 00-01 > MIN HP RANGE > CHARACTERISTIC
+Offset 00-01 > MAX HP RANGE > CHARACTERISTIC
+```
+
+```
+Location > 2.DAT
+Start > 001E54A0
+End > 0001E54BF
+```
+
+```
+Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+---------------------------------------------------------------------------
+001E54A0  F4 01 20 03 84 03 B0 04 14 05 40 06 D0 07 C4 09  ô. .„.°...@.Ð.Ä.
+001E54B0  28 0A B8 0B 1C 0C AC 0D 10 0E A0 0F D0 07 B7 0B  (.¸...¬... .Ð.·.
 ---------------------------------------------------------------------------
 ```
