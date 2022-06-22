@@ -7,7 +7,7 @@ This is a collaborative effort to reverse engineer the game data and mechanics o
 | File extension | Official name     | Relates to                 | Description                                                         | Tools |
 | -------------- |--------------     |----------------------------|---------------------------------------------------------------------| ----- |
 | .nbd           |                   | 3D models, textures, bones | Contains other chuncks of other file formats like .amo, .tex        | |
-| .dat           |                   | generic archive file format| Stores other file formats, can have different encoding/comporession | |
+| .dat           |                   | generic archive file format| Stores other file formats, can have different encoding/compression  | |
 | .img           | Munge file format | images file format         |                                                                     | Game Graphics Studio, AFSTool, AFSExplorer |
 | .amo           |                   | 3D models, (Animated model object?) |                                                            | |
 | .tex           |                   | texture image format       |                                                                     | |
