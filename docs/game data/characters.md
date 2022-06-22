@@ -7,7 +7,7 @@ Every 12 bytes describes one NPC data.
 
 #### File #1
 
-??? info
+??? info "Authors Metadata"
     - Author > [Machi](https://github.com/Machi13)
     - Last update > 19 June 2022
     - Last modification > [Bia10](https://github.com/Bia10) at 22 June 2022
@@ -105,7 +105,7 @@ Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
 
 #### File #2
 
-??? info
+??? info "Authors Metadata"
     - Author > [Machi](https://github.com/Machi13)
     - Last update > 19 June 2022
     - Last modification > [Bia10](https://github.com/Bia10) at 22 June 2022
@@ -213,7 +213,7 @@ Every 12 bytes is 1 MC and every 4 bytes float define scaling along 1 axis:
 
 #### File #1
 
-??? info
+??? info "Authors Metadata"
     - Author > [Machi](https://github.com/Machi13)
     - Last update > 19 June 2022
     - Last modification > [Bia10](https://github.com/Bia10) at 22 June 2022
@@ -244,7 +244,7 @@ Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
 
 #### File #2
 
-??? info
+??? info "Authors Metadata"
     - Author > [Machi](https://github.com/Machi13)
     - Last update > 19 June 2022
     - Last modification > [Bia10](https://github.com/Bia10) at 22 June 2022

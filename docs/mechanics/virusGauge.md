@@ -1,6 +1,6 @@
 ## Virus Gauge
 
-??? info
+??? info "Authors Metadata"
     - Author > [Machi](https://github.com/Machi13)
     - Last update > 19 June 2022
     - Last modification > [Bia10](https://github.com/Bia10) at 22 June 2022
