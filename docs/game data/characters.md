@@ -398,11 +398,70 @@ Location > 2.DAT
 Start > 001E54A0
 End > 0001E54BF
 ```
+
 ??? summary "Raw hex data"
     ```
     Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
     ---------------------------------------------------------------------------
     001E54A0  F4 01 20 03 84 03 B0 04 14 05 40 06 D0 07 C4 09  ô. .„.°...@.Ð.Ä.
     001E54B0  28 0A B8 0B 1C 0C AC 0D 10 0E A0 0F D0 07 B7 0B  (.¸...¬... .Ð.·.
+    ---------------------------------------------------------------------------
+    ```
+
+### NPCs virus gauge increment multiplier table
+
+This table encodes virus gauge increment multiplier by which virus gauge grows every 1 second ingame.
+
+- 4 bytes float is 1 increment multiplier
+
+#### File #1
+
+??? info "Authors metadata"
+    - Author > [Machi](https://github.com/Machi13)
+    - Last update > 19 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 22 June 2022
+
+```
+File > GAME.BIN
+Start > 001A6BF0
+End > 001A6C0F
+```
+
+```
+Offset 00-03 > VIRUS GAUGE INCREMENT MULTIPLIER > CHARACTERISTIC
+```
+
+??? summary "Raw hex data"
+    ```
+    Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+    ---------------------------------------------------------------------------
+    001A6BF0  00 00 00 3F 33 33 33 3F 66 66 66 3F 00 00 80 3F  ...?333?fff?..€?
+    001A6C00  9A 99 99 3F 33 33 B3 3F CD CC CC 3F 00 00 80 3F  š™™?33³?ÍÌÌ?..€?
+    ---------------------------------------------------------------------------
+    ```
+
+#### File #2
+
+??? info "Authors metadata"
+    - Author > [Machi](https://github.com/Machi13)
+    - Last update > 19 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 22 June 2022
+
+```
+Location > 2.DAT
+Start > 001E5480
+End > 001E549F
+```
+
+```
+Offset 00-03 > VIRUS GAUGE INCREMENT MULTIPLIER > CHARACTERISTIC
+```
+
+??? summary "Raw hex data"
+    ```
+    Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+    ---------------------------------------------------------------------------
+    001E5480  00 00 00 3F 33 33 33 3F 66 66 66 3F 00 00 80 3F  ...?333?fff?..€?
+    001E5490  9A 99 99 3F 33 33 B3 3F CD CC CC 3F 00 00 80 3F  š™™?33³?ÍÌÌ?..€?
     ---------------------------------------------------------------------------
     ```
