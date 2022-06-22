@@ -465,3 +465,119 @@ Offset 00-03 > VIRUS GAUGE INCREMENT MULTIPLIER > CHARACTERISTIC
     001E5490  9A 99 99 3F 33 33 B3 3F CD CC CC 3F 00 00 80 3F  š™™?33³?ÍÌÌ?..€?
     ---------------------------------------------------------------------------
     ```
+
+### Max virus gauge per MC type
+
+Maximum virus gage before character turns zombie, values are defined for MC types. NPCs inherit these values from their base MC type.
+
+- 4 bytes int
+
+#### File #1
+
+??? info "Authors metadata"
+    - Author > [Machi](https://github.com/Machi13)
+    - Last update > 19 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 22 June 2022
+
+```
+File > GAME.BIN
+Start > 001A6C70
+End > 001A6C8F
+```
+
+```
+Offset 00-03 > Max virus gauge per character type
+```
+
+??? summary "Raw hex data"
+    ```
+    Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+    ---------------------------------------------------------------------------
+    001A6C70  A0 4E 02 00 C0 2C 04 00 C0 89 01 00 00 46 05 00   N..À,..À‰...F..
+    001A6C80  00 46 05 00 80 13 03 00 00 46 05 00 C0 89 01 00  .F..€....F..À‰..
+    ---------------------------------------------------------------------------
+    ```
+
+#### File #2
+
+??? info "Authors metadata"
+    - Author > [Machi](https://github.com/Machi13)
+    - Last update > 19 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 22 June 2022
+
+```
+Location > 2.DAT
+Start > 001E5500
+End > 001E551F
+```
+
+```
+Offset 00-03 > Max virus gauge
+```
+
+??? summary "Raw hex data"
+    ```
+    Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+    ---------------------------------------------------------------------------
+    001E5500  A0 4E 02 00 C0 2C 04 00 C0 89 01 00 00 46 05 00   N..À,..À‰...F..
+    001E5510  00 46 05 00 80 13 03 00 00 46 05 00 C0 89 01 00  .F..€....F..À‰..
+    ---------------------------------------------------------------------------
+    ```
+
+### Virus gauge increment per character type
+
+Describes values how much virus gauge increases per one tick (1s).
+
+- 4 bytes int
+
+#### File #1
+
+??? info "Authors metadata"
+    - Author > [Machi](https://github.com/Machi13)
+    - Last update > 19 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 22 June 2022
+
+```
+File > GAME.BIN
+Start > 001A6C90
+End > 001A6CAF
+```
+
+```
+Offset 00-03 > Virus gauge increment
+```
+
+??? summary "Raw hex data"
+    ```
+    Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+    ---------------------------------------------------------------------------
+    001A6C90  1E 00 00 00 3C 00 00 00 18 00 00 00 3C 00 00 00  ....<.......<...
+    001A6CA0  3C 00 00 00 1E 00 00 00 1E 00 00 00 0F 00 00 00  <...............
+    ---------------------------------------------------------------------------
+    ```
+
+#### File #2
+
+??? info "Authors metadata"
+    - Author > [Machi](https://github.com/Machi13)
+    - Last update > 19 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 22 June 2022
+
+```
+Location > 2.DAT
+Start > 001E5520
+End > 001E553F
+```    
+
+```
+Offset 00-03 > Virus gauge increment
+```
+
+??? summary "Raw hex data"
+    ```
+    Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+    ---------------------------------------------------------------------------
+    001E5520  1E 00 00 00 3C 00 00 00 18 00 00 00 3C 00 00 00  ....<.......<...
+    001E5530  3C 00 00 00 1E 00 00 00 2D 00 00 00 0F 00 00 00  <.......-.......
+    ---------------------------------------------------------------------------
+    ```
