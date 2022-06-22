@@ -1,6 +1,6 @@
 ## Main Characters(MCs) and other NPCs
 
-This section describes data related to MCs and other NPCs like ther characteristics.
+This section describes data related to MCs and other NPCs like their characteristics.
 
 ### NPCs data
 
