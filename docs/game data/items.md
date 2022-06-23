@@ -2285,7 +2285,7 @@ End > 000000787
     00000780  01 00 B9 36 00 01 01 00                          ..¹6....
     ---------------------------------------------------------------------------
     ```
-
+    
 ### Item combination
 
 ### Item damage
@@ -2360,5 +2360,59 @@ End > 0001FDF19
     ```
 
 ### Item heal
+
+Describes item heal table.
+
+- 2 bytes short
+
 #### File #1
+
+??? info "Authors metadata"
+    - Author > [Machi](https://github.com/Machi13), IgusaTaro
+    - Last update > 19 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 24 June 2022
+
+```
+Offset 00-01 > Heal
+```
+
+```
+File > GAME.BIN
+Start > 00196510
+End > 0019652F
+```
+
+??? summary "Raw hex data"
+    ```
+    Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+    ---------------------------------------------------------------------------
+    00196510  F4 01 00 00 00 00 E8 03 A4 06 D0 07 F4 01 E8 03  ô.....è.¤.Ð.ô.è.
+    00196520  98 08 B8 0B F4 01 00 00 00 00 00 00 00 00 D0 07  ˜.¸.ô.........Ð.
+    ---------------------------------------------------------------------------
+    ```
+
 #### File #2
+
+??? info "Authors metadata"
+    - Author > [Machi](https://github.com/Machi13), IgusaTaro
+    - Last update > 19 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 24 June 2022
+
+```
+Offset 00-01 > Heal
+```
+
+```
+Location > 2.DAT
+Start > 001D5640
+End > 0001D565F
+```
+
+??? summary "Raw hex data"
+    ```
+    Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+    ---------------------------------------------------------------------------
+    001D5640  F4 01 00 00 00 00 E8 03 A4 06 D0 07 F4 01 E8 03  ô.....è.¤.Ð.ô.è.
+    001D5650  98 08 28 23 20 03 00 00 00 00 00 00 00 00 D0 07  ˜.(# .........Ð.
+    ---------------------------------------------------------------------------
+    ```
