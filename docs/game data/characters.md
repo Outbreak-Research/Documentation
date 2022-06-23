@@ -715,19 +715,11 @@ Describes main characters starting items.
 #### File #1
 
 ??? info "Authors metadata"
-    - Author > [Machi](https://github.com/Machi13)
-    - Last update > 19 June 2022
-    - Last modification > [Bia10](https://github.com/Bia10) at 22 June 2022
+    - Author > hill73n, Despair
+    - Last update > 24 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 24 June 2022
 
-```
-```
-
-```
-```
-
-??? summary "Raw hex data"
-    ```
-    ```
+There are no starting items for MCs in File 1#. The only way to force MCs to start with items is to modyfi the event script file (r0xx.evb) for given scenario, this will however also force NPCs of underlying MC type to gain these items.
 
 #### File #2
 
