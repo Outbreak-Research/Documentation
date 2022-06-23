@@ -13,16 +13,13 @@
 
 ### Equations
 
-- NPC speed ${\displaystyle = {NPC scaling * NPC animation speed * 100}}$
+- NPC speed ${\displaystyle = {NPCscaling * NPCanimationSpeed * 100}}$
 
-- MC speed ${\displaystyle = {MC scaling * 100}}$
+- MC speed ${\displaystyle = {MCscaling * 100}}$
 
 This formula isn't 100% accurate because it doesn't consider the character type animation duration.
 
 ### Examples
-
-- Assuming 1 second has passed since scenario started.
-
 #### MC
 
 - Kevin scaling = 1.05

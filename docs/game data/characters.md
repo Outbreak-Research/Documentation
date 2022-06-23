@@ -773,7 +773,7 @@ Describes NPC characters starting items.
 ```
 File > GAME.BIN
 Start > 001AF550
-End > 001AF7B7
+End > 001AF7AB
 ```
 
 ```

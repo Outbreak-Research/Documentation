@@ -11,7 +11,7 @@ This sections describes how are data mapped from disc files into memory and what
 | .img           | Munge file format | images file format         |                                                                     | Game Graphics Studio, AFSTool, AFSExplorer |
 | .amo           |                   | 3D models, (Animated model object?) |                                                            | |
 | .tex           |                   | texture image format       |                                                                     | |
-| .tm2           | TIM2              | image format               | TIM2 is an image format commonly used in PlayStation 2              | Game Graphics Studio, OPTPiX iMageStudio 3 |
+| .tm2           | TIM2              | image format               | TIM2 is an image format commonly used in PlayStation 2              | [Tim2 Tools](https://outbreak-research.github.io/Documentation/textures/#tools) |
 | .bin           | Binary file       | non-text data              | Can store anything, usually not related to text                     | |
 | .txt           |                   | text                       | A standard text document                                            | Word, Notepad, Notepad++ |
 | .wmd           |                   |                            |                                                                     | |
