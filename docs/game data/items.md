@@ -2,7 +2,7 @@
 
 This section describes data related to items like their characteristics.
 
-### Item Characteristics
+### Item characteristics
 
 Describes item characteristics.
 
@@ -2285,3 +2285,80 @@ End > 000000787
     00000780  01 00 B9 36 00 01 01 00                          ..¹6....
     ---------------------------------------------------------------------------
     ```
+
+### Item combination
+
+### Item damage
+
+Describes item dmg table.
+
+- 2 bytes short
+
+#### File #1
+
+??? info "Authors metadata"
+    - Author > [Machi](https://github.com/Machi13), IgusaTaro
+    - Last update > 19 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 24 June 2022
+
+```
+Offset 00-01 > Damage
+```
+
+```
+File > GAME.BIN
+Start > 001C0090
+End > 001C010F
+```
+
+??? summary "Raw hex data"
+    ```
+    Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+    ---------------------------------------------------------------------------
+    001C0090  0A 00 8C 00 A0 00 78 00 84 03 E8 03 82 00 C2 01  ..Œ. .x.„.è.‚.Â.
+    001C00A0  C8 00 6E 00 D0 07 64 00 58 02 00 00 DC 00 82 00  È.n.Ð.d.X...Ü.‚.
+    001C00B0  00 00 00 00 00 00 8C 00 50 46 00 00 B0 04 4C 04  ......Œ.PF..°.L.
+    001C00C0  E8 03 90 01 90 01 78 00 96 00 F4 01 78 00 46 00  è.....x.–.ô.x.F.
+    001C00D0  28 00 37 00 3C 00 37 00 50 00 32 00 2D 00 28 00  (.7.<.7.P.2.-.(.
+    001C00E0  C8 00 28 00 32 00 28 00 78 00 00 00 00 00 00 00  È.(.2.(.x.......
+    001C00F0  00 00 00 00 FA 00 82 00 B8 0B F0 00 64 00 68 01  ....ú.‚.¸.ð.d.h.
+    001C0100  64 00 14 00 F4 01 64 00 F4 01 58 02 28 00 00 7D  d...ô.d.ô.X.(..}
+    ---------------------------------------------------------------------------
+    ```
+
+#### File #2
+
+??? info "Authors metadata"
+    - Author > [Machi](https://github.com/Machi13), IgusaTaro
+    - Last update > 19 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 24 June 2022
+
+```
+Offset 00-01 > Damage
+```
+
+```
+Location > 2.DAT
+Start > 001FDE90
+End > 0001FDF19
+```
+
+??? summary "Raw hex data"
+    ```
+    Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+    ---------------------------------------------------------------------------
+    001FDE90  0A 00 8C 00 A0 00 82 00 84 03 E8 03 96 00 C2 01  ..Œ. .‚.„.è.–.Â.
+    001FDEA0  C8 00 82 00 D0 07 78 00 BC 02 58 02 08 07 C8 00  È.‚.Ð.x.¼.X...È.
+    001FDEB0  00 00 00 00 00 00 8C 00 00 19 00 00 B0 04 4C 04  ......Œ.....°.L.
+    001FDEC0  E8 03 90 01 90 01 78 00 96 00 F4 01 78 00 46 00  è.....x.–.ô.x.F.
+    001FDED0  2A 00 37 00 6E 00 5A 00 50 00 5A 00 50 00 28 00  *.7.n.Z.P.Z.P.(.
+    001FDEE0  C8 00 55 00 50 00 28 00 A0 00 00 00 00 00 00 00  È.U.P.(. .......
+    001FDEF0  00 00 00 00 C8 00 82 00 B8 0B F0 00 6E 00 68 01  ....È.‚.¸.ð.n.h.
+    001FDF00  C8 00 28 00 90 01 2C 01 F4 01 58 02 28 00 00 7D  È.(...,.ô.X.(..}
+    001FDF10  78 00 18 FC 00 00 F4 01 E8 03                    x..ü..ô.è.
+    ---------------------------------------------------------------------------
+    ```
+
+### Item heal
+#### File #1
+#### File #2
