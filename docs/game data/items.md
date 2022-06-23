@@ -8,6 +8,8 @@ Describes item characteristics.
 
 - 1 byte flag decides item category
 
+This flag can combine categories, tho some are unlikely to exist like recovery + paper.
+
 | Value | Binary    | Category               | Examples       |
 | ------|---------- | ---------------------- | -------------  |
 |  0    | 0000 0000 | Other                  | Card, Key Item |
@@ -22,6 +24,21 @@ Describes item characteristics.
 |  16   | 0001 0000 | Paper                  | Diary, File     |
 |  64   | 0100 0000 | Personal Item          | Herb Case, Medical Set, Lucky Coin |
 |  65   | 0100 0001 | Personal Item + Weapon | Mark's Handgun, David's Wrenches   |
+
+- 1 byte flag decides item type
+
+This flag doesnt combine.
+
+| Value | Binary    |  Type                | Category Values  |
+| ------|---------- | ---------------      | -------------    |
+|  0    | 0000 0000 | Other item           | 2,4,5,8,16,64,65 |
+|  2    | 0000 0010 | Card key/key         | 0                |
+|  4    | 0000 0100 | Magazine             | 0                |
+|  8    | 0000 1000 | Loader               | 0                |
+|  16   | 0001 0000 | Melee/throwing       | 1,65             |
+|  32   | 0010 0000 | Small weapon(1 hand) | 1,65             |
+|  64   | 0100 0000 | Large weapon(2 hand) | 1                |
+|  128  | 1000 0000 | Other weapon         | 1                |
 
 #### File #1
 ??? info "Authors metadata"
