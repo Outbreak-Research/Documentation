@@ -1,6 +1,9 @@
-# RESIDENT EVIL OUTBREAK SERIES Characters, Enemies, and Object Data Tables
-- version 1.1 by Richard Mandel
-- revision 1.2 by Bia10
+# Characters, Enemies, and Object Data Tables
+
+??? info "Authors metadata"
+    - Author > Richard Mandel version 1.1, revision 1.2 by [Bia10](https://github.com/Bia10)
+    - Last update > 24 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 24 June 2022
 
 ## Introduction
 
@@ -47,6 +50,7 @@ rule - especially where monsters and mutants are concerned - but it helps.
 
 ### Player Characters (this is P0x_xx in File 1)
 
+```
 1. P00 - Kevin Ryman (policeman)
     +  00 - RPD uniform
     +  01 - Final cutscene (cowboy duds)
@@ -85,6 +89,7 @@ rule - especially where monsters and mutants are concerned - but it helps.
     + 02 - Playboy bunny suit
     + 03 - Black leathers and boots
     + 04 - White bikini (both parts) and "Daisy Dukes" mini-shorts
+```
 
 ### N20x - Player Character Cameos
 
@@ -139,6 +144,7 @@ and then abandoned those plans - but I'm speculating.
 
 Some of the enemies farther down the enemies table have what seem to be rather high poly counts that defy the general rules of thumb. Bear in mind that these are models of LARGE enemeies - so they will have high poly counts as a result. You can compare the few that also exist in the high-poly enemies table to see just how big a difference in detail (usually three times the polys) exist between the two.
 
+```
 E00 - Licker (two different types, E00_00 and E00_01)
 (see also REUC slot ELK1 and REDC slot ELS1)
 E01 - Various zombies (40-52, 57-58, 90, and 94 are lo-res)
@@ -340,6 +346,7 @@ E48 - Normal sized bee ("Flash Back")
 E59 - Pair of severed arms (for grappling through broken windows?)
 E63 - Baby flea? (File 2 only)
 E65 - Hyena ("Wild Things," File 2 only)
+```
 
 ### HExx - High Poly (HP) enemies
 
@@ -352,6 +359,7 @@ have gone in the Outbreak data tables, and where they can be found in the approp
 of the Outbreak models that got reused for Chronicles received both updated models AND textures, so they may look slightly different
 than their older Outbreak counterparts.
 
+```
 HE00 - Licker (two different types, HE00_00 and HE00_01)
 (see also REUC slot ELK1 and REDC slot ELS1)
 HE01 - HD Zombies (various types)
@@ -416,7 +424,7 @@ HE43 - Thanatos Tyrant (injured)
 01 - Retail version (one long arm, other missing entirely)
 
 HE99 - Gibs (severed arm, repeated)
-
+```
 
 ### Nxxx - NPCs (non-playable characters in normal game, some can be earned)
 
@@ -451,6 +459,7 @@ Rodney does not appear in any gameplay scenario in either File 1 or File 2 as fa
 character. He may have been part of the development for "Streets," and his story would have most likely been told in the unreleased
 Outbreak File 3.
 
+```
 N000 - Mac, aka MacDowell (UBCS) - lost Streets scenario
 N001 - Rodriguez (USS) - "End of the Road," lost USS scenario
 N002 - Conrad (USS) - lost USS scenario
@@ -513,8 +522,7 @@ N058 - Mary - lost Streets scenario
 N059 - Kate - stock character
 N060 - MacDowell beta placeholder
 N061 - MacDowell beta placeholder
-N062 - Danny (fireman) - "Hellfire," "Decisions, Decisions"
-(also appears in a still from the lost "Streets" scenario)
+N062 - Danny (fireman) - "Hellfire," "Decisions, Decisions" (also appears in a still from the lost "Streets" scenario)
 N063 - Danny wearing gear (fireman) "Hellfire," "Decisions, Decisions"
 N064 - Gill (fireman) - "Hellfire," "Decisions, Decisions"
 N065 - Gill wearing gear (fireman) - "Hellfire," "Decisions, Decisions"
@@ -572,6 +580,7 @@ N140 - Frank - "Decisions, Decisions"
 N141 - Kathy injured (texture missing) - "The Hive"
 N150 - Rodney - unused Streets scenario?
 N199 - Cindy (missing skirt) - use unknown
+```
 
 ### HNxxx - High-Poly NPC Meshes
 
@@ -597,6 +606,7 @@ The cutscene model for Joseph Murrows that was developed for "Wild Things" ultim
 the one who was crushed to death at the zoo gate whenever Oscar the elephant makes his first appearance. That part was given to
 Cindy instead (in a cameo appearance) for the retail release of Outbreak File 2.
 
+```
 HN000 - MacDowell (UBCS) (lost "Streets" scenario)
 HN001 - Rodriguez (USS) (lost USS scenario, "End of the Road")
 HN002 - Conrad (USS) (USS scenario - unused)
@@ -618,10 +628,8 @@ HN026 - Austin Taylor ("The Docks," "Wild Things")
 HN027 - Clint ("The Docks")
 HN029 - Bob ("Outbreak")
 HN030 - "Jack" ("Outbreak" - unused)
-HN031 - Nathan Donnelly ("Desperate Times," unused)
-(as documented in Famitsu)
-HN032 - Samuel Kirk ("Desperate Times," unused)
-(as documented in Famitsu)
+HN031 - Nathan Donnelly ("Desperate Times," unused) (as documented in Famitsu)
+HN032 - Samuel Kirk ("Desperate Times," unused) (as documented in Famitsu)
 HN034 - Will ("Outbreak")
 HN038 - Carter ("End of the Road")
 HN039 - Dr. Gregory Mueller, aka Greg ("Decisions, Decisions")
@@ -630,8 +638,7 @@ HN046 - Mickey ("A Day in Raccoon")
 HN047 - Dr. Albert Lester, aka Al ("Flash Back")
 HN048 - "Axeman" early version ("Flash Back" original version)
 HN049 - Al shirtless ("Flash Back")
-HN051 - Lucy Mallet ("Flash Back" side quest)
-(this is the Famitsu early beta version with long pigtails)
+HN051 - Lucy Mallet ("Flash Back" side quest) (this is the Famitsu early beta version with long pigtails)
 HN052 - Regen Mallet ("Flash Back" side quest)
 HN054 - Monica Stevens ("Below Freezing Point")
 HN055 - Linda Washington ("End of the Road")
@@ -659,8 +666,7 @@ HN087 - The "U.S.S. Commander" (USS scenario? - unused)
 HN088 - Monica Stevens (repeated)
 HN089 - Frost ("Below Freezing Point")
 HN090 - "Tim" ("Flash Back?")
-HN091 - MacDowell beta version
-(hi-poly version - as documented in Famitsu - lost "Streets" sc.)
+HN091 - MacDowell beta version (hi-poly version - as documented in Famitsu - lost "Streets" sc.)
 HN096 - Tommy Neilson - "End of the Road"
 HN097 - Dorothy corpse ("Flash Back")
 HN100 - Raymond Douglas ("Outbreak")
@@ -672,6 +678,7 @@ HN105 - Eric ("Outbreak")
 HN106 - Harry ("Outbreak," "Desperate Times")
 HN110 - David King (use unknown)
 HN119 - Len (fireman) - medium-res, repeated
+```
 
 ### Gameplay Objects
 
@@ -681,6 +688,7 @@ the data and discover my mistake.
 
 I have no clue as to why Outbreak considers these "enemies."
 
+```
 E49 - Tropical bird ("Wild Things")
 E50 - Long strip of stained wallpaper ("Hellfire?")
 E51 - Large packing crate
@@ -691,12 +699,10 @@ E56 - A group of five long rusted steel rods clustered together in parallel
 E58_00 - Five gallon gasoline jerrican
 E58_01 - Overhead Valve (in particular, "The Hive" final battle)
 E61 - Save Typewriter
-
-00 - by itself
-01 - on a pedestal
-
+    + 00 - by itself
+    + 01 - on a pedestal
 E62 - Save Typewriter on a pedestal (repeated)
-
+```
 
 ### Gameplay Resolution Objects Within Scenarios
 
@@ -722,6 +728,7 @@ feel like listing all of them every single time.
 If you're looking mainly for low-poly weapons, your quickest path is to search the
 data clusters for the Elimination or Extra Battle scenarios. That way you'll get most of them at one shot.
 
+```
 R001 - "Outbreak" (File 1 - OBJS01.NBD)
 
 9mm Ammo Boxes
@@ -803,6 +810,7 @@ Daylight Anti-Virus Vial
 Colt M4 .223 Machine Gun
 Peter's Glasses (Peter Jenkins)
 Rocket Launcher
+```
 
 ### Cutscene Resolution Objects Within Scenarios
 
@@ -821,6 +829,7 @@ Multiple copies of these appear, usually for different versions of in-game gener
 I'm only going to list the FIRST time a particular high-poly object appears in the scenario data table. It's a waste of time listing
 every single instance or occurrence, as the repeated data is identical.
 
+```
 R001 - "Outbreak" (File 1)
 
 OBJ00_06_A_00 - Coaster
@@ -912,6 +921,7 @@ R041 - "Decisions, Decisions" (File 1)
 OBJ30_00_A_00 - Rooftop door (cutscene right before final boss battle)
 OBJ30_00_A_01 - Danny and Gill's helicopter (verson with searchlight)
 OBJ31_00_A_00 - Danny and Gill's helicopter (verson without searchlight)
+```
 
 ### Other Files of Note
 
@@ -944,37 +954,19 @@ I do not know where either of the two other documented unreleased Outbreak scena
 - fit into this scenario naming scheme. I've made a wild-ass guess in the case of "Streets" - but in either case, there simply isn't
 enough data to be certain.
 
-R001 - "Outbreak" (File 1)
-(This is the oldest of all scenarios - "OutbreaK" is its official name)
-
-R002 - "Hellfire" (File 2)
-(May have overwritten "A Day in Raccoon" in this slot?)
-
-R004 - unreleased
-(This was probably the original version of "Below Freezing Point" - which
-is also known as the lost U.S.S. scenario)
-
+```
+R001 - "Outbreak" (File 1) (This is the oldest of all scenarios - "OutbreaK" is its official name)
+R002 - "Hellfire" (File 2) (May have overwritten "A Day in Raccoon" in this slot?)
+R004 - unreleased (This was probably the original version of "Below Freezing Point" - which is also known as the lost U.S.S. scenario)
 R006 - "End of the Road" (File 2)
-
 R010 - "Underbelly" (File 1)
-
 R015 - "Desperate Times" (File 2)
-
-R016 - unreleased
-(lots of city-based texture tiles came from here - is this where "Streets"
-went?)
-
-R019 - unreleased
-(This was probably the original version of "The Hive" - the one that also
-had the EXTERIOR of Raccoon Hospital as well as the park across the street,
-per RE3 and early game trailers)
-
+R016 - unreleased (lots of city-based texture tiles came from here - is this where "Streets" went?)
+R019 - unreleased(This was probably the original version of "The Hive" - the one that also had the EXTERIOR of Raccoon Hospital as well as the park across the street, per RE3 and early game trailers)
 R020 - practice level (based on File 1's "Outbreak")
-
 R021 - Elimination/Battle level - mixed rooms (?)
 R022 - Elimination/Battle level - mixed rooms (?)
 R023 - Elimination/Battle level - mixed rooms (?)
-
 R026 - "Flash Back" (File 2)
 (There were apparently plans for a somewhat different version of "Flash Back"
 that did not make it to retail. Some of the early trailer shots don't agree
@@ -983,25 +975,12 @@ appear to point to events that took place six years earlier. Only allusions
 and references to these past events appear in the final retail version. The
 fully rendered cutscene models for both the younger Al and Dorothy Lester
 are part of this data - only a picture of them exists in gameplay proper.)
-
 R027 - Elimination/Battle level - mixed rooms (?)
-
-R028 - "The Hive" (retail version)
-(Almost all of its texture tiles originally belonged to R019)
-
+R028 - "The Hive" (retail version) (Almost all of its texture tiles originally belonged to R019)
 R029 - Elimination/Battle level - mixed rooms (?)
 R030 - Elimination/Battle level - mixed rooms (?)
-
-R035 - "Below Freezing Point" (File 1)
-(Most of its texture tiles originally belonged to R004)
-
-R039 - unreleased
-(A scene involving an aerial tram car from this lost scenario appears in
-some Elimination or Battle levels. That is all that is known about it.)
-
-R040 - "Wild Things" (File 2)
-(this appears to have been the last official addition to the scenario
-lineup for retail release - texture data from it appears in the final retail
-version of "Desperate Times")
-
+R035 - "Below Freezing Point" (File 1)(Most of its texture tiles originally belonged to R004)
+R039 - unreleased(A scene involving an aerial tram car from this lost scenario appears in some Elimination or Battle levels. That is all that is known about it.)
+R040 - "Wild Things" (File 2) (this appears to have been the last official addition to the scenario lineup for retail release - texture data from it appears in the final retail version of "Desperate Times")
 R041 - "Decisions, Decisions" (File 1)
+```

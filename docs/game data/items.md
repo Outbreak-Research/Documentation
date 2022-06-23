@@ -951,7 +951,7 @@ End > 0000008D7
     ```
 
 ```
-Location > item015.dat > Desperate times scenario
+Location > item015.dat > Desperate Times scenario
 Start > 00000038
 End > 000008BF
 ```
@@ -1101,7 +1101,7 @@ End > 000008BF
     ```
 
 ```
-Location > item020.dat > BE
+Location > item020.dat > Traning Grounds
 Start > 00000038
 End > 00000052F
 ```
