@@ -70,6 +70,19 @@ This flag doesnt combine.
 |  64   | 0100 0000 | Large weapon(2 hand) | 1                |
 |  128  | 1000 0000 | Other weapon         | 1                |
 
+- 1 byte item change flag 1
+
+ This flag decides item change, rellies on the next byte for further information.
+
+| Value | Binary    |  Meaning             | 
+| ------|---------- | ---------------      | 
+|  0    | 0000 0000 | Item does not change |
+|  4    | 0000 0100 | Item disappears when used |
+|  8    | 0000 1000 | Item changes         |
+|  16   | 0001 0000 | Item can be combined |
+|  20   | 0001 0100 | First aid spray item -> weapon |
+|  24   | 0001 1000 | Flame spray weapon -> item |
+
 #### File #1
 
 ??? info "Authors metadata"
@@ -80,8 +93,8 @@ This flag doesnt combine.
 ```
 Offset 00 > Item category
 Offset 01 > Item type
-Offset 02 > Stack behaviour when depleted
-Offset 03 > Melee behaviour when used
+Offset 02 > Item change flag
+Offset 03 > Item change further info flag
 Offset 04-05 > Determinate what can be combined with
 Offset 06-07 > ???
 Offset 08-09 > Max stack
@@ -89,7 +102,7 @@ Offset 0A-0B > Effect
 Offset 0C-0D > ??? 
 Offset 0E > Sound
 Offset 0F > Motion effect
-Offset 10 > Menù
+Offset 10 > Menu
 Offset 11 > Character type
 Offset 12-13 > Item ID
 Offset 14 > ???
