@@ -70,7 +70,7 @@ This flag doesnt combine.
 |  64   | 0100 0000 | Large weapon(2 hand) | 1                |
 |  128  | 1000 0000 | Other weapon         | 1                |
 
-- 1 byte item change flag 1
+- 1 byte item change flag
 
  This flag decides item change, rellies on the next byte for further information.
 
@@ -91,16 +91,18 @@ This flag doesnt combine.
     - Last modification > [Bia10](https://github.com/Bia10) at 23 June 2022
 
 ```
-Offset 00 > Item category
-Offset 01 > Item type
+Offset 00 > Item category flag
+Offset 01 > Item type flag
 Offset 02 > Item change flag
 Offset 03 > Item change further info flag
-Offset 04-05 > Determinate what can be combined with
-Offset 06-07 > ???
-Offset 08-09 > Max stack
+Offset 04-05 > Decides what can be combined with
+Offset 06 > Number of different items that can be item combined with
+Offset 07 > Always 0 (unused?)
+Offset 08 > Durability + Stack capacity
+Offset 09 > Always 0 (unused?)
 Offset 0A-0B > Effect
 Offset 0C-0D > ??? 
-Offset 0E > Sound
+Offset 0E > Sound effect
 Offset 0F > Motion effect
 Offset 10 > Menu
 Offset 11 > Character type
