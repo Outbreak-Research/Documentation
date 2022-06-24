@@ -18,9 +18,9 @@ Item data for each scenario are contained in following files:
 [r010.afs] : item010.dat : Underbelly
 [r015.afs] : item015.dat : Desperate Times
 [r020.afs] : item020.dat : Training Grounds
-[r021.afs] : item021.dat : Showdown1
-[r022.afs] : item022.dat : Showdown2
-[r023.afs] : item023.dat : Showdown3
+[r021.afs] : item021.dat : Showdown 1
+[r022.afs] : item022.dat : Showdown 2
+[r023.afs] : item023.dat : Showdown 3
 [r026.afs] : item026.dat : Flashback
 [r027.afs] : item027.dat : Elimination 3
 [r029.afs] : item029.dat : Elimination 1
@@ -36,7 +36,7 @@ spawning such items via. a event script will put them into inventory without ico
 
 Describes item characteristics.
 
-- 1 byte flag decides item category
+- Offset 00h: 1 byte flag decides item category
 
 This flag can combine categories, tho some are unlikely to exist like recovery + paper.
 
@@ -55,7 +55,7 @@ This flag can combine categories, tho some are unlikely to exist like recovery +
 |  64   | 0100 0000 | Personal Item          | Herb Case, Medical Set, Lucky Coin |
 |  65   | 0100 0001 | Personal Item + Weapon | Mark's Handgun, David's Wrenches   |
 
-- 1 byte flag decides item type
+- Offset 01h: 1 byte flag decides item type
 
 This flag doesnt combine.
 
@@ -70,7 +70,7 @@ This flag doesnt combine.
 |  64   | 0100 0000 | Large weapon(2 hand) | 1                |
 |  128  | 1000 0000 | Other weapon         | 1                |
 
-- 1 byte item change flag
+- Offset 02h: 1 byte item change flag
 
  This flag decides item change, rellies on the next byte for further information.
 
@@ -82,6 +82,56 @@ This flag doesnt combine.
 |  16   | 0001 0000 | Item can be combined |
 |  20   | 0001 0100 | First aid spray item -> weapon |
 |  24   | 0001 1000 | Flame spray weapon -> item |
+
+- Offset 06h: Number of different items that the item can be combined with
+
+Value of this byte indicated the number of different items which can be used to combine with this item.
+
+| Value | Items              |  Meaning             | 
+| ------|----------          | ---------------      | 
+|  0    |                    | Item cannot be combined or only with Davids Vinyl Tape |
+|  1    | Shotgun            | Can be combined only with 1 item |
+|  2    | Handgun            | Can be combined only with 2 item |
+|  3    | Handgun Magazine   | Can be combined only with 3 item |
+|  4    | Red Herb           | Can be combined only with 4 item |
+|  5    | Blue Herb          | Can be combined only with 5 item |
+|  7    | Green Herb         | Can be combined only with 7 item |
+|  11   | Medical Set        | Can be combined only with 11 item |
+|  12   | Handgun 9mm rounds | Can be combined only with 12 item |
+
+
+- Example of herbal combinatorics
+
+```
+Red herb = R
+Blue herb = B
+Green herb = G
+
+Red herb combines with: 
+
+G
+B
+G+B
+Medical set
+
+Blue herb combines with:
+
+G
+G+G
+R
+G+R
+Medical set
+
+Green herb combines with:
+
+G
+G+G
+G+B
+B
+B+R
+R
+Medical set
+```
 
 #### File #1
 
@@ -104,7 +154,7 @@ Offset 0A-0B > Effect
 Offset 0C-0D > ??? 
 Offset 0E > Sound effect
 Offset 0F > Motion effect
-Offset 10 > Menu
+Offset 10 > Menu actions flag
 Offset 11 > Character type
 Offset 12-13 > Item ID
 Offset 14 > ???
