@@ -1,6 +1,36 @@
 ## Items
 
-This section describes data related to items like their characteristics.
+This section describes data related to items like their characteristics, possible combinations, damage/heal tables etc...
+
+Item data for each scenario are contained in following files:
+
+- File #1
+```
+[r001.afs] : item001.dat : Outbreak
+[r002.afs] : item002.dat : Hellfire
+[r028.afs] : item028.dat : The Hive
+[r035.afs] : item035.dat : Bellow Freezing Point
+[r041.afs] : item041.dat : Decisions, Decisons
+```
+- File #2
+```
+[r006.afs] : item006.dat : End of the Road
+[r010.afs] : item010.dat : Underbelly
+[r015.afs] : item015.dat : Desperate Times
+[r020.afs] : item020.dat : Training Grounds
+[r021.afs] : item021.dat : Showdown1
+[r022.afs] : item022.dat : Showdown2
+[r023.afs] : item023.dat : Showdown3
+[r026.afs] : item026.dat : Flashback
+[r027.afs] : item027.dat : Elimination 3
+[r029.afs] : item029.dat : Elimination 1
+[r030.afs] : item030.dat : Elimination 2
+[r040.afs] : item040.dat : Wild Things
+```
+
+These filles contain item charactestics/combinations given for each scenario.
+Technically its possible to reference other items then those defined for particular scenario however,
+spawning such items via. a event script will put them into inventory without icon and un-usable.
 
 ### Item characteristics
 
@@ -2657,6 +2687,11 @@ End > 000000D74
     00000D70  C2 01 A1 00 1A                                   Â.¡..
     ---------------------------------------------------------------------------
     ```
+
+
+
+
+
 
 ### Item damage
 
