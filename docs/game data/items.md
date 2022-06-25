@@ -2,6 +2,8 @@
 
 This section describes data related to items like their characteristics, possible combinations, damage/heal tables etc...
 
+### Item data files
+
 Item data for each scenario are contained in following files:
 
 - File #1
@@ -28,10 +30,59 @@ Item data for each scenario are contained in following files:
 [r040.afs] : item040.dat : Wild Things
 ```
 
-These filles contain item charactestics/combinations given for each scenario.
+These files contain item charactestics/combinations given for each scenario.
 Technically its possible to reference other items then those defined for particular scenario however,
 spawning such items via. a event script will put them into inventory without icon and un-usable.
 
+### Item distribution files
+
+- Singleplayer
+
+For each diffculty there exist 1 file containing item distribution.
+Therefore there are 4 files containing item distribution for each scenario in singleplayer mode:
+
+```
+xx > scenario ID
+
+item0xx16.tbl > Easy
+item0xx17.tbl > Normal
+item0xx18.tbl > Hard
+item0xx19.tbl > Very Hard
+```
+
+- Multiplayer 
+
+For each difficulty there exist 4 files containing item distribution. 
+Each file is supposed to represent a randomized pattern of item distribution so that the game doesnt get repetetive.
+This implies 4x4=16 item distribution files for each scenario in multiplayer mode:
+
+```
+xx > scenario ID
+
+item0xx00.tbl > Easy > Pattern 1
+item0xx01.tbl > Easy > Pattern 2
+item0xx02.tbl > Easy > Pattern 3
+item0xx03.tbl > Easy > Pattern 4
+item0xx04.tbl > Normal > Pattern 1
+item0xx05.tbl > Normal > Pattern 2
+item0xx06.tbl > Normal > Pattern 3
+item0xx07.tbl > Normal > Pattern 4
+item0xx08.tbl > Hard > Pattern 1
+item0xx09.tbl > Hard > Pattern 2
+item0xx10.tbl > Hard > Pattern 3
+item0xx11.tbl > Hard > Pattern 4
+item0xx12.tbl > Very Hard > Pattern 1
+item0xx13.tbl > Very Hard > Pattern 2
+item0xx14.tbl > Very Hard > Pattern 3
+item0xx15.tbl > Very Hard > Pattern 4
+```
+
+The content is a fixed pattern of fixed item arrangements, but some items are random.
+However, there are only 2 random patterns. There is a percentage specification for each item.
+Many items are 100% and will be placed every time there.
+However, some items will be placed with a 50% probability (for example)
+
+In total there are 4+16=20 pattern item table files for each scenario.
 ### Item characteristics
 
 Describes item characteristics.
@@ -299,6 +350,18 @@ Indicates if item is character type specific item and decides which MC is in own
 | 06    | Alyssa         | Picking Tool, I-Shaped Pick, S-Shaped Pick, W-Shaped Pick, P-Shaped Pick |
 | 07    | Yoko           | Knapsack  |
 | 08    | Cindy          | Herb Case |
+
+- Offset 12 - 13: item ID
+
+| Value | Hex value | Item name  |
+| ----- | --------- | ----       |
+| 00    | 0000      | Handgun    |
+| 01    | 0001      | Handgun SG |
+| 02    | 0002      | Handgun GL |
+| 03    | 0003      | Magnum Handgun |
+| 04    | 0004      | Magnum Revolver |
+| 05    | 0005      | Handgun HP |
+| 06    | 0006      | S&W model 500 |
 
 #### File #1
 
