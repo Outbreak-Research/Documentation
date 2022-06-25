@@ -45,11 +45,8 @@ This flag can combine categories, tho some are unlikely to exist like recovery +
 |  0    | 0000 0000 | Other                  | Card, Key Item |
 |  1    | 0000 0001 | Weapon                 | Handgun        |
 |  2    | 0000 0010 | Ammo                   | Handgun Rounds |
-|  3    | 0000 0011 | ???                    | non-existent?  |
 |  4    | 0000 0100 | Recovery               | Green Herb, Blue Pill |
 |  5    | 0000 0101 | Recovery + Weapon      | First Aid Spray |
-|  6    | 0000 0110 | ???                    | non-existent?   |
-|  7    | 0000 0111 | ???                    | non-existent?   |
 |  8    | 0000 1000 | Item                   |                 |
 |  16   | 0001 0000 | Paper                  | Diary, File     |
 |  64   | 0100 0000 | Personal Item          | Herb Case, Medical Set, Lucky Coin |
@@ -270,22 +267,22 @@ When an item is selected in inventory value of this byte changes.
 The value indicates possibilites of interaction with the item.
 
 | Value | Items                               | Use | Combine | Equip | Reload | Present | Put | Formulation |
-| ------| ---------------                     | --- | ------- | ----- | ------ | ------- | --- | ----------- |
-|  0    | Tool Box, Monkey Wrench, Vinyl Tape | No  | No      | No    | No     | No      | No  | No          |
-|  1    | Combinable items                    | Yes | Yes     | No    | No     | Yes     | No  | No          |
-|  2    | Reloadable items                    | No  | Yes     | Yes   | Yes    | Yes     | No  | No          |
-|  3    | Non-Reloadable items                | No  | Yes     | Yes   | No     | Yes     | No  | No          |
-|  4    | Ammo items                          | No  | Yes     | No    | No     | Yes     | No  | No          |
-|  5    | Recovery items                      | Ye  | Yes     | No    | No     | Yes     | No  | No          |
-|  6    | Kevin's 45 Auto, Mark's Handgun     | No  | No      | Yes   | Yes    | No      | No  | No          |
-|  7    | Folding Knife (David's)             | No  | No      | Yes   | No     | No      | No  | No          |
-|  8    | Jim's Coin, Lock-Picking Tools      | Yes | No      | No    | No     | No      | No  | No          |
-|  9    | Medical Set (only)                  | No  | No      | No    | No     | No      | No  | Yes         |
-|  10   | Knapsack (only)                     | No  | No      | No    | No     | No      | No  | No          |
-|  11   | Herb Case (only)                    | No  | No      | No    | No     | No      | No  | No          |
-|  12   | Nail Gun, First Aid Spray (only)    | Yes | Yes     | Yes   | No     | Yes     | No  | No          |
-|  13   | Blood pack, Gas Canister (only)     | No  | Yes     | No    | No     | Yes     | Yes | No          |
-|  14   | Junk Parts (only)                   | No  | Yes     | No    | No     | No      | No  | No          |
+|-------| ---------------                     | --- | ------- | ----- | ------ | ------- | --- | ----------- |
+|  0    | Tool Box, Monkey Wrench, Vinyl Tape | :material-close: | :material-close: | :material-close: | :material-close: | :material-close: | :material-close:  | :material-close: |
+|  1    | Combinable items                    | :material-check: | :material-check: | :material-close: | :material-close: | :material-check: | :material-close:  | :material-close: |
+|  2    | Reloadable items                    | :material-close: | :material-check: | :material-check: | :material-check: | :material-check: | :material-close:  | :material-close: |
+|  3    | Non-Reloadable items                | :material-close: | :material-check: | :material-check: | :material-close: | :material-check: | :material-close:  | :material-close: |
+|  4    | Ammo items                          | :material-close: | :material-check: | :material-close: | :material-close: | :material-check: | :material-close:  | :material-close: |
+|  5    | Recovery items                      | :material-check: | :material-check: | :material-close: | :material-close: | :material-check: | :material-close:  | :material-close: |
+|  6    | Kevin's 45 Auto, Mark's Handgun     | :material-close: | :material-close: | :material-check: | :material-check: | :material-close: | :material-close:  | :material-close: |
+|  7    | Folding Knife (David's)             | :material-close: | :material-close: | :material-check: | :material-close: | :material-close: | :material-close:  | :material-close: |
+|  8    | Jim's Coin, Lock-Picking Tools      | :material-check: | :material-close: | :material-close: | :material-close: | :material-close: | :material-close:  | :material-close: |
+|  9    | Medical Set (only)                  | :material-close: | :material-close: | :material-close: | :material-close: | :material-close: | :material-close:  | :material-check: |
+|  10   | Knapsack (only)                     | :material-close: | :material-close: | :material-close: | :material-close: | :material-close: | :material-close:  | :material-close: |
+|  11   | Herb Case (only)                    | :material-close: | :material-close: | :material-close: | :material-close: | :material-close: | :material-close:  | :material-close: |
+|  12   | Nail Gun, First Aid Spray (only)    | :material-check: | :material-check: | :material-check: | :material-close: | :material-check: | :material-close:  | :material-close: |
+|  13   | Blood pack, Gas Canister (only)     | :material-close: | :material-check: | :material-close: | :material-close: | :material-check: | :material-check:  | :material-close: |
+|  14   | Junk Parts (only)                   | :material-close: | :material-check: | :material-close: | :material-close: | :material-close: | :material-close:  | :material-close: |
 
 #### File #1
 
