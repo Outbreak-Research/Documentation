@@ -240,6 +240,29 @@ Similiar to the sound file indices tho NOT equal!
 | 37             | Long Pole                           | 106 |
 | 38             | Square Timber                       | 107 |
 | 40             | Axe                                 | 109 |
+| 41             | Scrub Brush                         | 110 |
+| 42             | Wooden Pole                         | 111 |
+| 43             | Thorowable Stick                    | 112 |
+| 44             | Spear                               | 113 |
+| 50             | Monkey Wrench                       | 408 |
+| 51             | Mark's Handgun                      | 401 |
+| 52             | First Aid Spray                     | 309 |
+| 53             | Hammer                              | 115 |
+| 54             | Crutch                              | 116 |
+| 55             | Stun Rod                            | 117 |
+| 56             | Concrete Piece                      | 118 |
+| 59             | Green Chemical Bottle               | 157 |
+| 60             | Yellow Chemical Bottle              | 158 |
+| 61             | Gray Chemical Bottle                | 159 |
+| 62             | Broken Cruth                        | 119 |
+| 63             | Ampoule Shooter                     | 32 |
+| 64             | Stun Gun                            | 30 |
+| 65             | Capsule Shooter(BLUE)               | 15 |
+| 66             | Capsule Shooter(RED)                | 16 |
+| 67             | Capsule Shooter(GREEN)              | 17 |
+| 68             | Capsule Shooter(WHITE)              | 18 |
+| 69             | Bomb Switch                         | 108 |
+| 70             | Mine Detector                       | 19 |
 
 #### File #1
 
