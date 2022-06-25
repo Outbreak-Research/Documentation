@@ -80,7 +80,7 @@ This flag doesnt combine.
 |  20   | 0001 0100 | First aid spray item -> weapon |
 |  24   | 0001 1000 | Flame spray weapon -> item |
 
-- Offset 06: Number of different items that the item can be combined with
+- Offset 06: number of different items that the item can be combined with
 
 Value of this byte indicated the number of different items which can be used to combine with this item.
 
@@ -130,7 +130,7 @@ R
 Medical set
 ```
 
-- Offset 0E: Sound effect ID
+- Offset 0E: sound effect ID
 
 Represents index of sound file (weaponXX.snd) to play when item is used.
 XX is the value of this byte.
@@ -195,7 +195,7 @@ XX is the value of this byte.
 | 49             | Bomb Switch                         | 108 |
 | 50             | Mine Detector                       | 19 |
 
-- Offset 0F: Motion effect ID
+- Offset 0F: motion effect ID
 
 Represents index of motion file to play when item is used.
 Similiar to the sound file indices tho NOT equal!
@@ -261,7 +261,7 @@ Similiar to the sound file indices tho NOT equal!
 | 69             | Bomb Switch                         | 108 |
 | 70             | Mine Detector                       | 19 |
 
-- Offset 10: Menu actions flag
+- Offset 10: menu actions
 
 When an item is selected in inventory value of this byte changes.
 The value indicates possibilites of interaction with the item.
@@ -284,6 +284,22 @@ The value indicates possibilites of interaction with the item.
 |  13   | Blood pack, Gas Canister (only)     | :material-close: | :material-check: | :material-close: | :material-close: | :material-check: | :material-check:  | :material-close: |
 |  14   | Junk Parts (only)                   | :material-close: | :material-check: | :material-close: | :material-close: | :material-close: | :material-close:  | :material-close: |
 
+- Offset 11: personal item character type
+
+Indicates if item is character type specific item and decides which MC is in ownership.
+
+| Value | Main character | Item | 
+| ----- | -------------- | ---- | 
+| 00    | Other          |      |
+| 01    | Kevin          | Kevin's 45 Auto |
+| 02    | Mark           | Mark's Handgun  |
+| 03    | Jim            | Jim's Coin only, (unused item: Coin Holder), (unused item: Lockpick) |
+| 04    | George         | Medical Set |
+| 05    | David          | Tool Box, Folding Knife(David's), Monkey Wrench, Vinyl Tape, Junk Parts |
+| 06    | Alyssa         | Picking Tool, I-Shaped Pick, S-Shaped Pick, W-Shaped Pick, P-Shaped Pick |
+| 07    | Yoko           | Knapsack  |
+| 08    | Cindy          | Herb Case |
+
 #### File #1
 
 ??? info "Authors metadata"
@@ -305,8 +321,8 @@ Offset 0A-0B > Effect
 Offset 0C-0D > ??? 
 Offset 0E > Sound effect ID
 Offset 0F > Motion effect ID
-Offset 10 > Menu actions flag
-Offset 11 > Character type
+Offset 10 > Menu actions
+Offset 11 > Personal item character type
 Offset 12-13 > Item ID
 Offset 14 > ???
 Offset 15-16 > Scenario item ID
