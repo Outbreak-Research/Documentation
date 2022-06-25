@@ -133,70 +133,113 @@ R
 Medical set
 ```
 
-- Offset 0E: Sound code
+- Offset 0E: Sound effect ID
 
 Represents index of sound file (weaponXX.snd) to play when item is used.
 XX is the value of this byte.
 
-| SND file index | Item            | Item Code       | 
-| ------         |----------       | --------------- | 
-| 01             | Handgun         | 00 |
-| 01             | Mark's Handgun  | 401 |
-| 02             | Handgun SG      | 01 |
-| 03             | Handgun GL      | 02 |
-| 04             | Magnum Handgun  | 03 |
-| 05             | Magnum Revolver | 04 |
-| 06             | Handgun HP      | 05 |
-| 07             | Kevin's 45 Auto | 400 |
-| 08             | Revolver        | 07 |
-| 09             | Burst Handgun   | 08 |
-| 11             | Sub Machinegun  | 10 |
-| 12             | Shotgun         | 11 |
-| 13             | Shotgun E       | 12 |
-| 14             | Hunting Rifle   | 13 |
-| 15             | Assault Rifle   | 14 |
-| 20             | Rocket Launcher | 20 |
-| 22             | Grenade Launcher(BURST) | 23 |
-| 23             | Grenade Launcher(FLAME) | 24 |
-| 24             | Grenade Launcher(ACID)  | 25 |
+| SND file index | Item                                | Item ID | 
+| -------------- | ----------------------------------- | ------- | 
+| 01             | Handgun                             | 00 |
+| 01             | Mark's Handgun                      | 401 |
+| 02             | Handgun SG                          | 01 |
+| 03             | Handgun GL                          | 02 |
+| 04             | Magnum Handgun                      | 03 |
+| 05             | Magnum Revolver                     | 04 |
+| 06             | Handgun HP                          | 05 |
+| 07             | Kevin's 45 Auto                     | 400 |
+| 08             | Revolver                            | 07 |
+| 09             | Burst Handgun                       | 08 |
+| 11             | Sub Machinegun                      | 10 |
+| 12             | Shotgun                             | 11 |
+| 13             | Shotgun E                           | 12 |
+| 14             | Hunting Rifle                       | 13 |
+| 15             | Assault Rifle                       | 14 |
+| 20             | Rocket Launcher                     | 20 |
+| 22             | Grenade Launcher(BURST)             | 23 |
+| 23             | Grenade Launcher(FLAME)             | 24 |
+| 24             | Grenade Launcher(ACID)              | 25 |
 | 25             | Grenade Launcher(Fire Extinguisher) | 26 |
-| 26             | Grenade Launcher(BOW GAS)  | 27 |
-| 27             | Pesticide Spray  | 28 |
-| 27             | First Aid Spray  | 309 |
-| 28             | Flame Spray  | 29 |
-| 29             | Molotov Cocktail | 114 |
-| 30             | Nail Gun | 31 |
-| 31             | Survival Knife | 100 |
-| 31             | Folding Knife | 101 |
-| 31             | Folding Knife (David's) | 407 |
-| 31             | Butcher Knife | 102 |
-| 32             | Iron Pipe | 103 |
-| 32             | Curved Iron Pipe | 104 |
-| 32             | Bent Iron Pipe | 105 |
-| 33             | Long Pole | 106 |
-| 33             | Square Timber | 107 |
-| 33             | Crutch | 116 |
-| 33             | Broken Cruth | 119 |
-| 34             | Axe | 109 |
-| 35             | Scrub Brush | 110 |
-| 35             | Wooden Pole | 111 |
-| 35             | Thorowable Stick | 112 |
-| 36             | Spear | 113 |
-| 39             | Monkey Wrench | 408 |
-| 41             | Hammer | 115 |
-| 41             | Concrete Piece | 118 |
-| 42             | Stun Rod | 117 |
-| 43             | Gray Chemical Bottle | 159 |
-| 44             | Yellow Chemical Bottle | 158 |
-| 45             | Green Chemical Bottle | 157 |
-| 46             | Ampoule Shooter | 32 |
-| 47             | Stun Gun | 30 |
-| 48             | Capsule Shooter(BLUE)   | 15 |
-| 48             | Capsule Shooter(RED)    | 16 |
-| 48             | Capsule Shooter(GREEN)  | 17 |
-| 48             | Capsule Shooter(WHITE)  | 18 |
-| 49             | Bomb Switch | 108 |
-| 50             | Mine Detector | 19 |
+| 26             | Grenade Launcher(BOW GAS)           | 27 |
+| 27             | Pesticide Spray                     | 28 |
+| 27             | First Aid Spray                     | 309 |
+| 28             | Flame Spray                         | 29 |
+| 29             | Molotov Cocktail                    | 114 |
+| 30             | Nail Gun                            | 31 |
+| 31             | Survival Knife                      | 100 |
+| 31             | Folding Knife                       | 101 |
+| 31             | Folding Knife (David's)             | 407 |
+| 31             | Butcher Knife                       | 102 |
+| 32             | Iron Pipe                           | 103 |
+| 32             | Curved Iron Pipe                    | 104 |
+| 32             | Bent Iron Pipe                      | 105 |
+| 33             | Long Pole                           | 106 |
+| 33             | Square Timber                       | 107 |
+| 33             | Crutch                              | 116 |
+| 33             | Broken Cruth                        | 119 |
+| 34             | Axe                                 | 109 |
+| 35             | Scrub Brush                         | 110 |
+| 35             | Wooden Pole                         | 111 |
+| 35             | Thorowable Stick                    | 112 |
+| 36             | Spear                               | 113 |
+| 39             | Monkey Wrench                       | 408 |
+| 41             | Hammer                              | 115 |
+| 41             | Concrete Piece                      | 118 |
+| 42             | Stun Rod                            | 117 |
+| 43             | Gray Chemical Bottle                | 159 |
+| 44             | Yellow Chemical Bottle              | 158 |
+| 45             | Green Chemical Bottle               | 157 |
+| 46             | Ampoule Shooter                     | 32 |
+| 47             | Stun Gun                            | 30 |
+| 48             | Capsule Shooter(BLUE)               | 15 |
+| 48             | Capsule Shooter(RED)                | 16 |
+| 48             | Capsule Shooter(GREEN)              | 17 |
+| 48             | Capsule Shooter(WHITE)              | 18 |
+| 49             | Bomb Switch                         | 108 |
+| 50             | Mine Detector                       | 19 |
+
+- Offset 0F: Motion effect ID
+
+Represents index of motion file to play when item is used.
+Similiar to the sound file indices tho NOT equal!
+
+| Motion file index | Item                             | Item ID | 
+| -------------- | ----------------------------------- | ------- | 
+| 01             | Handgun                             | 00 |
+| 01             | Mark's Handgun                      | 401 |
+| 02             | Handgun SG                          | 01 |
+| 03             | Handgun GL                          | 02 |
+| 04             | Magnum Handgun                      | 03 |
+| 05             | Magnum Revolver                     | 04 |
+| 06             | Handgun HP                          | 05 |
+| 07             | Kevin's 45 Auto                     | 400 |
+| 08             | Revolver                            | 07 |
+| 09             | Burst Handgun                       | 08 |
+| 11             | Sub Machinegun                      | 10 |
+| 12             | Shotgun                             | 11 |
+| 13             | Shotgun E                           | 12 |
+| 14             | Hunting Rifle                       | 13 |
+| 15             | Assault Rifle                       | 14 |
+| 20             | Rocket Launcher                     | 20 |
+| 22             | Grenade Launcher(BURST)             | 23 |
+| 23             | Grenade Launcher(FLAME)             | 24 |
+| 24             | Grenade Launcher(ACID)              | 25 |
+| 25             | Grenade Launcher(Fire Extinguisher) | 26 |
+| 26             | Grenade Launcher(BOW GAS)           | 27 |
+| 27             | Pesticide Spray                     | 28 |
+| 28             | Flame Spray                         | 29 |
+| 29             | Molotov Cocktail                    | 114 |
+| 30             | Nail Gun                            | 31 |
+| 31             | Survival Knife                      | 100 |
+| 32             | Folding Knife                       | 101 |
+| 32             | Folding Knife (David's)             | 407 |
+| 33             | Butcher Knife                       | 102 |
+| 34             | Iron Pipe                           | 103 |
+| 35             | Curved Iron Pipe                    | 104 |
+| 36             | Bent Iron Pipe                      | 105 |
+| 37             | Long Pole                           | 106 |
+| 38             | Square Timber                       | 107 |
+| 40             | Axe                                 | 109 |
 
 #### File #1
 
@@ -217,8 +260,8 @@ Offset 08 > Durability + Stack capacity
 Offset 09 > Always 0 (unused?)
 Offset 0A-0B > Effect
 Offset 0C-0D > ??? 
-Offset 0E > Sound effect
-Offset 0F > Motion effect
+Offset 0E > Sound effect ID
+Offset 0F > Motion effect ID
 Offset 10 > Menu actions flag
 Offset 11 > Character type
 Offset 12-13 > Item ID
