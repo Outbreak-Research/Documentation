@@ -36,7 +36,7 @@ spawning such items via. a event script will put them into inventory without ico
 
 Describes item characteristics.
 
-- Offset 00h: 1 byte flag decides item category
+- Offset 00: 1 byte flag decides item category
 
 This flag can combine categories, tho some are unlikely to exist like recovery + paper.
 
@@ -55,7 +55,7 @@ This flag can combine categories, tho some are unlikely to exist like recovery +
 |  64   | 0100 0000 | Personal Item          | Herb Case, Medical Set, Lucky Coin |
 |  65   | 0100 0001 | Personal Item + Weapon | Mark's Handgun, David's Wrenches   |
 
-- Offset 01h: 1 byte flag decides item type
+- Offset 01: 1 byte flag decides item type
 
 This flag doesnt combine.
 
@@ -70,7 +70,7 @@ This flag doesnt combine.
 |  64   | 0100 0000 | Large weapon(2 hand) | 1                |
 |  128  | 1000 0000 | Other weapon         | 1                |
 
-- Offset 02h: 1 byte item change flag
+- Offset 02: 1 byte item change flag
 
  This flag decides item change, rellies on the next byte for further information.
 
@@ -83,13 +83,13 @@ This flag doesnt combine.
 |  20   | 0001 0100 | First aid spray item -> weapon |
 |  24   | 0001 1000 | Flame spray weapon -> item |
 
-- Offset 06h: Number of different items that the item can be combined with
+- Offset 06: Number of different items that the item can be combined with
 
 Value of this byte indicated the number of different items which can be used to combine with this item.
 
 | Value | Items              |  Meaning             | 
 | ------|----------          | ---------------      | 
-|  0    |                    | Item cannot be combined or only with Davids Vinyl Tape |
+|  0    |                    | Item cannot be combined or only with David's Vinyl Tape |
 |  1    | Shotgun            | Can be combined only with 1 item |
 |  2    | Handgun            | Can be combined only with 2 item |
 |  3    | Handgun Magazine   | Can be combined only with 3 item |
@@ -132,6 +132,71 @@ B+R
 R
 Medical set
 ```
+
+- Offset 0E: Sound code
+
+Represents index of sound file (weaponXX.snd) to play when item is used.
+XX is the value of this byte.
+
+| SND file index | Item            | Item Code       | 
+| ------         |----------       | --------------- | 
+| 01             | Handgun         | 00 |
+| 01             | Mark's Handgun  | 401 |
+| 02             | Handgun SG      | 01 |
+| 03             | Handgun GL      | 02 |
+| 04             | Magnum Handgun  | 03 |
+| 05             | Magnum Revolver | 04 |
+| 06             | Handgun HP      | 05 |
+| 07             | Kevin's 45 Auto | 400 |
+| 08             | Revolver        | 07 |
+| 09             | Burst Handgun   | 08 |
+| 11             | Sub Machinegun  | 10 |
+| 12             | Shotgun         | 11 |
+| 13             | Shotgun E       | 12 |
+| 14             | Hunting Rifle   | 13 |
+| 15             | Assault Rifle   | 14 |
+| 20             | Rocket Launcher | 20 |
+| 22             | Grenade Launcher(BURST) | 23 |
+| 23             | Grenade Launcher(FLAME) | 24 |
+| 24             | Grenade Launcher(ACID)  | 25 |
+| 25             | Grenade Launcher(Fire Extinguisher) | 26 |
+| 26             | Grenade Launcher(BOW GAS)  | 27 |
+| 27             | Pesticide Spray  | 28 |
+| 27             | First Aid Spray  | 309 |
+| 28             | Flame Spray  | 29 |
+| 29             | Molotov Cocktail | 114 |
+| 30             | Nail Gun | 31 |
+| 31             | Survival Knife | 100 |
+| 31             | Folding Knife | 101 |
+| 31             | Folding Knife (David's) | 407 |
+| 31             | Butcher Knife | 102 |
+| 32             | Iron Pipe | 103 |
+| 32             | Curved Iron Pipe | 104 |
+| 32             | Bent Iron Pipe | 105 |
+| 33             | Long Pole | 106 |
+| 33             | Square Timber | 107 |
+| 33             | Crutch | 116 |
+| 33             | Broken Cruth | 119 |
+| 34             | Axe | 109 |
+| 35             | Scrub Brush | 110 |
+| 35             | Wooden Pole | 111 |
+| 35             | Thorowable Stick | 112 |
+| 36             | Spear | 113 |
+| 39             | Monkey Wrench | 408 |
+| 41             | Hammer | 115 |
+| 41             | Concrete Piece | 118 |
+| 42             | Stun Rod | 117 |
+| 43             | Gray Chemical Bottle | 159 |
+| 44             | Yellow Chemical Bottle | 158 |
+| 45             | Green Chemical Bottle | 157 |
+| 46             | Ampoule Shooter | 32 |
+| 47             | Stun Gun | 30 |
+| 48             | Capsule Shooter(BLUE)   | 15 |
+| 48             | Capsule Shooter(RED)    | 16 |
+| 48             | Capsule Shooter(GREEN)  | 17 |
+| 48             | Capsule Shooter(WHITE)  | 18 |
+| 49             | Bomb Switch | 108 |
+| 50             | Mine Detector | 19 |
 
 #### File #1
 
