@@ -264,6 +264,29 @@ Similiar to the sound file indices tho NOT equal!
 | 69             | Bomb Switch                         | 108 |
 | 70             | Mine Detector                       | 19 |
 
+- Offset 10: Menu actions flag
+
+When an item is selected in inventory value of this byte changes.
+The value indicates possibilites of interaction with the item.
+
+| Value | Items                               | Use | Combine | Equip | Reload | Present | Put | Formulation |
+| ------| ---------------                     | --- | ------- | ----- | ------ | ------- | --- | ----------- |
+|  0    | Tool Box, Monkey Wrench, Vinyl Tape | No  | No      | No    | No     | No      | No  | No          |
+|  1    | Combinable items                    | Yes | Yes     | No    | No     | Yes     | No  | No          |
+|  2    | Reloadable items                    | No  | Yes     | Yes   | Yes    | Yes     | No  | No          |
+|  3    | Non-Reloadable items                | No  | Yes     | Yes   | No     | Yes     | No  | No          |
+|  4    | Ammo items                          | No  | Yes     | No    | No     | Yes     | No  | No          |
+|  5    | Recovery items                      | Ye  | Yes     | No    | No     | Yes     | No  | No          |
+|  6    | Kevin's 45 Auto, Mark's Handgun     | No  | No      | Yes   | Yes    | No      | No  | No          |
+|  7    | Folding Knife (David's)             | No  | No      | Yes   | No     | No      | No  | No          |
+|  8    | Jim's Coin, Lock-Picking Tools      | Yes | No      | No    | No     | No      | No  | No          |
+|  9    | Medical Set (only)                  | No  | No      | No    | No     | No      | No  | Yes         |
+|  10   | Knapsack (only)                     | No  | No      | No    | No     | No      | No  | No          |
+|  11   | Herb Case (only)                    | No  | No      | No    | No     | No      | No  | No          |
+|  12   | Nail Gun, First Aid Spray (only)    | Yes | Yes     | Yes   | No     | Yes     | No  | No          |
+|  13   | Blood pack, Gas Canister (only)     | No  | Yes     | No    | No     | Yes     | Yes | No          |
+|  14   | Junk Parts (only)                   | No  | Yes     | No    | No     | No      | No  | No          |
+
 #### File #1
 
 ??? info "Authors metadata"
