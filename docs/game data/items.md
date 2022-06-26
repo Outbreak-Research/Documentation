@@ -594,6 +594,21 @@ Indicates if item is character type specific item and decides which MC is in own
 | 14110 | 371E      | P-Base |
 | 14111 | 371F      | Reagent Case |
 
+- Offset 14: Gun type?
+
+The function of this byte is unclear has to do with weapon type or gun type.
+Only the following guns will have the value still at 0 instead of 1.
+
+Handgun GL, Handgun HP, Submachinegun, Assault rifle, Rocket launcher, Ampoule Shooter
+
+| Value | Type        | Item Category | Item Type |
+| ----- | ---------   | ----------    | --------- |
+| 00    | Other item  |               | |
+| 01    | Gun item    | Weapon        | 32, 64 |
+| 02    | ???         |               | |
+| 03    | ???         |               | |
+| 04    | ???         |               | |
+
 #### File #1
 
 ??? info "Authors metadata"
@@ -608,9 +623,9 @@ Offset 02 > Item change flag
 Offset 03 > Item change further info flag
 Offset 04-05 > Decides what can be combined with
 Offset 06 > Number of different items that can be item combined with
-Offset 07 > Always 0 (unused?)
+Offset 07 > Always 00 (unused?)
 Offset 08 > Durability + Stack capacity
-Offset 09 > Always 0 (unused?)
+Offset 09 > Always 00 (unused?)
 Offset 0A-0B > Effect
 Offset 0C-0D > ??? 
 Offset 0E > Sound effect ID
@@ -618,9 +633,9 @@ Offset 0F > Motion effect ID
 Offset 10 > Menu actions
 Offset 11 > Personal item character type
 Offset 12-13 > Item ID
-Offset 14 > ???
+Offset 14 > Gun type?
 Offset 15-16 > Scenario item ID
-Offset 17 > ???
+Offset 17 > Always 00 (unused?)
 ```
 
 ```
