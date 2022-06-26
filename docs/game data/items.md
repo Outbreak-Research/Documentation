@@ -154,31 +154,48 @@ Red herb = R
 Blue herb = B
 Green herb = G
 
-Red herb combines with: 
+Red herb combines with 4 different item types: 
 
-G
-B
-G+B
-Medical set
+1. G
+2. B
+3. G+B
+4. Medical set
 
-Blue herb combines with:
+Blue herb combines with 5 different item types:
 
-G
-G+G
-R
-G+R
-Medical set
+1. G
+2. G+G
+3. R
+4. G+R
+5. Medical set
 
-Green herb combines with:
+Green herb combines with 7 different item types:
 
-G
-G+G
-G+B
-B
-B+R
-R
-Medical set
+1. G
+2. G+G
+3. G+B
+4. B
+5. B+R
+6. R
+7. Medical set
 ```
+
+- Offset 07: always 00 (unused?)
+
+- Offset 08: durability and stack capacity
+
+If an item is non-breakable but has capacity like gun or magazine then this value is the stack capacity. Eg. Handgun GL max capacity is 17.
+If an item is breakable then this value represents its durability before breaking down. Eg. Iron Pipe.
+
+- Offset 09: always 00 (unused?)
+
+- Offset 0A: extension code
+
+- Offset 0B: extension code
+
+- Offset 0C: unknown
+
+- Offset 0D: unknown
 
 - Offset 0E: sound effect ID
 
