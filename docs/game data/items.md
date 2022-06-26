@@ -120,7 +120,7 @@ This flag doesnt combine.
 
 - Offset 02: 1 byte item change flag
 
- This flag decides item change, rellies on the next byte for further information.
+This flag decides item change, rellies on the next byte for further information.
 
 | Value | Binary    |  Meaning             | 
 | ------|---------- | ---------------      | 
@@ -146,7 +146,6 @@ Value of this byte indicated the number of different items which can be used to 
 |  7    | Green Herb         | Can be combined only with 7 item |
 |  11   | Medical Set        | Can be combined only with 11 item |
 |  12   | Handgun 9mm rounds | Can be combined only with 12 item |
-
 
 - Example of herbal combinatorics
 
@@ -354,7 +353,7 @@ Indicates if item is character type specific item and decides which MC is in own
 - Offset 12 - 13: item ID
 
 | Value | Hex value | Item name  |
-| ----- | --------- | ----       |
+| ----- | --------- | ---------- |
 | 00    | 0000      | Handgun    |
 | 01    | 0001      | Handgun SG |
 | 02    | 0002      | Handgun GL |
@@ -362,6 +361,238 @@ Indicates if item is character type specific item and decides which MC is in own
 | 04    | 0004      | Magnum Revolver |
 | 05    | 0005      | Handgun HP |
 | 06    | 0006      | S&W model 500 |
+| 07    | 0007      | Revolver |
+| 08    | 0008      | Burst Handgun |
+| 09    | 0009      | Unused1(no name) |
+| 10    | 000A      | Submachine Gun |
+| 11    | 000B      | Shotgun |
+| 12    | 000C      | Shotgun E |
+| 13    | 000D      | Hunting Rifle |
+| 14    | 000E      | Assault Rifle |
+| 15    | 000F      | Capsule Shooter(BLUE) |
+| 16    | 0010      | Capsule Shooter(RED) |
+| 17    | 0011      | Capsule Shooter(GREEN) |
+| 18    | 0012      | Capsule Shooter(WHITE) |
+| 19    | 0013      | Mine Detector |
+| 20    | 0014      | Rocket Launcher |
+| 21    | 0015      | ????? |
+| 22    | 0016      | Unused2(no name) |
+| 23    | 0017      | Grenade Launcher (BURST) |
+| 24    | 0018      | Grenade Launcher (FLAME) |
+| 25    | 0019      | Grenade Launcher (ACID)  |
+| 26    | 001A      | Grenade Launcher (Fire Extinguishing) | 
+| 27    | 001B      | Grenade Launcher (BOW GAS) |
+| 28    | 001C      | Pesticide Spray |
+| 29    | 001D      | Flame Spray |
+| 30    | 001E      | Stun Gun |
+| 31    | 001F      | Nail Gun |
+| 32    | 0020      | Ampoule Shooter |
+| 100   | 0064      | Survival Knife |
+| 101   | 0065      | Folding Knife |
+| 102   | 0066      | Butcher Knife |
+| 103   | 0067      | Iron Pipe |
+| 104   | 0068      | Curved Iron Pipe |
+| 105   | 0069      | Bent Iron Pipe |
+| 106   | 006A      | Long Pole |
+| 107   | 006B      | Square Timber |
+| 108   | 006C      | Bomb Switch |
+| 109   | 006D      | Axe |
+| 110   | 006E      | Scrub Brush |
+| 111   | 006F      | Wooden Pole |
+| 112   | 0070      | Throwable Stick |
+| 113   | 0071      | Spear |
+| 114   | 0072      | Molotov Cocktail |
+| 115   | 0073      | Hammer |
+| 116   | 0074      | Crutch |
+| 117   | 0075      | Stun Rod |
+| 118   | 0076      | Concrete Piece |
+| 119   | 0077      | Broken Crutch |
+| 155   | 009B      | Empty Bottle |
+| 156   | 009C      | Red Chemical Bottle |
+| 157   | 009D      | Green Chemical Bottle |
+| 158   | 009E      | Yellow Chemical Bottle |
+| 159   | 009F      | Gray Chemical Bottle |
+| 160   | 00A0      | Time Bomb(before ignition) |
+| 161   | 00A1      | Time Bomb(after ignition) |
+| 200   | 00C8      | Handgun Magazine |
+| 201   | 00C9      | Handgun SG Magazine |
+| 202   | 00CA      | Handgun GL Magazine |
+| 203   | 00CB      | Magnum Clip |
+| 204   | 00CC      | Magnum Revolver S.Loader |
+| 205   | 00CD      | Revolver S.Loader |
+| 206   | 00CE      | Sub Machine Gun Clip |
+| 207   | 00CF      | Assault Rifle Clip |
+| 208   | 00D0      | Unused |
+| 209   | 00D1      | Burst Hg Magazine |
+| 210   | 00D2      | 45 Auto Magazine |
+| 211   | 00D3      | Handgun HP Magazine |
+| 250   | 00FA      | Hand Gun Rounds 9mm |
+| 251   | 00FB      | Magnum Hg rounds |
+| 252   | 00FC      | Magnum Revolver Rounds |
+| 253   | 00FD      | Revolver Rounds |
+| 254   | 00FE      | Shotgun Rounds |
+| 255   | 00FF      | Rifle Rounds |
+| 256   | 0100      | Rocket Rounds |
+| 257   | 0101      | Burst Rounds |
+| 258   | 0102      | Flame Rounds |
+| 259   | 0103      | Acid Rounds |
+| 260   | 0104      | Fire Extinguisher Rounds |
+| 261   | 0105      | BOW Gas Rounds |
+| 262   | 0106      | 45 Auto Rounds |
+| 263   | 0107      | High Power Revolver Rounds |
+| 300   | 012C      | Green Herb |
+| 301   | 012D      | Blue Herb |
+| 302   | 012E      | Red Herb |
+| 303   | 012F      | Mixed Herb (G+G) |
+| 304   | 0130      | Mixed Herb (G+G+G) |
+| 305   | 0131      | Mixed Herb (G+R) |
+| 306   | 0132      | Mixed Herb (G+B) |
+| 307   | 0133      | Mixed Herb (G+G+B) |
+| 308   | 0134      | Mixed Herb (G+R+B) |
+| 309   | 0135      | First Aid Spray |
+| 310   | 0136      | Recovery Medicine |
+| 311   | 0137      | Hemostat |
+| 312   | 0138      | Daylight |
+| 313   | 0139      | Mixed Herb(R+B) |
+| 314   | 013A      | Antidote |
+| 315   | 013B      | Recovery Medicine (L) |
+| 316   | 013C      | Anti Virus |
+| 317   | 013D      | Anti Virus (L) |
+| 318   | 013E      | Recovery Medicine Base |
+| 400   | 0190      | Kevin's 45 Auto |
+| 401   | 0191      | Mark's Handgun |
+| 402   | 0192      | Coin holder(Jim's)(unused) |
+| 403   | 0193      | Jim's Coin |
+| 404   | 0194      | Lock Pick (unused) |
+| 405   | 0195      | Medical Set |
+| 406   | 0196      | Tool Box |
+| 407   | 0197      | Folding Knife(David's) |
+| 408   | 0198      | Monkey Wrench |
+| 409   | 0199      | Vinyl Tape |
+| 410   | 019A      | Junk Parts |
+| 411   | 019B      | Picking Tool |
+| 412   | 019C      | Knapsack |
+| 413   | 019D      | Herb Case |
+| 414   | 019E      | I-Shaped Pick |
+| 415   | 019F      | S-Shaped Pick |
+| 416   | 01A0      | W-Shaped Pick |
+| 417   | 01A1      | P-Shaped Pick |
+| 418   | 01A2      | Bandage |
+| 419   | 01A3      | Lucky Coin |
+| 420   | 01A4      | Charm |
+| 450   | 01C2      | 450 |
+| 451   | 01C3      | Lighter |
+| 452   | 01C4      | 451 |
+| 453   | 01C5      | Alcohol Bottle |
+| 454   | 01C6      | 452 |
+| 455   | 01C7      | Bottle + Newspaper |
+| 456   | 01C8      | 453 |
+| 10100 | 2774      | Broken Handgun |
+| 10101 | 2775      | 454 |
+| 10102 | 2776      | Broken Shotgun |
+| 10103 | 2777      | 455 |
+| 10105 | 2779      | Battery |
+| 10106 | 277A      | 456 |
+| 10107 | 277B      | Broken Handgun SG |
+| 10108 | 277C      | Staff Room Key |
+| 10150 | 27A6      | Key with a Red Tag (?? OB) |
+| 10600 | 2968      | Key with a Blue Tag (?? OB) |
+| 10601 | 2969      | Forklift Key |
+| 10602 | 296A      | Storage Key |
+| 10603 | 296B      | Detonator Handle |
+| 10604 | 296C      | Detonator Main Unit |
+| 10605 | 296D      | Detonator |
+| 10609 | 2971      | Newspaper (?? OB) |
+| 10610 | 2972      | Examination Room Key |
+| 10611 | 2973      | ID Card Lv1 |
+| 10612 | 2974      | ID Card Lv2 |
+| 10614 | 2976      | MO Disk |
+| 10650 | 299A      | MO Disk(Code A) |
+| 10651 | 299B      | MO Disk(Code G) |
+| 10652 | 299C      | Valve Handle (6 Sided) |
+| 11000 | 2AF8      | Valve Handle (4 Sided) |
+| 11001 | 2AF9      | Crowbar |
+| 11002 | 2AFA      | Model Grenade Launcher |
+| 11003 | 2AFB      | ?? |
+| 11004 | 2AFC      | Newspaper 1 (?? EOTR) |
+| 11005 | 2AFD      | Newspaper 2 (?? EOTR) |
+| 11006 | 2AFE      | Newspaper 3 (?? EOTR) |
+| 11007 | 2AFF      | Employee Area Key |
+| 11008 | 2B00      | B2F Key |
+| 11009 | 2B01      | Ventilation Tower Key |
+| 11010 | 2B02      | Valve Handle (?? UB) |
+| 11050 | 2B2A      | Repair Tape |
+| 11051 | 2B2B      | Rubber Sheet(unused) |
+| 11052 | 2B2C      | Founder's Emblem(Werner/Gold) |
+| 12600 | 3138      | Founder's Emblem(Oral/Blue) |
+| 12601 | 3139      | Model Train Wheel |
+| 12602 | 313A      | Blood Pack (?? UB)(already |
+| 12603 | 313B      | Blood Pack (?? UB) |
+| 12604 | 313C      | Newspaper 1 (?? UB) |
+| 12605 | 313D      | Newspaper 2 (?? UB) |
+| 11500 | 2CEC      | Newspaper 3 (?? UB) |
+| 11501 | 2CED      | Auxiliary Building Key |
+| 11502 | 2CEE      | Adminstrator's Office Key |
+| 11503 | 2CEF      | Rusty Key |
+| 11504 | 2CF0      | Syringe (empty) |
+| 11505 | 2CF1      | Syringe (solvent) |
+| 11506 | 2CF2      | Pendant |
+| 11507 | 2CF3      | Joker Key |
+| 11508 | 2CF4      | Onyx Plate |
+| 11509 | 2CF5      | Sapphire Plate |
+| 11510 | 2CF6      | Ruby Plate |
+| 11511 | 2CF7      | Emerald Plate |
+| 11512 | 2CF8      | Amethyst Plate |
+| 11513 | 2CF9      | Padlock Key |
+| 11514 | 2CFA      | Ace Key |
+| 11515 | 2CFB      | Gas Canister |
+| 11550 | 2D1E      | Plywood Board |
+| 14000 | 36B0      | Film A |
+| 14001 | 36B1      | Used Gas Canister |
+| 14002 | 36B2      | Unicorn Medal |
+| 14003 | 36B3      | Film B |
+| 14004 | 36B4      | Film C |
+| 14005 | 36B5      | Film D |
+| 14006 | 36B6      | Secret File |
+| 14007 | 36B7      | Bolt Cutters |
+| 14008 | 36B8      | Elephant Key |
+| 14009 | 36B9      | Alligator Key |
+| 12800 | 3200      | Lion Key |
+| 12801 | 3201      | Office Key |
+| 12805 | 3205      | Mr. Racoon Medal |
+| 12806 | 3206      | Lion Emblem (RED) |
+| 12807 | 3207      | Lion Emblem (BLUE) |
+| 12850 | 3232      | Blank Tape |
+| 12851 | 3233      | Parade BGM Tape |
+| 12852 | 3234      | Blood pack (?? TH)(already |
+| 13500 | 34BC      | Blood pack (?? TH) |
+| 13501 | 34BD      | Level 1 Card Key (?? TH) |
+| 13502 | 34BE      | Level 2 Card Key (?? TH) |
+| 13503 | 34BF      | Chain Key |
+| 13504 | 34C0      | Male Nurse's Diary |
+| 13505 | 34C1      | Researcher's Diary |
+| 13506 | 34C2      | Research Request |
+| 13507 | 34C3      | UMB No.3 |
+| 13508 | 34C4      | VP-017 |
+| 13550 | 34EE      | V-JOLT |
+| 10206 | 27DE      | Wrench |
+| 10207 | 27DF      | Frozen Wrench |
+| 10208 | 27E0      | Lab Cardkey |
+| 10209 | 27E1      | Turntable Key |
+| 10210 | 27E2      | Valve Handle (?? BFP) |
+| 10211 | 27E3      | Hand Burner |
+| 14100 | 3714      | no data(unused) |
+| 14101 | 3715      | Charlie's ID tag |
+| 14102 | 3716      | Len's ID tag |
+| 14103 | 3717      | Gold Key |
+| 14104 | 3718      | Silver Key |
+| 14105 | 3719      | Security Room Card Key |
+| 14106 | 371A      | Red Jewel (?? HF) |
+| 14107 | 371B      | Brass Spectacles |
+| 14108 | 371C      | Card Key (?? DD) |
+| 14109 | 371D      | V-Poison |
+| 14110 | 371E      | P-Base |
+| 14111 | 371F      | Reagent Case |
 
 #### File #1
 
