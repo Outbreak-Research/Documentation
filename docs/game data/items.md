@@ -594,7 +594,7 @@ Indicates if item is character type specific item and decides which MC is in own
 | 14110 | 371E      | P-Base |
 | 14111 | 371F      | Reagent Case |
 
-- Offset 14: Gun type?
+- Offset 14: gun type?
 
 The function of this byte is unclear has to do with weapon type or gun type.
 Only the following guns will have the value still at 0 instead of 1.
@@ -608,6 +608,26 @@ Handgun GL, Handgun HP, Submachinegun, Assault rifle, Rocket launcher, Ampoule S
 | 02    | ???         |               | |
 | 03    | ???         |               | |
 | 04    | ???         |               | |
+
+- Offset 15: scenario specific item type?
+
+The function of this byte is unclear has to do with items used in specific way in a scenario.
+
+| Value | Meaning    |
+| ----- | ---------  |
+| 00    | Normal item |
+| 01    | Interacts with a room element to change an item/object |
+| 02    | Interacts with a room element to unlock access to something |
+| 03    | Interacts with a room element to allow a cutscene to be triggered |
+
+- Offset 16: scenario specific item
+
+Likely a bool denoting if item is scenario specific or not.
+
+| Value | Meaning    |
+| ----- | ---------  |
+| 00    | Not scenario specific |
+| 01    | Scenario specific |
 
 #### File #1
 
@@ -634,7 +654,8 @@ Offset 10 > Menu actions
 Offset 11 > Personal item character type
 Offset 12-13 > Item ID
 Offset 14 > Gun type?
-Offset 15-16 > Scenario item ID
+Offset 15 > Scenario specific item type?
+Offset 16 > Scenario item?
 Offset 17 > Always 00 (unused?)
 ```
 
