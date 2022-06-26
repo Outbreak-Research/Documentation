@@ -1,8 +1,17 @@
 ## Items
 
+??? info "Authors metadata"
+    - Authors > [Machi](https://github.com/Machi13), IgusaTaro, hill73n, Despair, dchaps
+    - Last update > 19 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 23 June 2022
+
 This section describes data related to items like their characteristics, possible combinations, damage/heal tables etc...
 
 ### Item data files
+
+General path to item data:
+
+- NETBIO00.DAT > [r0xx.afs] > item0xx.dat
 
 Item data for each scenario are contained in following files:
 
@@ -33,6 +42,32 @@ Item data for each scenario are contained in following files:
 These files contain item charactestics/combinations given for each scenario.
 Technically its possible to reference other items then those defined for particular scenario however,
 spawning such items via. a event script will put them into inventory without icon and un-usable.
+
+### Item data file structure
+
+Header 32 bytes: 
+
+```
+Offset 00-03: 4 bytes first section start address
+Offset 04-07: 4 bytes first section section size in bytes
+Offset 08-0B: 4 bytes second section start address
+Offset 0C-0F: 4 bytes second section size in bytes
+Offset 10-13: 4 bytes third section start address
+Offset 14-17: 4 bytes third section size in bytes
+```
+
+- Eg. Header of item040.dat : Wild Things
+```
+Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+---------------------------------------------------------------------------
+00000000  18 00 00 00 60 0B 00 00 78 0B 00 00 5C 18 00 00  ....`...x...\...  
+00000010  D4 23 00 00 74 02 00 00 
+
+We can see:
+Data section one start offset: 0x0018 | size: 0B60 bytes.
+Data section two start offset: 0x0B78 | size: 185C bytes.
+Data section three start offset: 0x23D4 | size: 0274 bytes.
+```
 
 ### Item distribution files
 
