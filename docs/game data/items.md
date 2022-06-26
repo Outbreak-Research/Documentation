@@ -497,119 +497,119 @@ Indicates if item is character type specific item and decides which MC is in own
 | 418   | 01A2      | Bandage |
 | 419   | 01A3      | Lucky Coin |
 | 420   | 01A4      | Charm |
-| 450   | 01C2      | 450 |
-| 451   | 01C3      | Lighter |
-| 452   | 01C4      | 451 |
-| 453   | 01C5      | Alcohol Bottle |
-| 454   | 01C6      | 452 |
-| 455   | 01C7      | Bottle + Newspaper |
-| 456   | 01C8      | 453 |
-| 10100 | 2774      | Broken Handgun |
-| 10101 | 2775      | 454 |
-| 10102 | 2776      | Broken Shotgun |
-| 10103 | 2777      | 455 |
-| 10105 | 2779      | Battery |
-| 10106 | 277A      | 456 |
-| 10107 | 277B      | Broken Handgun SG |
-| 10108 | 277C      | Staff Room Key |
-| 10150 | 27A6      | Key with a Red Tag (?? OB) |
-| 10600 | 2968      | Key with a Blue Tag (?? OB) |
-| 10601 | 2969      | Forklift Key |
-| 10602 | 296A      | Storage Key |
-| 10603 | 296B      | Detonator Handle |
-| 10604 | 296C      | Detonator Main Unit |
-| 10605 | 296D      | Detonator |
-| 10609 | 2971      | Newspaper (?? OB) |
-| 10610 | 2972      | Examination Room Key |
-| 10611 | 2973      | ID Card Lv1 |
-| 10612 | 2974      | ID Card Lv2 |
-| 10614 | 2976      | MO Disk |
-| 10650 | 299A      | MO Disk(Code A) |
-| 10651 | 299B      | MO Disk(Code G) |
-| 10652 | 299C      | Valve Handle (6 Sided) |
-| 11000 | 2AF8      | Valve Handle (4 Sided) |
-| 11001 | 2AF9      | Crowbar |
-| 11002 | 2AFA      | Model Grenade Launcher |
-| 11003 | 2AFB      | ?? |
-| 11004 | 2AFC      | Newspaper 1 (?? EOTR) |
-| 11005 | 2AFD      | Newspaper 2 (?? EOTR) |
-| 11006 | 2AFE      | Newspaper 3 (?? EOTR) |
-| 11007 | 2AFF      | Employee Area Key |
-| 11008 | 2B00      | B2F Key |
-| 11009 | 2B01      | Ventilation Tower Key |
-| 11010 | 2B02      | Valve Handle (?? UB) |
-| 11050 | 2B2A      | Repair Tape |
-| 11051 | 2B2B      | Rubber Sheet(unused) |
-| 11052 | 2B2C      | Founder's Emblem(Werner/Gold) |
-| 12600 | 3138      | Founder's Emblem(Oral/Blue) |
-| 12601 | 3139      | Model Train Wheel |
-| 12602 | 313A      | Blood Pack (?? UB)(already |
-| 12603 | 313B      | Blood Pack (?? UB) |
-| 12604 | 313C      | Newspaper 1 (?? UB) |
-| 12605 | 313D      | Newspaper 2 (?? UB) |
-| 11500 | 2CEC      | Newspaper 3 (?? UB) |
-| 11501 | 2CED      | Auxiliary Building Key |
-| 11502 | 2CEE      | Adminstrator's Office Key |
-| 11503 | 2CEF      | Rusty Key |
-| 11504 | 2CF0      | Syringe (empty) |
-| 11505 | 2CF1      | Syringe (solvent) |
-| 11506 | 2CF2      | Pendant |
-| 11507 | 2CF3      | Joker Key |
-| 11508 | 2CF4      | Onyx Plate |
-| 11509 | 2CF5      | Sapphire Plate |
-| 11510 | 2CF6      | Ruby Plate |
-| 11511 | 2CF7      | Emerald Plate |
-| 11512 | 2CF8      | Amethyst Plate |
-| 11513 | 2CF9      | Padlock Key |
-| 11514 | 2CFA      | Ace Key |
-| 11515 | 2CFB      | Gas Canister |
-| 11550 | 2D1E      | Plywood Board |
-| 14000 | 36B0      | Film A |
-| 14001 | 36B1      | Used Gas Canister |
-| 14002 | 36B2      | Unicorn Medal |
-| 14003 | 36B3      | Film B |
-| 14004 | 36B4      | Film C |
-| 14005 | 36B5      | Film D |
-| 14006 | 36B6      | Secret File |
-| 14007 | 36B7      | Bolt Cutters |
-| 14008 | 36B8      | Elephant Key |
-| 14009 | 36B9      | Alligator Key |
-| 12800 | 3200      | Lion Key |
-| 12801 | 3201      | Office Key |
-| 12805 | 3205      | Mr. Racoon Medal |
-| 12806 | 3206      | Lion Emblem (RED) |
-| 12807 | 3207      | Lion Emblem (BLUE) |
-| 12850 | 3232      | Blank Tape |
-| 12851 | 3233      | Parade BGM Tape |
-| 12852 | 3234      | Blood pack (?? TH)(already |
-| 13500 | 34BC      | Blood pack (?? TH) |
-| 13501 | 34BD      | Level 1 Card Key (?? TH) |
-| 13502 | 34BE      | Level 2 Card Key (?? TH) |
-| 13503 | 34BF      | Chain Key |
-| 13504 | 34C0      | Male Nurse's Diary |
-| 13505 | 34C1      | Researcher's Diary |
-| 13506 | 34C2      | Research Request |
-| 13507 | 34C3      | UMB No.3 |
-| 13508 | 34C4      | VP-017 |
-| 13550 | 34EE      | V-JOLT |
-| 10206 | 27DE      | Wrench |
-| 10207 | 27DF      | Frozen Wrench |
-| 10208 | 27E0      | Lab Cardkey |
-| 10209 | 27E1      | Turntable Key |
-| 10210 | 27E2      | Valve Handle (?? BFP) |
-| 10211 | 27E3      | Hand Burner |
-| 14100 | 3714      | no data(unused) |
-| 14101 | 3715      | Charlie's ID tag |
-| 14102 | 3716      | Len's ID tag |
-| 14103 | 3717      | Gold Key |
-| 14104 | 3718      | Silver Key |
-| 14105 | 3719      | Security Room Card Key |
-| 14106 | 371A      | Red Jewel (?? HF) |
-| 14107 | 371B      | Brass Spectacles |
-| 14108 | 371C      | Card Key (?? DD) |
-| 14109 | 371D      | V-Poison |
-| 14110 | 371E      | P-Base |
-| 14111 | 371F      | Reagent Case |
+| 450   | 01C2      | Lighter |
+| 451   | 01C3      | Alcohol Bottle |
+| 452   | 01C4      | Bottle + Newspaper |
+| 453   | 01C5      | Broken Handgun |
+| 454   | 01C6      | Broken Shotgun |
+| 455   | 01C7      | Battery |
+| 456   | 01C8      | Broken Handgun SG |
+| 10100 | 2774      | Staff Room Key |
+| 10101 | 2775      | Key with a Red Tag (?? OB) |
+| 10102 | 2776      | Key with a Blue Tag (?? OB) |
+| 10103 | 2777      | Forklift Key |
+| 10105 | 2779      | Storage Key |
+| 10106 | 277A      | Detonator Handle |
+| 10107 | 277B      | Detonator Main Unit |
+| 10108 | 277C      | Detonator |
+| 10150 | 27A6      | Newspaper (?? OB) |
+| 10600 | 2968      | Examination Room Key |
+| 10601 | 2969      | ID Card Lv1 |
+| 10602 | 296A      | ID Card Lv2 |
+| 10603 | 296B      | MO Disk |
+| 10604 | 296C      | MO Disk(Code A) |
+| 10605 | 296D      | MO Disk(Code G) |
+| 10609 | 2971      | Valve Handle (6 Sided) |
+| 10610 | 2972      | Valve Handle (4 Sided) |
+| 10611 | 2973      | Crowbar |
+| 10612 | 2974      | Model Grenade Launcher |
+| 10614 | 2976      | ?? |
+| 10650 | 299A      | Newspaper 1 (?? EOTR) |
+| 10651 | 299B      | Newspaper 2 (?? EOTR) |
+| 10652 | 299C      | Newspaper 3 (?? EOTR) |
+| 11000 | 2AF8      | Employee Area Key |
+| 11001 | 2AF9      | B2F Key |
+| 11002 | 2AFA      | Ventilation Tower Key |
+| 11003 | 2AFB      | Valve Handle (?? UB) |
+| 11004 | 2AFC      | Repair Tape |
+| 11005 | 2AFD      | Rubber Sheet(unused) |
+| 11006 | 2AFE      | Founder's Emblem(Werner/Gold) |
+| 11007 | 2AFF      | Founder's Emblem(Oral/Blue) |
+| 11008 | 2B00      | Model Train Wheel |
+| 11009 | 2B01      | Blood Pack (?? UB)(already used) |
+| 11010 | 2B02      | Blood Pack (?? UB) |
+| 11050 | 2B2A      | Newspaper 1 (?? UB) |
+| 11051 | 2B2B      | Newspaper 2 (?? UB) |
+| 11052 | 2B2C      | Newspaper 3 (?? UB) |
+| 12600 | 3138      | Auxiliary Building Key |
+| 12601 | 3139      | Adminstrator's Office Key |
+| 12602 | 313A      | Rusty Key |
+| 12603 | 313B      | Syringe (empty) |
+| 12604 | 313C      | Syringe (solvent) |
+| 12605 | 313D      | Pendant |
+| 11500 | 2CEC      | Joker Key |
+| 11501 | 2CED      | Onyx Plate |
+| 11502 | 2CEE      | Sapphire Plate |
+| 11503 | 2CEF      | Ruby Plate |
+| 11504 | 2CF0      | Emerald Plate |
+| 11505 | 2CF1      | Amethyst Plate |
+| 11506 | 2CF2      | Padlock Key |
+| 11507 | 2CF3      | Ace Key |
+| 11508 | 2CF4      | Gas Canister |
+| 11509 | 2CF5      | Plywood Board |
+| 11510 | 2CF6      | Film A |
+| 11511 | 2CF7      | Used Gas Canister |
+| 11512 | 2CF8      | Unicorn Medal |
+| 11513 | 2CF9      | Film B |
+| 11514 | 2CFA      | Film C |
+| 11515 | 2CFB      | Film D |
+| 11550 | 2D1E      | Secret File |
+| 14000 | 36B0      | Bolt Cutters |
+| 14001 | 36B1      | Elephant Key |
+| 14002 | 36B2      | Alligator Key |
+| 14003 | 36B3      | Lion Key |
+| 14004 | 36B4      | Office Key |
+| 14005 | 36B5      | Mr. Racoon Medal |
+| 14006 | 36B6      | Lion Emblem (RED) |
+| 14007 | 36B7      | Lion Emblem (BLUE) |
+| 14008 | 36B8      | Blank Tape |
+| 14009 | 36B9      | Parade BGM Tape |
+| 12800 | 3200      | Blood pack (?? TH)(already used) |
+| 12801 | 3201      | Blood pack (?? TH) |
+| 12805 | 3205      | Level 1 Card Key (?? TH) |
+| 12806 | 3206      | Level 2 Card Key (?? TH) |
+| 12807 | 3207      | Chain Key |
+| 12850 | 3232      | Male Nurse's Diary |
+| 12851 | 3233      | Researcher's Diary |
+| 12852 | 3234      | Research Request |
+| 13500 | 34BC      | UMB No.3 |
+| 13501 | 34BD      | VP-017 |
+| 13502 | 34BE      | V-JOLT |
+| 13503 | 34BF      | Wrench |
+| 13504 | 34C0      | Frozen Wrench |
+| 13505 | 34C1      | Lab Cardkey |
+| 13506 | 34C2      | Turntable Key |
+| 13507 | 34C3      | Valve Handle (?? BFP) |
+| 13508 | 34C4      | Hand Burner |
+| 13550 | 34EE      | no data(unused) |
+| 10206 | 27DE      | Charlie's ID tag |
+| 10207 | 27DF      | Len's ID tag |
+| 10208 | 27E0      | Gold Key |
+| 10209 | 27E1      | Silver Key |
+| 10210 | 27E2      | Security Room Card Key |
+| 10211 | 27E3      | Red Jewel (?? HF) |
+| 14100 | 3714      | Brass Spectacles |
+| 14101 | 3715      | Card Key (?? DD) |
+| 14102 | 3716      | V-Poison |
+| 14103 | 3717      | P-Base |
+| 14104 | 3718      | Reagent Case |
+| 14105 | 3719      | Sealed Reagent Case |
+| 14106 | 371A      | P-Base(sealed) |
+| 14107 | 371B      | T-Blood |
+| 14108 | 371C      | Red Jewel (?? DD) |
+| 14109 | 371D      | Blue Jewel (?? DD) |
+| 14110 | 371E      | P-Base(depleted) |
+| 14111 | 371F      | Key with a Red Tag (?? DD) |
 
 - Offset 14: gun type?
 
