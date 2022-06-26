@@ -45,7 +45,7 @@ spawning such items via. a event script will put them into inventory without ico
 
 ### Item data file structure
 
-Header 32 bytes: 
+Header 24 bytes: 
 
 ```
 Offset 00-03: 4 bytes first section start address
@@ -68,6 +68,24 @@ Data section one start offset: 0x0018 | size: 0B60 bytes.
 Data section two start offset: 0x0B78 | size: 185C bytes.
 Data section three start offset: 0x23D4 | size: 0274 bytes.
 ```
+
+- First data section
+
+Header 32 bytes:
+
+```
+Offset 18-1B: 4 bytes unknown (data type indicator?)
+Offset 1C-1F: 4 bytes number of items defined
+Offset 20-23: 4 bytes unknown
+Offset 24-27: 4 bytes unknown
+Offset 28-2B: 4 bytes unknown
+Offset 2C-2F: 4 bytes unknown
+Offset 30-33: 4 bytes unknown
+Offset 34-37: 4 bytes unknown
+```
+
+The actuall data of items follows each occupies 24 bytes.
+So in case of our example we get 78x24 = 1872 bytes of item data.
 
 ### Item distribution files
 
