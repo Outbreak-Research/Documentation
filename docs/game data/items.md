@@ -2,8 +2,8 @@
 
 ??? info "Authors metadata"
     - Authors > [Machi](https://github.com/Machi13), IgusaTaro, hill73n, Despair, dchaps
-    - Last update > 19 June 2022
-    - Last modification > [Bia10](https://github.com/Bia10) at 23 June 2022
+    - Last update > 27 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 27 June 2022
 
 This section describes data related to items like their characteristics, possible combinations, damage/heal tables etc...
 
