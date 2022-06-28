@@ -21,7 +21,7 @@ Item data for each scenario are contained in following files:
 [r002.afs] : item002.dat : Hellfire
 [r028.afs] : item028.dat : The Hive
 [r035.afs] : item035.dat : Bellow Freezing Point
-[r041.afs] : item041.dat : Decisions, Decisons
+[r041.afs] : item041.dat : Decisions, Decisions
 ```
 - File #2
 ```
@@ -39,7 +39,7 @@ Item data for each scenario are contained in following files:
 [r040.afs] : item040.dat : Wild Things
 ```
 
-These files contain item charactestics/combinations given for each scenario.
+These files contain item characteristics/combinations given for each scenario.
 Technically its possible to reference other items then those defined for particular scenario however,
 spawning such items via. a event script will put them into inventory without icon and un-usable.
 
@@ -84,14 +84,14 @@ Offset 30-33: 4 bytes unknown
 Offset 34-37: 4 bytes unknown
 ```
 
-The actuall data of items follows each occupies 24 bytes.
+The actual data of items follows each occupies 24 bytes.
 So in case of our example we get 78x24 = 1872 bytes of item data.
 
 ### Item distribution files
 
 - Singleplayer
 
-For each diffculty there exist 1 file containing item distribution.
+For each difficulty there exist 1 file containing item distribution.
 Therefore there are 4 files containing item distribution for each scenario in singleplayer mode:
 
 ```
@@ -106,7 +106,7 @@ item0xx19.tbl > Very Hard
 - Multiplayer 
 
 For each difficulty there exist 4 files containing item distribution. 
-Each file is supposed to represent a randomized pattern of item distribution so that the game doesnt get repetetive.
+Each file is supposed to represent a randomized pattern of item distribution so that the game doesn't get repetitive.
 This implies 4x4=16 item distribution files for each scenario in multiplayer mode:
 
 ```
@@ -158,7 +158,7 @@ This flag can combine categories, tho some are unlikely to exist like recovery +
 
 - Offset 01: 1 byte flag decides item type
 
-This flag doesnt combine.
+This flag doesn't combine.
 
 | Value | Binary    |  Type                | Category Values  |
 | ------|---------- | ---------------      | -------------    |
@@ -173,7 +173,7 @@ This flag doesnt combine.
 
 - Offset 02: 1 byte item change flag
 
-This flag decides item change, rellies on the next byte for further information.
+This flag decides item change, relies on the next byte for further information.
 
 | Value | Binary    |  Meaning             | 
 | ------|---------- | ---------------      | 
@@ -267,7 +267,7 @@ XX is the value of this byte.
 | 07             | Kevin's 45 Auto                     | 400 |
 | 08             | Revolver                            | 07 |
 | 09             | Burst Handgun                       | 08 |
-| 11             | Sub Machinegun                      | 10 |
+| 11             | Sub Machine gun                     | 10 |
 | 12             | Shotgun                             | 11 |
 | 13             | Shotgun E                           | 12 |
 | 14             | Hunting Rifle                       | 13 |
@@ -293,11 +293,11 @@ XX is the value of this byte.
 | 33             | Long Pole                           | 106 |
 | 33             | Square Timber                       | 107 |
 | 33             | Crutch                              | 116 |
-| 33             | Broken Cruth                        | 119 |
+| 33             | Broken Crutch                       | 119 |
 | 34             | Axe                                 | 109 |
 | 35             | Scrub Brush                         | 110 |
 | 35             | Wooden Pole                         | 111 |
-| 35             | Thorowable Stick                    | 112 |
+| 35             | Throwable Stick                     | 112 |
 | 36             | Spear                               | 113 |
 | 39             | Monkey Wrench                       | 408 |
 | 41             | Hammer                              | 115 |
@@ -318,7 +318,7 @@ XX is the value of this byte.
 - Offset 0F: motion effect ID
 
 Represents index of motion file to play when item is used.
-Similiar to the sound file indices tho NOT equal!
+Similar to the sound file indices tho NOT equal!
 
 | Motion file index | Item                             | Item ID | 
 | -------------- | ----------------------------------- | ------- | 
@@ -332,7 +332,7 @@ Similiar to the sound file indices tho NOT equal!
 | 07             | Kevin's 45 Auto                     | 400 |
 | 08             | Revolver                            | 07 |
 | 09             | Burst Handgun                       | 08 |
-| 11             | Sub Machinegun                      | 10 |
+| 11             | Sub Machine gun                     | 10 |
 | 12             | Shotgun                             | 11 |
 | 13             | Shotgun E                           | 12 |
 | 14             | Hunting Rifle                       | 13 |
@@ -359,7 +359,7 @@ Similiar to the sound file indices tho NOT equal!
 | 40             | Axe                                 | 109 |
 | 41             | Scrub Brush                         | 110 |
 | 42             | Wooden Pole                         | 111 |
-| 43             | Thorowable Stick                    | 112 |
+| 43             | Throwable Stick                     | 112 |
 | 44             | Spear                               | 113 |
 | 50             | Monkey Wrench                       | 408 |
 | 51             | Mark's Handgun                      | 401 |
@@ -371,7 +371,7 @@ Similiar to the sound file indices tho NOT equal!
 | 59             | Green Chemical Bottle               | 157 |
 | 60             | Yellow Chemical Bottle              | 158 |
 | 61             | Gray Chemical Bottle                | 159 |
-| 62             | Broken Cruth                        | 119 |
+| 62             | Broken Crutch                       | 119 |
 | 63             | Ampoule Shooter                     | 32 |
 | 64             | Stun Gun                            | 30 |
 | 65             | Capsule Shooter(BLUE)               | 15 |
@@ -384,7 +384,7 @@ Similiar to the sound file indices tho NOT equal!
 - Offset 10: menu actions
 
 When an item is selected in inventory value of this byte changes.
-The value indicates possibilites of interaction with the item.
+The value indicates possibilities of interaction with the item.
 
 | Value | Items                               | Use | Combine | Equip | Reload | Present | Put | Formulation |
 |-------| ---------------                     | --- | ------- | ----- | ------ | ------- | --- | ----------- |
@@ -595,7 +595,7 @@ Indicates if item is character type specific item and decides which MC is in own
 | 11051 | 2B2B      | Newspaper 2 (?? UB) |
 | 11052 | 2B2C      | Newspaper 3 (?? UB) |
 | 12600 | 3138      | Auxiliary Building Key |
-| 12601 | 3139      | Adminstrator's Office Key |
+| 12601 | 3139      | Administrator's Office Key |
 | 12602 | 313A      | Rusty Key |
 | 12603 | 313B      | Syringe (empty) |
 | 12604 | 313C      | Syringe (solvent) |
@@ -669,7 +669,7 @@ Indicates if item is character type specific item and decides which MC is in own
 The function of this byte is unclear has to do with weapon type or gun type.
 Only the following guns will have the value still at 0 instead of 1.
 
-Handgun GL, Handgun HP, Submachinegun, Assault rifle, Rocket launcher, Ampoule Shooter
+Handgun GL, Handgun HP, Submachine gun, Assault rifle, Rocket launcher, Ampoule Shooter
 
 | Value | Type        | Item Category | Item Type |
 | ----- | ---------   | ----------    | --------- |

@@ -719,7 +719,7 @@ Describes main characters starting items.
     - Last update > 24 June 2022
     - Last modification > [Bia10](https://github.com/Bia10) at 24 June 2022
 
-There are no starting items for MCs in File 1#. The only way to force MCs to start with items is to modyfi the event script file (r0xx.evb) for given scenario, this will however also force NPCs of underlying MC type to gain these items.
+There are no starting items for MCs in File 1#. The only way to force MCs to start with items is to modify the event script file (r0xx.evb) for given scenario, this will however also force NPCs of underlying MC type to gain these items.
 
 #### File #2
 
