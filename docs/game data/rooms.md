@@ -1,7 +1,7 @@
 ## Rooms
 
 ??? info "Authors metadata"
-    - Authors > brockta7
+    - Authors > brockta7, hill73n, chaps, IgusaTaro
     - Last update > 27 June 2022
     - Last modification > [Bia10](https://github.com/Bia10) at 27 June 2022
 
