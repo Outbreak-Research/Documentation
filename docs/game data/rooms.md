@@ -42,6 +42,40 @@ For each scenario there is a collection of rooms represented by its model file.
 [r040.afs] : r040yyyy.nbd : Wild Things
 ```
 
+### File #1
+
+### r001 - Outbreak	(OB)
+
+Total rooms: 23 (plus some variations likely unused)
+
+| Dec | Hex | Model Data   | Room Data    | Room Name |
+| --- | --- | ----------   | ---------    | --------- |
+| 01  | 01  | r0010100.nbd | r0010100.rdt | J's Bar	  |
+| 02  | 02  | r0010200.nbd | r0010200.rdt | Stairs between 1F and 2F |
+| 03  | 03  | r0010300.nbd | r0010300.rdt | Men's restroom |
+| 04  | 04  | r0010400.nbd | r0010400.rdt | Women's restroom |
+| 05  | 05  | r0010500.nbd | r0010500.rdt | Staff room |
+| 06  | 06  | r0010600.nbd | r0010600.rdt | Locker room |
+| 07  | 07  | r0010700.nbd | r0010700.rdt | Drawing room |
+| 08  | 08  | r0010800.nbd | r0010800.rdt | Owner's room |
+| 09  | 09  | ???          | ???          | ???        |
+| 10  | 0A  | r0011000.nbd | r0011000.rdt | Break room |
+| 11  | 0B  | r0011100.nbd | r0011100.rdt | Liquor room  |
+| 12  | 0C  | r0011200.nbd | r0011200.rdt | Wine room |
+| 13  | 0D  | r0011300.nbd | r0011300.rdt | Stairs between 3F and rooftop |
+| 14  | 0E  | r0011400.nbd | r0011400.rdt | Rooftop |
+| 15  | 0F  | r0011500.nbd | r0011500.rdt | Storage room |
+| 16  | 10  | r0011600.nbd | r0011600.rdt | Top floor of rpartment building |
+| 17  | 11  | r0011700.nbd | r0011700.rdt | 1F of apartment	 |
+| 18  | 12  | r0011800.nbd | r0011800.rdt | In front of J's Bar |
+| 19  | 13  | r0011900.nbd | r0011900.rdt | Behind the residential apartment |
+| 20  | 14  | r0012000.nbd | r0012000.rdt | Slope along the canal |
+| 21  | 15  | r0012100.nbd | r0012100.rdt | Tunnel |
+| 22  | 16  | r0012200.nbd | r0012200.rdt | In front of Apple Inn |
+| 23  | 17  | r0012300.nbd | r0012300.rdt | Behind the residential area	|
+| 24  | 18  | r0012400.nbd | r0012400.rdt | Footbridge |
+| 25  | 19  | r0012500.nbd | r0012500.rdt | Main Street	|
+
 ### Desperate Times
 
 Following room models exist:
