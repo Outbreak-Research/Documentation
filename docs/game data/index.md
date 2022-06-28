@@ -23,7 +23,7 @@ This sections describes how are data mapped from disc files into memory and what
 | .snd           | Raw Sound Data    | sound                      | Uses compression ADPCM(Adaptive Differential Pulse-Code Modulation) | MFAudio |
 | .sld           |                   |                            |                                                                     | |
 | .rdt           |                   | multiplayer data           | Used in ingame scripts                                              | |
-| .tbl           |                   |                            |                                                                     | |
+| .tbl           |                   | item distribution patterns          | Tabular data format                                                 | |
 | .itt           |                   |                            |                                                                     | |
 | .evb           |                   | event list                 | Used in ingame scripts                                              | |
 | .npc           |                   | NPC data                   |                                                                     | |
