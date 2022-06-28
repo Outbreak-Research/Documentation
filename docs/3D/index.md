@@ -57,10 +57,10 @@ rule - especially where monsters and mutants are concerned - but it helps.
     +  02 - Casual (RPD bomber jacket with plaid shirt and jeans)
 2. P01 - Mark Wilkins (security guard)
     + 00 - Security guard uniform
-    + 01 - Final cutscene (polor shirt and shorts)
+    + 01 - Final cutscene (polar shirt and shorts)
     + 01 - Army dress greens, rank of lt. colonel (Vietnam service)
 3. P02 - Jim Chapman (subway worker)
-    + 00 - Subway worker unform
+    + 00 - Subway worker uniform
     + 01 - Final cutscene ("hoopz dudz")
     + 02 - Bicycle messenger
 4. P03 - George Hamilton (surgeon)
@@ -142,7 +142,7 @@ are the (overlaid zombie) eyes and ears, but these may have been located in the 
 (if it existed). This could mean that Capcom originally had plans for Ricky to re-animate during "Underbelly" after you found him,
 and then abandoned those plans - but I'm speculating.
 
-Some of the enemies farther down the enemies table have what seem to be rather high poly counts that defy the general rules of thumb. Bear in mind that these are models of LARGE enemeies - so they will have high poly counts as a result. You can compare the few that also exist in the high-poly enemies table to see just how big a difference in detail (usually three times the polys) exist between the two.
+Some of the enemies farther down the enemies table have what seem to be rather high poly counts that defy the general rules of thumb. Bear in mind that these are models of LARGE enemies - so they will have high poly counts as a result. You can compare the few that also exist in the high-poly enemies table to see just how big a difference in detail (usually three times the polys) exist between the two.
 
 ```
 E00 - Licker (two different types, E00_00 and E00_01)
@@ -245,7 +245,7 @@ E017 - Eight 2D tiles of eight different common zombies (to fill out crowds)
 
 E18 - Giant flea ("Underbelly")
 E19 - Queen leech ("The Hive")
-E20 - Regis Licker ("Hellfilre")
+E20 - Regis Licker ("Hellfire")
 E21 - Early form Grave Digger?
 E22 - Alpha hunter, MA-124 variant (unique to Outbreak)
 (also includes frozen versions in numbering variants - E22_01, etc)
@@ -306,13 +306,13 @@ E37 - EXTREMELY low-poly zombies with darkened textures (only 85 or so polys!)
 
 00 - Mathhew Zombie
 01 - Robert Zombie
-02 - Colin Zomibe
+02 - Colin Zombie
 03 - Robert Zombie (repeated)
 
-E38 - Moth coccoon for victim
+E38 - Moth cocoon for victim
 E39 - Grubworm (moth larvae, "Below Freezing Point")
-E40 - Prototye Thantos Tyrant, RE1 style but simpler (unused)
-(somewhat simlar to REUC's slot ETY1 but closer to old RE1 version)
+E40 - Prototype Thantos Tyrant, RE1 style but simpler (unused)
+(somewhat similar to REUC's slot ETY1 but closer to old RE1 version)
 E41 - Normal Tyrant, "Mister X" outfit (see also REDC slot T103)
 (Elimination Tyrant is the same but with red-tinted texture applied)
 
@@ -330,7 +330,7 @@ E43 - Thanatos Tyrant
 01 - Transformed and injured, only one arm
 
 E44 - Prototype Injured Thanatos Tyrant (one very long arm and one short arm)
-(probably early or orignal form of E43_01)
+(probably early or original form of E43_01)
 E45 - Axeman Al with axe ("Flash Back")
 E46 - Large flower bloom ("Flash Back")
 
@@ -409,7 +409,7 @@ HE22 - Alpha Hunter (MA-124 variant, unique to Outbreak)
 HE23 - Gamma Hunter
 (smaller version reused in REDC's "Operation Xavier")
 HE29 - G-Mutant
-(NOTE - This is different from REDC's "G-Creature!" The REDC verison
+(NOTE - This is different from REDC's "G-Creature!" The REDC version
 is more like the G-Mutant that appears in RE2 than Outbreak File 1.)
 HE36 - Scissortail
 HE41 - Thanatos Tyrant (various forms)
@@ -443,7 +443,7 @@ Will is the bartender there ....
 
 I'm fairly certain that Jake and Gary were intended for "A Day in Raccoon," as they're grouped with Mickey in the game data.
 Jake appears to be some kind of official, possibly an Umbrella executive. He's a George type, with appropriate medical gear, when
-enabled for gameplay. Gary is probably an old acquaintence - possibly antagonistic - and that would make Richard Jake's bodyguard.
+enabled for gameplay. Gary is probably an old acquaintance - possibly antagonistic - and that would make Richard Jake's bodyguard.
 Gary is unique, whereas Richard appears to be a variation on UBCS Arnold, and is most likely an undercover USS operative who was
 assigned the job of guarding Jake. Richard's presence, if I am right, would explain why both Gary and Mickey are shot dead during
 the course of "A Day in Raccoon," and later revive as zombies. Other fans have their own opinions and theories ....
@@ -566,7 +566,7 @@ N126 - Chuck - stock character
 N127 - Ginger - stock character
 N128 - Laura, aka Businesswoman v1 - stock character
 N129 - Amelia, aka Businesswoman v2 - stock character
-* N130 - Ethan (dupicate) - "The Hive"
+* N130 - Ethan (duplicate) - "The Hive"
 N131 - Ethan Zombie - "The Hive"
 N132 - Howard - "The Hive"
 N133 - Hospital Zombie 1 - "The Hive"
@@ -595,7 +595,7 @@ listing its first appearance, save for one important exception (see table).
 The sheer number of unused cutscene models ALONE for "Flash Back" point to a far larger (and probably more entertaining) earlier
 version of this most unique of Outbreak's many scenarios. It (and they) probably got cut due to release deadlines and the fact that
 Outbreak File 1 did not sell as well as had been hoped. It's a shame, because it looks like it would have played a lot closer to its
-source (the sypnosis for the undeveloped RE1 sequel BIOHAZARD DASH) than what we ultimately got.
+source (the synopsis for the undeveloped RE1 sequel BIOHAZARD DASH) than what we ultimately got.
 
 Of all of the unused high-poly NPC cutscene models, there is only one remaining for which I cannot clearly associate any given
 gameplay scenario. That is the one I have come to call the "U.S.S. Commander" (slot HN087). My placing him with the lost U.S.S.
@@ -722,7 +722,7 @@ as a low-poly model. While it won't be a complete list of EVERY single item, thi
 of the item(s) in question.
 
 Just because I don't list something in a given scenario's "pile of s--t" doesn't mean it's not there. Common items, such as
-9mm hanguns, 9mm ammo boxes, potted herbs of healing, and so on are present in ALL scenario object data clusters. I just didn't
+9mm handguns, 9mm ammo boxes, potted herbs of healing, and so on are present in ALL scenario object data clusters. I just didn't
 feel like listing all of them every single time.
 
 If you're looking mainly for low-poly weapons, your quickest path is to search the
@@ -771,7 +771,7 @@ David's Homemade Taser (iron pipe + battery + wires)
 Frenchi SPAS-12 Shotgun
 Heckler & Koch MP-5 Submachine Gun
 Switch With Wiring
-Knockout Gas Cannister
+Knockout Gas Canister
 Wooden Planks
 
 R026 - "Flash Back" (File 1 - OBJS26.NBD)
@@ -919,8 +919,8 @@ OBJ08_00_A_00 - City trolley, two cars (camera side only parts present!)
 R041 - "Decisions, Decisions" (File 1)
 
 OBJ30_00_A_00 - Rooftop door (cutscene right before final boss battle)
-OBJ30_00_A_01 - Danny and Gill's helicopter (verson with searchlight)
-OBJ31_00_A_00 - Danny and Gill's helicopter (verson without searchlight)
+OBJ30_00_A_01 - Danny and Gill's helicopter (version with searchlight)
+OBJ31_00_A_00 - Danny and Gill's helicopter (version without searchlight)
 ```
 
 ### Other Files of Note

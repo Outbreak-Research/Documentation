@@ -24,7 +24,7 @@ For each scenario there is a collection of rooms represented by its model file.
 [r002.afs] : r002yyyy.nbd : Hellfire
 [r028.afs] : r028yyyy.nbd : The Hive
 [r035.afs] : r035yyyy.nbd : Bellow Freezing Point
-[r041.afs] : r041yyyy.nbd : Decisions, Decisons
+[r041.afs] : r041yyyy.nbd : Decisions, Decisions
 ```
 - File #2
 ```
@@ -65,7 +65,7 @@ Total rooms: 23 (plus some variations likely unused)
 | 13  | 0D  | r0011300.nbd | r0011300.rdt | Stairs between 3F and rooftop |
 | 14  | 0E  | r0011400.nbd | r0011400.rdt | Rooftop |
 | 15  | 0F  | r0011500.nbd | r0011500.rdt | Storage room |
-| 16  | 10  | r0011600.nbd | r0011600.rdt | Top floor of rpartment building |
+| 16  | 10  | r0011600.nbd | r0011600.rdt | Top floor of apartment building |
 | 17  | 11  | r0011700.nbd | r0011700.rdt | 1F of apartment	 |
 | 18  | 12  | r0011800.nbd | r0011800.rdt | In front of J's Bar |
 | 19  | 13  | r0011900.nbd | r0011900.rdt | Behind the residential apartment |
@@ -106,7 +106,7 @@ r0151700.nbd > Unused Room
 r0151800.nbd > Holding Cells
 r0151900.nbd > Unused Room (Locker Room)
 r0152000.nbd > Hallway
-r0152100.nbd > Witness Interogation Room
+r0152100.nbd > Witness Interrogation Room
 r0152200.nbd > Unused Room (Mockup 2)
 r0152300.nbd > Parking Garage Ramp
 r0152600.nbd > Unused Room (Sewer)
