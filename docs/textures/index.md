@@ -21,6 +21,7 @@
 
 ## TEX file format
 
+Texture file format which is compressed TIM2 format and is part of NBD file.
 
 
 ## SLD file format
