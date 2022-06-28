@@ -31,6 +31,7 @@ nav:
   - Characters: game data/characters.md
   - Items: game data/items.md
   - Rooms: game data/rooms.md
+  - Animations: game data/animations.md
 - Mechanics:
   - mechanics/index.md
   - Virus Gauge: mechanics/virusGauge.md
