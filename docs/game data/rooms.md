@@ -138,42 +138,93 @@ Total rooms: 26 (plus some variations likely unused)
 | 33 | 21 | r0283300.nbd | r0283300.rdt | Underpass entrance |
 | 34 | 22 | r0283400.nbd | r0283400.rdt | Rooftop |
 
-### Desperate Times
+### r035 - Below Freezing Point (BFP)
 
-Following room models exist:
+Total rooms: 23 (plus some variations likely unused)
 
-```
-r0150100.nbd > Main Hall
-r0150200.nbd > Reception Desk
-r0150300.nbd > Front Gate
-r0150301.nbd > Front Gate (Final Battle)
-r0150302.nbd > Front Gate (Possible Unused Content)
-r0150400.nbd > 1st Floor Lobby
-r0150500.nbd > East Office 
-r0150501.nbd > East Office (Either Unused or Used For Cutscene)
-r0150600.nbd > Stairwell
-r0150700.nbd > 2F East Passage
-r0150800.nbd > Rooftop
-r0150801.nbd > Rooftop 
-r0150900.nbd > 1st Floor East Hall
-r0151000.nbd > Night Duty Room
-r0151100.nbd > B1F East Hall
-r0151200.nbd > Autopsy Room
-r0151300.nbd > Parking Garage
-r0151303.nbd > Parking Garage (Unused Content)
-r0151400.nbd > B1F West Hall
-r0151500.nbd > Kennel
-r0151600.nbd > Substation Room
-r0151700.nbd > Unused Room 
-r0151800.nbd > Holding Cells
-r0151900.nbd > Unused Room (Locker Room)
-r0152000.nbd > Hallway
-r0152100.nbd > Witness Interrogation Room
-r0152200.nbd > Unused Room (Mockup 2)
-r0152300.nbd > Parking Garage Ramp
-r0152600.nbd > Unused Room (Sewer)
-r0152700.nbd > Waiting Room
-r0152800.nbd > Unused Room (Urban Area)
-r0152900.nbd > Unused Room (Urban Area 2)
-r0153100.nbd > Police Van (no level just vehicle)
-```
+| Dec | Hex | Model Data | Room Data    | Room Name |
+| --- | --- | ---------- | ---------    | --------- |
+| 01 | 01 | r0350100.nbd | r0350100.rdt | Tunnel |
+| 02 | 02 | r0350200.nbd | r0350200.rdt | Platform |
+| 03 | 03 | r0350300.nbd | r0350300.rdt | Experimentation room |
+| 04 | 04 | r0350400.nbd | r0350400.rdt | B7F south passage |
+| 05 | 05 | r0350500.nbd | r0350500.rdt | Chemical disposal room |
+| 06 | 06 | r0350600.nbd | r0350600.rdt | B7F east passage |
+| 08 | 08 | r0350800.nbd | r0350800.rdt | Chemical storage room |
+| 09 | 09 | r0350900.nbd | r0350900.rdt | Security room |
+| 10 | 0A | r0351000.nbd | r0351000.rdt | B6F south passage |
+| 13 | 0D | r0351300.nbd | r0351300.rdt | B6F east passage |
+| 15 | 0F | r0351500.nbd | r0351500.rdt | Break room |
+| 17 | 11 | r0351700.nbd | r0351700.rdt | Lift |
+| 19 | 13 | r0351900.nbd | r0351900.rdt | B4F passage A (shutter room) |
+| 20 | 14 | r0352000.nbd | r0352000.rdt | B4F computer room |
+| 21 | 15 | r0352100.nbd | r0352100.rdt | B4F passage B |
+| 22 | 16 | r0352200.nbd | r0352200.rdt | B4F passage C |
+| 23 | 17 | r0352300.nbd | r0352300.rdt | B4F turntable |
+| 24 | 18 | r0352400.nbd | r0352400.rdt | B4F main shaft |
+| 25 | 19 | r0352500.nbd | r0352500.rdt | B4F west passage |
+| 26 | 1A | r0352600.nbd | r0352600.rdt | Duct |
+| 27 | 1B | r0352700.nbd | r0352700.rdt | B4F east passage |
+| 28 | 1C | r0352800.nbd | r0352800.rdt | Low temperature room (B4F) |
+| 30 | 1E | r0353000.nbd | r0353000.rdt | Special research room (B4F) |
+| 32 | 20 | r0353200.nbd | r0353200.rdt | Marshaling yard |
+
+### r041 - Decisions, Decisions (DD)
+
+Total rooms: 51 (plus some variations likely unused)
+
+| Dec | Hex | Model Data | Room Data    | Room Name |
+| --- | --- | ---------- | ---------    | --------- |
+| 01 | 01 | r0410100.nbd | r0410100.rdt | West waterway |
+| 02 | 02 | r0410200.nbd | r0410200.rdt | East waterway |
+| 03 | 03 | r0410300.nbd | r0410300.rdt | Access way A |
+| 04 | 04 | r0410400.nbd | r0410400.rdt | Shed |
+| 05 | 05 | r0410500.nbd | r0410500.rdt | Waterworks administration office |
+| 06 | 06 | r0410600.nbd | r0410600.rdt | Water tank |
+| 07 | 07 | r0410700.nbd | r0410700.rdt | Access way B |
+| 08 | 08 | r0410800.nbd | r0410800.rdt | Underground tunnel |
+| 09 | 09 | r0410900.nbd | r0410900.rdt | Restroom |
+| 10 | 0A | r0411000.nbd | r0411000.rdt | Water purifying facility |
+| 11 | 0B | r0411100.nbd | r0411100.rdt | Quality assurance testing room |
+| 36 | 24 | r0413600.nbd | r0413600.rdt | B4F Corridor |
+| 37 | 25 | r0413700.nbd | r0413700.rdt | Access waterway |
+| 38 | 26 | r0413800.nbd | r0413800.rdt | Old subway rail siding |
+| 50 | 32 | r0415000.nbd | r0415000.rdt | Old subway tunnel |
+| 51 | 33 | r0415100.nbd | r0415100.rdt | South car |
+| 52 | 34 | r0415200.nbd | r0415200.rdt | North car |
+| 54 | 36 | r0415400.nbd | r0415400.rdt | T-shaped passway |
+| 55 | 37 | r0415500.nbd | r0415500.rdt | Control room |
+| 56 | 38 | r0415600.nbd | r0415600.rdt | Underground management room |
+| 57 | 39 | r0415700.nbd | r0415700.rdt | Spare power supply room |
+| 58 | 3A | r0415800.nbd | r0415800.rdt | Store room |
+| 59 | 3B | r0415900.nbd | r0415900.rdt | Air exhaust tower inside wall |
+| 60 | 3C | r0416000.nbd | r0416000.rdt | Air exhaust tower access way |
+| 61 | 3D | r0416100.nbd | r0416100.rdt | Air exhaust tower lower part |
+| 62 | 3E | r0416200.nbd | r0416200.rdt | Air exhaust tower elevator |
+| 63 | 3F | r0416300.nbd | r0416300.rdt | Air exhaust tower B1 level |
+| 70 | 46 | r0417000.nbd | r0417000.rdt | Back square |
+| 71 | 47 | r0417100.nbd | r0417100.rdt | Pier |
+| 72 | 48 | r0417200.nbd | r0417200.rdt | Unloading yard |
+| 74 | 4A | r0417400.nbd | r0417400.rdt | Front square |
+| 76 | 4C | r0417600.nbd | r0417600.rdt | 2F Passage elevator |
+| 77 | 4D | r0417700.nbd | r0417700.rdt | Study room |
+| 78 | 4E | r0417800.nbd | r0417800.rdt | 1F Passage elevator |
+| 80 | 50 | r0418000.nbd | r0418000.rdt | Entrance hall |
+| 81 | 51 | r0418100.nbd | r0418100.rdt | Student affairs office |
+| 82 | 52 | r0418200.nbd | r0418200.rdt | General manager room |
+| 83 | 53 | r0418300.nbd | r0418300.rdt | Waiting room |
+| 84 | 54 | r0418400.nbd | r0418400.rdt | 1F passage A |
+| 85 | 55 | r0418500.nbd | r0418500.rdt | 1F passage B |
+| 86 | 56 | r0418600.nbd | r0418600.rdt | Testing passage A |
+| 87 | 57 | r0418700.nbd | r0418700.rdt | President room |
+| 88 | 58 | r0418800.nbd | r0418800.rdt | Drawing room |
+| 89 | 59 | r0418900.nbd | r0418900.rdt | 2F Passage |
+| 91 | 5B | r0419100.nbd | r0419100.rdt | Art safe room |
+| 93 | 5D | r0419300.nbd | r0419300.rdt | Testing passage B |
+| 94 | 5E | r0419400.nbd | r0419400.rdt | 3F Passage elevator |
+| 95 | 5F | r0419500.nbd | r0419500.rdt | Experiment preparation room |
+| 96 | 60 | r0419600.nbd | r0419600.rdt | Experiment room |
+| 97 | 61 | r0419700.nbd | r0419700.rdt | Machine storage room |
+| 98 | 62 | r0419800.nbd | r0419800.rdt | Second hall |
+
+### File #2
