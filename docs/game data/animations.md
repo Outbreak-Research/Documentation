@@ -23,7 +23,7 @@ E03_000.bin > unused
 E04_000.bin > unused
 E05_000.bin > crow
 E06_000.bin > wasp
-``
+```
 
 #### Enemies grab/ko/special att. animations
 

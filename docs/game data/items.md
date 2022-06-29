@@ -566,6 +566,12 @@ Indicates if item is character type specific item and decides which MC is in own
 | 10107 | 277B      | Detonator Main Unit |
 | 10108 | 277C      | Detonator |
 | 10150 | 27A6      | Newspaper (?? OB) |
+| 10206 | 27DE      | Charlie's ID tag |
+| 10207 | 27DF      | Len's ID tag |
+| 10208 | 27E0      | Gold Key |
+| 10209 | 27E1      | Silver Key |
+| 10210 | 27E2      | Security Room Card Key |
+| 10211 | 27E3      | Red Jewel (?? HF) |
 | 10600 | 2968      | Examination Room Key |
 | 10601 | 2969      | ID Card Lv1 |
 | 10602 | 296A      | ID Card Lv2 |
@@ -594,12 +600,6 @@ Indicates if item is character type specific item and decides which MC is in own
 | 11050 | 2B2A      | Newspaper 1 (?? UB) |
 | 11051 | 2B2B      | Newspaper 2 (?? UB) |
 | 11052 | 2B2C      | Newspaper 3 (?? UB) |
-| 12600 | 3138      | Auxiliary Building Key |
-| 12601 | 3139      | Administrator's Office Key |
-| 12602 | 313A      | Rusty Key |
-| 12603 | 313B      | Syringe (empty) |
-| 12604 | 313C      | Syringe (solvent) |
-| 12605 | 313D      | Pendant |
 | 11500 | 2CEC      | Joker Key |
 | 11501 | 2CED      | Onyx Plate |
 | 11502 | 2CEE      | Sapphire Plate |
@@ -617,16 +617,12 @@ Indicates if item is character type specific item and decides which MC is in own
 | 11514 | 2CFA      | Film C |
 | 11515 | 2CFB      | Film D |
 | 11550 | 2D1E      | Secret File |
-| 14000 | 36B0      | Bolt Cutters |
-| 14001 | 36B1      | Elephant Key |
-| 14002 | 36B2      | Alligator Key |
-| 14003 | 36B3      | Lion Key |
-| 14004 | 36B4      | Office Key |
-| 14005 | 36B5      | Mr. Racoon Medal |
-| 14006 | 36B6      | Lion Emblem (RED) |
-| 14007 | 36B7      | Lion Emblem (BLUE) |
-| 14008 | 36B8      | Blank Tape |
-| 14009 | 36B9      | Parade BGM Tape |
+| 12600 | 3138      | Auxiliary Building Key |
+| 12601 | 3139      | Administrator's Office Key |
+| 12602 | 313A      | Rusty Key |
+| 12603 | 313B      | Syringe (empty) |
+| 12604 | 313C      | Syringe (solvent) |
+| 12605 | 313D      | Pendant |
 | 12800 | 3200      | Blood pack (?? TH)(already used) |
 | 12801 | 3201      | Blood pack (?? TH) |
 | 12805 | 3205      | Level 1 Card Key (?? TH) |
@@ -645,12 +641,16 @@ Indicates if item is character type specific item and decides which MC is in own
 | 13507 | 34C3      | Valve Handle (?? BFP) |
 | 13508 | 34C4      | Hand Burner |
 | 13550 | 34EE      | no data(unused) |
-| 10206 | 27DE      | Charlie's ID tag |
-| 10207 | 27DF      | Len's ID tag |
-| 10208 | 27E0      | Gold Key |
-| 10209 | 27E1      | Silver Key |
-| 10210 | 27E2      | Security Room Card Key |
-| 10211 | 27E3      | Red Jewel (?? HF) |
+| 14000 | 36B0      | Bolt Cutters |
+| 14001 | 36B1      | Elephant Key |
+| 14002 | 36B2      | Alligator Key |
+| 14003 | 36B3      | Lion Key |
+| 14004 | 36B4      | Office Key |
+| 14005 | 36B5      | Mr. Racoon Medal |
+| 14006 | 36B6      | Lion Emblem (RED) |
+| 14007 | 36B7      | Lion Emblem (BLUE) |
+| 14008 | 36B8      | Blank Tape |
+| 14009 | 36B9      | Parade BGM Tape |
 | 14100 | 3714      | Brass Spectacles |
 | 14101 | 3715      | Card Key (?? DD) |
 | 14102 | 3716      | V-Poison |
