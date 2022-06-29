@@ -2,8 +2,8 @@
 
 ??? info "Authors metadata"
     - Authors > brockta7, hill73n, chaps, IgusaTaro
-    - Last update > 27 June 2022
-    - Last modification > [Bia10](https://github.com/Bia10) at 27 June 2022
+    - Last update > 29 June 2022
+    - Last modification > [Bia10](https://github.com/Bia10) at 29 June 2022
 
 This section describes rooms related to scenarios.
 
@@ -356,6 +356,10 @@ Total rooms: 6 (plus some variations)
 | 13 | 0D | r0201300.nbd | r0201300.rdt | Stairs between 3F and rooftop |
 | 14 | 0E | r0201400.nbd | r0201400.rdt | Rooftop |
 
+#### r021 - Showdown 1 (SD1)
+#### r022 - Showdown 2 (SD2)
+#### r023 - Showdown 3 (SD3)
+
 #### r026 - Flashback (FB)
 
 Total rooms: 26 (plus some variations)
@@ -388,6 +392,10 @@ Total rooms: 26 (plus some variations)
 | 25 | 19 | r0262500.nbd | r0262500.rdt | Main building rooftop |
 | 26 | 1A | r0262600.nbd | r0262600.rdt | Auxillary building 5F |
 | 27 | 22 | r0262700.nbd | r0262700.rdt | Auxillary building rooftop |
+
+#### r027 - Elimination 3 (E3)
+#### r029 - Elimination 1 (E1)
+#### r030 - Elimination 2 (E2)
 
 #### r040 - Wild Things (WT)
 
