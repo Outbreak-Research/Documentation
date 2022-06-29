@@ -69,9 +69,7 @@ Data section two start offset: 0x0B78 | size: 185C bytes.
 Data section three start offset: 0x23D4 | size: 0274 bytes.
 ```
 
-- First data section
-
-Header 32 bytes:
+- First data section header 32 bytes:
 
 ```
 Offset 18-1B: 4 bytes unknown (data type indicator?)
