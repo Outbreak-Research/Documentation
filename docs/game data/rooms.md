@@ -44,7 +44,7 @@ For each scenario there is a collection of rooms represented by its model file.
 
 ### File #1
 
-### r001 - Outbreak	(OB)
+#### r001 - Outbreak	(OB)
 
 Total rooms: 23 (plus some variations likely unused)
 
@@ -75,7 +75,7 @@ Total rooms: 23 (plus some variations likely unused)
 | 24  | 18  | r0012400.nbd | r0012400.rdt | Footbridge |
 | 25  | 19  | r0012500.nbd | r0012500.rdt | Main Street	|
 
-### r002 - Hellfire	(HF)
+#### r002 - Hellfire	(HF)
 
 Total rooms: 23 (plus some variations likely unused)
 
@@ -105,7 +105,7 @@ Total rooms: 23 (plus some variations likely unused)
 | 50  | 32  | r0025000.nbd | r0025000.rdt | Room 30* |
 | 51  | 33  | r0025100.nbd | r0025100.rdt | Room 306 |
 
-### r028 - The Hive (TH)
+#### r028 - The Hive (TH)
 
 Total rooms: 26 (plus some variations likely unused)
 
@@ -138,7 +138,7 @@ Total rooms: 26 (plus some variations likely unused)
 | 33 | 21 | r0283300.nbd | r0283300.rdt | Underpass entrance |
 | 34 | 22 | r0283400.nbd | r0283400.rdt | Rooftop |
 
-### r035 - Below Freezing Point (BFP)
+#### r035 - Below Freezing Point (BFP)
 
 Total rooms: 23 (plus some variations likely unused)
 
@@ -169,7 +169,7 @@ Total rooms: 23 (plus some variations likely unused)
 | 30 | 1E | r0353000.nbd | r0353000.rdt | Special research room (B4F) |
 | 32 | 20 | r0353200.nbd | r0353200.rdt | Marshaling yard |
 
-### r041 - Decisions, Decisions (DD)
+#### r041 - Decisions, Decisions (DD)
 
 Total rooms: 51 (plus some variations likely unused)
 
@@ -229,7 +229,7 @@ Total rooms: 51 (plus some variations likely unused)
 
 ### File #2
 
-### r006 - End of the Road (EotR)
+#### r006 - End of the Road (EotR)
 
 Total room: 45 (plus some variations likely unused)
 
@@ -281,7 +281,7 @@ Total room: 45 (plus some variations likely unused)
 | 65 | 41 | r0066500.nbd | r0066500.rdt | Helicopter |
 | 66 | 42 | r0066600.nbd | r0066600.rdt | Apple Inn front lobby |
 
-### r010 - Underbelly (UB)
+#### r010 - Underbelly (UB)
 
 Total rooms: 27 (plus some variations likely unused)
 
@@ -315,7 +315,7 @@ Total rooms: 27 (plus some variations likely unused)
 | 32 | 20 | r0103200.nbd | r0103200.rdt | East tunnel |
 | 33 | 21 | r0103300.nbd | r0103300.rdt | Ventilation tower |
 
-### r015 - Desperate Times (DT)
+#### r015 - Desperate Times (DT)
 
 Total room: 21 (plus some variations likely unused)
 
@@ -343,7 +343,7 @@ Total room: 21 (plus some variations likely unused)
 | 23 | 17 | r0152300.nbd | r0152300.rdt | Parking ramp |
 | 27 | 1B | r0152700.nbd | r0152700.rdt | Waiting room |
 
-### r020 - Training Ground (TG)
+#### r020 - Training Ground (TG)
 
 Total rooms: 6 (plus some variations)
 
@@ -356,10 +356,12 @@ Total rooms: 6 (plus some variations)
 | 13 | 0D | r0201300.nbd | r0201300.rdt | Stairs between 3F and rooftop |
 | 14 | 0E | r0201400.nbd | r0201400.rdt | Rooftop |
 
-### r026 - Flashback (FB)
+#### r026 - Flashback (FB)
 
 Total rooms: 26 (plus some variations)
 
+| Dec | Hex | Model Data | Room Data    | Room Name |
+| --- | --- | ---------- | ---------    | --------- |
 | 01 | 01 | r0260100.nbd | r0260100.rdt | In front of cabin |
 | 02 | 02 | r0260200.nbd | r0260200.rdt | Cabin |
 | 03 | 03 | r0260300.nbd | r0260300.rdt | Mountain path |
@@ -386,3 +388,29 @@ Total rooms: 26 (plus some variations)
 | 25 | 19 | r0262500.nbd | r0262500.rdt | Main building rooftop |
 | 26 | 1A | r0262600.nbd | r0262600.rdt | Auxillary building 5F |
 | 27 | 22 | r0262700.nbd | r0262700.rdt | Auxillary building rooftop |
+
+#### r040 - Wild Things (WT)
+
+Total rooms: 19 (plus some variations)
+
+| Dec | Hex | Model Data | Room Data    | Room Name |
+| --- | --- | ---------- | ---------    | --------- |
+| 01 | 01 | r0400100.nbd | r0400100.rdt | Elephant Restaurant |
+| 02 | 02 | r0400200.nbd | r0400200.rdt | Back Alley |
+| 03 | 03 | r0400300.nbd | r0400300.rdt | In front of Elephant Restaurant |
+| 04 | 04 | r0400400.nbd | r0400400.rdt | South Concourse |
+| 05 | 05 | r0400500.nbd | r0400500.rdt | East Concourse |
+| 06 | 06 | r0400600.nbd | r0400600.rdt | North Concourse |
+| 07 | 07 | r0400700.nbd | r0400700.rdt | Office |
+| 08 | 08 | r0400800.nbd | r0400800.rdt | Inner Office |
+| 12 | 0C | r0401200.nbd | r0401200.rdt | Elephant Stage |
+| 14 | 0E | r0401400.nbd | r0401400.rdt | Connecting Passage |
+| 15 | 0F | r0401500.nbd | r0401500.rdt | Supply Room |
+| 16 | 10 | r0401600.nbd | r0401600.rdt | Terrarium Dome |
+| 18 | 12 | r0401800.nbd | r0401800.rdt | Lakeside |
+| 19 | 13 | r0401900.nbd | r0401900.rdt | Path in front of Observation Deck |
+| 23 | 17 | r0402300.nbd | r0402300.rdt | Service Road |
+| 24 | 18 | r0402400.nbd | r0402400.rdt | Show Animals Boarding House |
+| 25 | 19 | r0402500.nbd | r0402500.rdt | Stage |
+| 26 | 1A | r0402600.nbd | r0402600.rdt | Front Gate Plaza |
+| 27 | 1B | r0402700.nbd | r0402700.rdt | Front Gate |
