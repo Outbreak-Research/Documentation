@@ -15,6 +15,7 @@ General path to animation data:
 
 File Format: E(enemyIdentifier)_(enemyAlternative).bin
 
+```
 E00_000.bin > Licker
 E01_000.bin > Zombie
 E02_000.bin > Dog
@@ -22,6 +23,7 @@ E03_000.bin > unused
 E04_000.bin > unused
 E05_000.bin > crow
 E06_000.bin > wasp
+``
 
 #### Enemies grab/ko/special att. animations
 
@@ -29,8 +31,10 @@ Contains the animation of the main characters (and NPC) when grabbed, instant ko
 
 File Format: EP(enemyID)_tbl.bin
 
+```
 EP00_tbl.bin > Licker (for example, you can find the suffocate animation when a licker grabs from the roof)
 EP01_tbl.bin > Zombie grabs (front bite, rear bite, ground bite, pushed) and so on. Help you with a document about enemy identifiers
+```
 
 #### Playable characters animations
 
