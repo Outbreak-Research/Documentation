@@ -228,3 +228,161 @@ Total rooms: 51 (plus some variations likely unused)
 | 98 | 62 | r0419800.nbd | r0419800.rdt | Second hall |
 
 ### File #2
+
+### r006 - End of the Road (EotR)
+
+Total room: 45 (plus some variations likely unused)
+
+| Dec | Hex | Model Data | Room Data    | Room Name |
+| --- | --- | ---------- | ---------    | --------- |
+| 01 | 01 | r0060100.nbd | r0060100.rdt | Waiting room |
+| 02 | 02 | r0060200.nbd | r0060200.rdt | Central passage 1 |
+| 03 | 03 | r0060300.nbd | r0060300.rdt | Central passage 2 |
+| 04 | 04 | r0060400.nbd | r0060400.rdt | West passage ? |
+| 05 | 05 | r0060500.nbd | r0060500.rdt | Central passage 3 |
+| 06 | 06 | r0060600.nbd | r0060600.rdt | Laser emission room |
+| 07 | 07 | r0060700.nbd | r0060700.rdt | Examination room |
+| 08 | 08 | r0060800.nbd | r0060800.rdt | Experimentation chamber |
+| 09 | 09 | r0060900.nbd | r0060900.rdt | Observation mezzanine |
+| 10 | 0A | r0061000.nbd | r0061000.rdt | Stairwell |
+| 11 | 0B | r0061100.nbd | r0061100.rdt | Reference room |
+| 12 | 0C | r0061200.nbd | r0061200.rdt | East passage 1 |
+| 13 | 0D | r0061300.nbd | r0061300.rdt | Mainframe |
+| 14 | 0E | r0061400.nbd | r0061400.rdt | Central passage 4 |
+| 15 | 0F | r0061500.nbd | r0061500.rdt | Special research room |
+| 16 | 10 | r0061600.nbd | r0061600.rdt | East passage 2 |
+| 17 | 11 | r0061700.nbd | r0060700.rdt | East passage 3 |
+| 18 | 12 | r0061800.nbd | r0061800.rdt | Nursery |
+| 19 | 13 | r0061900.nbd | r0061900.rdt | East Exit |
+| 20 | 14 | r0062000.nbd | r0062000.rdt | Elevator passage |
+| 28 | 1C | r0062800.nbd | r0062800.rdt | Maintenance passage 1 |
+| 29 | 1D | r0062900.nbd | r0062900.rdt | Water control room ? (Jump down here) |
+| 30 | 1E | r0062000.nbd | r0062000.rdt | Drainage ? (Exit elevator) |
+| 31 | 1F | r0061100.nbd | r0061100.rdt | Machine room ? (to cut valve handle) |
+| 32 | 0C | r0061200.nbd | r0061200.rdt | Drainage ? (Tyrant jumps down here) |
+| 37 | 25 | r0063700.nbd | r0063700.rdt | Maintenance passage 2 |
+| 38 | 26 | r0063800.nbd | r0063800.rdt | Break room |
+| 39 | 27 | r0063800.nbd | r0063800.rdt | North drainage ?  |
+| 45 | 2D | r0064500.nbd | r0064500.rdt | Emergency storage room  |
+| 46 | 2E | r0064600.nbd | r0064600.rdt | Maintenance passage 3 |
+| 48 | 30 | r0064800.nbd | r0064800.rdt | Sewer (tunnels) |
+| 52 | 34 | r0065200.nbd | r0065200.rdt | Tunnel |
+| 53 | 35 | r0065300.nbd | r0065300.rdt | In front of Apple Inn |
+| 54 | 36 | r0065400.nbd | r0065400.rdt | Behind residential area |
+| 55 | 37 | r0065500.nbd | r0065500.rdt | Foot bridge |
+| 56 | 38 | r0065600.nbd | r0065600.rdt | Main street north |
+| 57 | 39 | r0065700.nbd | r0065700.rdt | Main street south |
+| 58 | 3A | r0065800.nbd | r0065800.rdt | Construction site |
+| 59 | 3B | r0065900.nbd | r0065900.rdt | Under highway overpass |
+| 60 | 3C | r0066000.nbd | r0066000.rdt | Warehouse |
+| 61 | 3D | r0066100.nbd | r0066100.rdt | Office building 1F |
+| 62 | 3E | r0066200.nbd | r0066200.rdt | Office building 2F |
+| 63 | 3F | r0066300.nbd | r0066300.rdt | Highway overpass |
+| 65 | 41 | r0066500.nbd | r0066500.rdt | Helicopter |
+| 66 | 42 | r0066600.nbd | r0066600.rdt | Apple Inn front lobby |
+
+### r010 - Underbelly (UB)
+
+Total rooms: 27 (plus some variations likely unused)
+
+| Dec | Hex | Model Data | Room Data    | Room Name |
+| --- | --- | ---------- | ---------    | --------- |
+| 01 | 01 | r0100100.nbd | r0100100.rdt | West entrance |
+| 02 | 02 | r0100200.nbd | r0100200.rdt | West ticket gate |
+| 03 | 03 | r0100300.nbd | r0100300.rdt | West concourse |
+| 05 | 05 | r0100500.nbd | r0100500.rdt | Men's restroom (west) |
+| 06 | 06 | r0100600.nbd | r0100600.rdt | Women's restroom (west) |
+| 07 | 07 | r0100700.nbd | r0100700.rdt | Employee passage |
+| 08 | 08 | r0100800.nbd | r0100800.rdt | Storage room |
+| 09 | 09 | r0100900.nbd | r0100900.rdt | Control room |
+| 10 | 0A | r0101000.nbd | r0101000.rdt | Breaker room |
+| 11 | 0B | r0101100.nbd | r0101100.rdt | Break room |
+| 12 | 0C | r0101200.nbd | r0101200.rdt | Women's staff restroom |
+| 13 | 0D | r0101300.nbd | r0101300.rdt | Men's staff restroom |
+| 15 | 0F | r0101500.nbd | r0101500.rdt | Stairwell |
+| 16 | 10 | r0101600.nbd | r0101600.rdt | East entrance |
+| 17 | 11 | r0101700.nbd | r0101700.rdt | East ticket gate |
+| 18 | 12 | r0101800.nbd | r0101800.rdt | East concourse |
+| 20 | 14 | r0102000.nbd | r0102000.rdt | Men's restroom (east) |
+| 21 | 15 | r0102100.nbd | r0102100.rdt | Women's restroom (east) |
+| 22 | 16 | r0102200.nbd | r0102200.rdt | B2F passage |
+| 23 | 17 | r0102300.nbd | r0102300.rdt | Refuse dump |
+| 24 | 18 | r0102400.nbd | r0102400.rdt | Pump room |
+| 25 | 19 | r0102500.nbd | r0102500.rdt | Emergency power room |
+| 29 | 1D | r0102900.nbd | r0102900.rdt | Underground emergency passage |
+| 30 | 1E | r0103000.nbd | r0103000.rdt | Subway car |
+| 31 | 1F | r0103100.nbd | r0103100.rdt | Platform |
+| 32 | 20 | r0103200.nbd | r0103200.rdt | East tunnel |
+| 33 | 21 | r0103300.nbd | r0103300.rdt | Ventilation tower |
+
+### r015 - Desperate Times (DT)
+
+Total room: 21 (plus some variations likely unused)
+
+| Dec | Hex | Model Data | Room Data    | Room Name |
+| --- | --- | ---------- | ---------    | --------- |
+| 01 | 01 | r0150100.nbd | r0150100.rdt | Main hall |
+| 02 | 02 | r0150200.nbd | r0150200.rdt | Reception room ?? |
+| 03 | 03 | r0150300.nbd | r0150300.rdt | Front gate |
+| 04 | 04 | r0150400.nbd | r0150400.rdt | 1F Lobby |
+| 05 | 05 | r0150500.nbd | r0150500.rdt | East office |
+| 06 | 06 | r0150600.nbd | r0150600.rdt | Stairwell |
+| 07 | 07 | r0150700.nbd | r0150700.rdt | 2F passage ? |
+| 08 | 08 | r0150800.nbd | r0150800.rdt | Rooftop |
+| 09 | 09 | r0150900.nbd | r0150900.rdt | 1F passage ? |
+| 10 | 0A | r0151000.nbd | r0151000.rdt | Night room ? |
+| 11 | 0B | r0151100.nbd | r0151100.rdt | B1F east passage ? |
+| 12 | 0C | r0151200.nbd | r0151200.rdt | Autopsy room |
+| 13 | 0D | r0151300.nbd | r0151300.rdt | Parking garage |
+| 14 | 0E | r0151400.nbd | r0151400.rdt | B1F west passage ? |
+| 15 | 0F | r0151500.nbd | r0151500.rdt | Kennel |
+| 16 | 10 | r0151600.nbd | r0151600.rdt | Substation room  |
+| 18 | 12 | r0151800.nbd | r0151800.rdt | Holding cells |
+| 20 | 14 | r0152000.nbd | r0152000.rdt | Hallway |
+| 21 | 15 | r0152100.nbd | r0152100.rdt | Interrogation room ?? |
+| 23 | 17 | r0152300.nbd | r0152300.rdt | Parking ramp |
+| 27 | 1B | r0152700.nbd | r0152700.rdt | Waiting room |
+
+### r020 - Training Ground (TG)
+
+Total rooms: 6 (plus some variations)
+
+| Dec | Hex | Model Data | Room Data    | Room Name |
+| --- | --- | ---------- | ---------    | --------- |
+| 01 | 01 | r0200100.nbd | r0200100.rdt | J's Bar |
+| 02 | 02 | r0200200.nbd | r0200200.rdt | Stairs between 1F and 2F |
+| 05 | 05 | r0200500.nbd | r0200500.rdt | Staff room |
+| 11 | 0B | r0201100.nbd | r0201100.rdt | Liquor room |
+| 13 | 0D | r0201300.nbd | r0201300.rdt | Stairs between 3F and rooftop |
+| 14 | 0E | r0201400.nbd | r0201400.rdt | Rooftop |
+
+### r026 - Flashback (FB)
+
+Total rooms: 26 (plus some variations)
+
+| 01 | 01 | r0260100.nbd | r0260100.rdt | In front of cabin |
+| 02 | 02 | r0260200.nbd | r0260200.rdt | Cabin |
+| 03 | 03 | r0260300.nbd | r0260300.rdt | Mountain path |
+| 04 | 04 | r0260400.nbd | r0260400.rdt | Suspension bridge |
+| 05 | 05 | r0260500.nbd | r0260500.rdt | Hospital back gate |
+| 06 | 06 | r0260600.nbd | r0260600.rdt | Main building 1F hall |
+| 07 | 07 | r0260700.nbd | r0260700.rdt | Reception office |
+| 08 | 08 | r0260800.nbd | r0260800.rdt | Examination room |
+| 09 | 09 | r0260900.nbd | r0260900.rdt | Auxillary building 1F hall |
+| 10 | 0A | r0261000.nbd | r0261000.rdt | Locker room |
+| 11 | 0B | r0261100.nbd | r0261100.rdt | Auxillary building north hall |
+| 12 | 0C | r0261200.nbd | r0261200.rdt | Storage room |
+| 14 | 0E | r0261400.nbd | r0261400.rdt | Pharmacy |
+| 15 | 0F | r0261500.nbd | r0261500.rdt | Auxillary building B1F hall |
+| 16 | 10 | r0261600.nbd | r0261600.rdt | Intensive care unit |
+| 17 | 11 | r0261700.nbd | r0261700.rdt | Main building 2F hall |
+| 18 | 12 | r0261800.nbd | r0261800.rdt | Room 201 |
+| 19 | 13 | r0261900.nbd | r0261900.rdt | Room 202 |
+| 20 | 14 | r0262000.nbd | r0262000.rdt | Room 203 |
+| 21 | 15 | r0262100.nbd | r0262100.rdt | Administrator's office |
+| 22 | 16 | r0262200.nbd | r0262200.rdt | Auxillary building 2F hall |
+| 23 | 17 | r0262300.nbd | r0262300.rdt | Auxillary building 3F |
+| 24 | 18 | r0262400.nbd | r0262400.rdt | Maintenance access route |
+| 25 | 19 | r0262500.nbd | r0262500.rdt | Main building rooftop |
+| 26 | 1A | r0262600.nbd | r0262600.rdt | Auxillary building 5F |
+| 27 | 22 | r0262700.nbd | r0262700.rdt | Auxillary building rooftop |
