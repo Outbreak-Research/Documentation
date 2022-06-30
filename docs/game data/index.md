@@ -6,7 +6,7 @@ This sections describes how are data mapped from disc files into memory and what
 
 | File extension | Official name     | Relates to                 | Description                                                         | Tools |
 | -------------- |--------------     |----------------------------|---------------------------------------------------------------------| ----- |
-| .nbd           |                   | 3D models, textures, bones | Contains other chunks of other file formats like .amo, .tex        | |
+| .nbd           |                   | 3D models, textures, bones | Contains other chunks of other file formats like .amo, .tex         | |
 | .dat           |                   | generic archive file format| Stores other file formats, can have different encoding/compression  | |
 | .img           | Munge file format | images file format         |                                                                     | Game Graphics Studio, AFSTool, AFSExplorer |
 | .amo           |                   | 3D models, (Animated model object?) |                                                            | |
@@ -30,8 +30,9 @@ This sections describes how are data mapped from disc files into memory and what
 | .sto           |                   |                            |                                                                     | |
 | .lig           |                   |                            |                                                                     | |
 | .fog           |                   |                            |                                                                     | |
-| .rtp           |                   |                            |                                                                     | |
+| .rtp           |                   | enemy data                 | Enemy room transition data, move in sight of player or out of it    | |
 | .emd           |                   | enemy data                 |                                                                     | |
-| .epp           |                   |                            |                                                                     | |
+| .epp           |                   | enemy data                 | Enemy respawn data                                                  | |
 | .sgl           |                   | single player data         |                                                                     | |
 | .adx           |                   | sound                      | Mainly tracks played in rooms                                       | |
+| .sfd           |                   | video                      | Video file using Sofdec coded format, no audio                      | |
