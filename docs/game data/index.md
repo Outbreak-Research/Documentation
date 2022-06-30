@@ -18,12 +18,12 @@ This sections describes how are data mapped from disc files into memory and what
 | .mat           |                   |                            |                                                                     | |
 | .tsb           |                   |                            |                                                                     | |
 | .tq            |                   |                            |                                                                     | |
-| .snp           |                   |                            |                                                                     | |
+| .snp           |                   | sound                      | Monster voices                                                      | |
 | .sdt           | Audio file        | sound                      |                                                                     | |
 | .snd           | Raw Sound Data    | sound                      | Uses compression ADPCM(Adaptive Differential Pulse-Code Modulation) | MFAudio |
-| .sld           |                   |                            |                                                                     | |
-| .rdt           |                   | room data, multiplayer data           | Used in ingame scripts                                              | |
-| .tbl           |                   | item distribution patterns          | Tabular data format                                                 | |
+| .sld           |                   | nbd model files            | A compressed texture file, room scene texture                       | |
+| .rdt           |                   | room data, multiplayer data | Used in ingame scripts                                             | |
+| .tbl           |                   | item distribution patterns  | Tabular data format                                                | |
 | .itt           |                   |                            |                                                                     | |
 | .evb           |                   | event list                 | Used in ingame scripts                                              | |
 | .npc           |                   | NPC data                   |                                                                     | |

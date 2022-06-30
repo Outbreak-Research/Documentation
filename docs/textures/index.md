@@ -26,3 +26,5 @@ Texture file format which is compressed TIM2 format and is part of NBD file.
 The compression is made by [Lempel–Ziv–Storer–Szymanski (LZSS)](https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Storer%E2%80%93Szymanski) algorithm.
 
 ## SLD file format
+
+Scenario textures file. It is possible to convert from SLD to TIM2.
