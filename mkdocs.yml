@@ -33,6 +33,7 @@ nav:
   - Rooms: game data/rooms.md
   - Animations: game data/animations.md
   - Enemies: game data/enemies.md
+  - Npc: game data/npc.md
 - Mechanics:
   - mechanics/index.md
   - Virus Gauge: mechanics/virusGauge.md
