@@ -244,4 +244,107 @@ We can see:
 At offset 1F header terminates.
 ```
 
+#### Example route data of r40.rtp (Wild Things)
+
+General outline of tracking route:
+
+- 4 bytes tracking route data set quantity
+- 4 bytes tracking route sequence quantity
+
+for each route data set 
+
+- 4 bytes route start offset
+
+for each route sequence
+
+- 4 bytes route sequence offset
+
+for each route data set
+
+- 4 bytes position X
+- 4 bytes position Y
+- 4 bytes position Z
+
+after route data sets, sequence beings:
+
+- 1 byte source room
+- 1 byte destination room
+- 1 byte sequence steps quantity
+
+for each sequence step
+
+- 1 byte associating them to the route data set
+
+```
+Tracking Route 0
+----------------
+Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+---------------------------------------------------------------------------
+00000020  05 00 00 00 01 00 00 00 20 00 00 00 2C 00 00 00  ........ ...,...
+00000030  38 00 00 00 44 00 00 00 50 00 00 00 5C 00 00 00  8...D...P...\...
+00000040  00 18 51 46 00 80 A7 42 00 94 66 46 00 44 52 46  ..QF.€§B.”fF.DRF
+00000050  00 80 A7 42 00 84 6A 46 00 D4 5C 46 00 80 A7 42  .€§B.„jF.Ô\F.€§B
+00000060  00 04 68 46 00 50 59 46 00 80 A7 42 00 F0 62 46  ..hF.PYF.€§B.ðbF
+00000070  00 48 51 46 00 80 A7 42 00 90 64 46 03 03 05 00  .HQF.€§B..dF....
+00000080  01 02 03 04
+---------------------------------------------------------------------------
+
+Using the above we can see:
+
+Start address of first tracking route (TROFF_00) = HeaderBytes + TROFF_00 = 4 + (4 x 07) + 0x0000 = 0x0020
+Tracking Route Data Set Quantity (TRDSQ) = 05 00 00 00 = 5 route data sets
+Route Sequence Quantity (RSQ) = 01 00 00 00 = 1 sequence
+
+Since there are 5 route data sets there are 5 offsets:
+
+RDOFF_00 = 20 00 00 00
+RDOFF_01 = 2C 00 00 00
+RDOFF_02 = 38 00 00 00
+RDOFF_03 = 44 00 00 00
+RDOFF_04 = 50 00 00 00
+
+Tracking Route Data Sets (TRDS):
+
+TRDS_00_Address = TROFF_00 + RDOFF_00 = 0x0020 + 20 00 00 00
+TRDS_00_X = 00 18 51 46 = 13382
+TRDS_00_Y = 00 80 A7 42 = 83.75
+TRDS_00_Z = 00 94 66 46 = 14757
+
+TRDS_01_Address = TROFF_00 + RDOFF_01 = 0x0020 + 2C 00 00 00
+TRDS_01_X = 00 44 52 46 = 13457
+TRDS_01_Y = 00 80 A7 42 = 83.75
+TRDS_01_Z = 00 84 6A 46 = 15009
+
+TRDS_02_Address = TROFF_00 + RDOFF_02 = 0x0020 + 38 00 00 00
+TRDS_02_X = 00 D4 5C 46 = 14133
+TRDS_02_Y = 00 80 A7 42 = 83.75
+TRDS_02_Z = 00 04 68 46 = 14849
+
+TRDS_03_Address = TROFF_00 + RDOFF_03 = 0x0020 + 44 00 00 00
+TRDS_03_X = 00 D4 5C 46 = 14133
+TRDS_03_Y = 00 80 A7 42 = 83.75
+TRDS_03_Z = 00 04 68 46 = 14849
+
+TRDS_04_Address = TROFF_00 + RDOFF_04 = 0x0020 + 50 00 00 00
+TRDS_04_X = 00 48 51 46 = 13394
+TRDS_04_Y = 00 80 A7 42 = 83.75
+TRDS_04_Z = 00 90 64 46 = 14628
+
+Since there is 1 route sequence there is 1 offset:
+
+RSOFF_00 = 5C 00 00 00
+
+Route Sequence (RS):
+
+RS_00_Address = TROFF_00 + RSOFF_00 = 0x0020 + 5C 00 00 00
+Source Room ID (SRID_00) = 03
+Destination Room ID (DRID_00) = 03
+Sequence Steps Quantity (SSQ_00) = 05
+Sequence Step 00 (SS_0_00) = TRDS_00
+Sequence Step 01 (SS_0_01) = TRDS_01
+Sequence Step 02 (SS_0_02) = TRDS_02
+Sequence Step 03 (SS_0_03) = TRDS_03
+Sequence Step 04 (SS_0_04) = TRDS_04
+```
+
 ### Enemy characteristics
