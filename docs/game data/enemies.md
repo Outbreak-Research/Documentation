@@ -188,4 +188,60 @@ Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
 ---------------------------------------------------------------------------
 ```
 ### Enemy route tracking points
+
+??? info "Authors metadata"
+    - Authors > hill73n, IgusaTaro, dchaps
+    - Last update > 15 August 2021
+    - Last modification > [Bia10](https://github.com/Bia10) at 1 July 2022
+
+General path to enemy route tracking points data:
+
+- NETBIO00.DAT > [r0xx.afs] > r0xx.rtp
+
+#### Header
+
+Size of the header varies depending on the number of rooms included.
+
+- 4 bytes number of rooms (roomCnt)
+
+Depending on the number of rooms we have
+
+- 2 bytes short for each room IDs
+
+then 
+
+- 2 bytes offset for each tracking route
+
+Size of the header is 4 + (2 x roomCnt) + (2 x roomCnt) = 4 + (4x roomCnt)
+
+#### Example header of r40.rtp (Wild Things)
+```
+Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+---------------------------------------------------------------------------
+00000000  07 00 00 00 00 01 00 03 00 04 01 04 00 05 00 06  ................
+00000010  00 0C 00 00 64 00 EC 00 80 01 14 02 8C 02 F0 02  ....d.ì.€...Œ.ð.
+---------------------------------------------------------------------------
+
+We can see:
+- Room count 07 00 00 
+
+- 00 01	Elephant Restaurant
+- 00 03	In Front of Elephant Restaurant
+- 00 04	South Concourse (before Titan Enters cutscene)
+- 01 04	South Concourse (after Titan Enters cutscene)
+- 00 05	East Concourse
+- 00 06	North Concourse
+- 00 0C	Elephant Stage
+
+- 00 00 Tracking route offset 00
+- 64 00 Tracking route offset 01
+- EC 00 Tracking route offset 02
+- 80 01 Tracking route offset 03
+- 14 02 Tracking route offset 04
+- 8C 02 Tracking route offset 05
+- F0 02	Tracking route offset 06
+
+At offset 1F header terminates.
+```
+
 ### Enemy characteristics
