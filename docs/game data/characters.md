@@ -6,6 +6,24 @@ This section describes data related to MCs and other NPCs like their characteris
 
 Every 12 bytes describes one NPC data.
 
+- 2 bytes short model ID
+
+The model id can be changed to use the unused model ids.
+
+- 1 byte which points to one of 8 main characters
+
+Based on this certain main characters unique skills are acquired.
+
+- 1 byte states which HP range will be selected from HP range table.
+- 1 byte selects which starting condition the character will start with.
+
+Interestingly there seem no option to start with condition: caution, only fine or danger is available.
+
+- 1 byte selects gauge increment multiplier.
+- 1 byte selects the animation speed.
+- 1 byte unknown always 00 unused?
+- 4 bytes float which specifies the melee attack power multiplier.
+
 #### File #1
 
 ??? info "Authors metadata"
@@ -125,7 +143,7 @@ Offset 03 > Pointer into HP range table
 Offset 04 > Starting condition (Fine, Danger)
 Offset 05 > Pointer into virus gauge increment multiplier table
 Offset 06 > Pointer into animation speed table
-Offset 07 > ??? 
+Offset 07 > Unknown seems always 00 unused?
 Offset 08-0B > Attack power multiplier
 ```
 
