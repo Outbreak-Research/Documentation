@@ -44,7 +44,7 @@ Offset 03 > Pointer into HP range table
 Offset 04 > Starting condition (Fine, Danger)
 Offset 05 > Pointer into virus gauge increment multiplier table
 Offset 06 > Pointer into animation speed table
-Offset 07 > ??? 
+Offset 07 > Unknown seems always 00 unused? 
 Offset 08-0B > Attack power multiplier
 ```
 
@@ -228,6 +228,22 @@ Offset 08-0B > Attack power multiplier
 
 Contains model related data for NPCs.
 
+- 2 bytes short model id
+- 1 byte gender
+
+Either 0 male or 1 female. Relates to how character shouts, talks are displayed.
+
+- 4 bytes unknown
+- 4 bytes float
+
+Scales the character model down or up.
+
+- 4 bytes float
+
+Moves character either upwards or downwards from floor.
+
+- 4 bytes unknown
+
 #### File #1
 
 ??? info "Authors metadata"
@@ -244,10 +260,10 @@ End > 001A34E3
 ```
 Offset 00-01 > Model ID
 Offset 02 > Ad-lib gender
-Offset 03-07 > ???
+Offset 03-07 > Unknown1
 Offset 08-0B > Scaling multiplier
 Offset 0C-0F > Height adder
-Offset 10-13 > ???
+Offset 10-13 > Unknown2
 ```
 
 ??? summary "Raw hex data"
@@ -534,10 +550,10 @@ End > 0001E2193
 ```
 Offset 00-01 > Model ID
 Offset 02 > Ad-lib gender
-Offset 03-07 > ???
+Offset 03-07 > Unknown1
 Offset 08-0B > Scaling multiplier
 Offset 0C-0F > Height adder
-Offset 10-13 > ???
+Offset 10-13 > Unknown2
 ```
 
 ??? summary "Raw hex data"
