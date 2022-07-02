@@ -1,0 +1,1937 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.8">
+    
+    
+      
+        <title>Characters, Enemies, and Object Data Tables - Resident Evil Outbreak Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.1d29e8d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#characters-enemies-and-object-data-tables" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Resident Evil Outbreak Docs" class="md-header__button md-logo" aria-label="Resident Evil Outbreak Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Resident Evil Outbreak Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Characters, Enemies, and Object Data Tables
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../game%20data/" class="md-tabs__link">
+        Game Data
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../mechanics/" class="md-tabs__link">
+        Mechanics
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
+        3D
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../sound/" class="md-tabs__link">
+        Sound
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../textures/" class="md-tabs__link">
+        Textures
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Resident Evil Outbreak Docs" class="md-nav__button md-logo" aria-label="Resident Evil Outbreak Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Resident Evil Outbreak Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Game Data
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Game Data" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Game Data
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../game%20data/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../game%20data/characters/" class="md-nav__link">
+        Characters
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../game%20data/items/" class="md-nav__link">
+        Items
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../game%20data/rooms/" class="md-nav__link">
+        Rooms
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../game%20data/animations/" class="md-nav__link">
+        Animations
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../game%20data/enemies/" class="md-nav__link">
+        Enemies
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../game%20data/npc/" class="md-nav__link">
+        Npc
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Mechanics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Mechanics" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Mechanics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mechanics/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mechanics/virusGauge/" class="md-nav__link">
+        Virus Gauge
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mechanics/characterSpeed/" class="md-nav__link">
+        Character Speed
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          3D
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="3D" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          3D
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Characters, Enemies, and Object Data Tables
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Characters, Enemies, and Object Data Tables
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#general-observations" class="md-nav__link">
+    General Observations
+  </a>
+  
+    <nav class="md-nav" aria-label="General Observations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#player-characters-this-is-p0x_xx-in-file-1" class="md-nav__link">
+    Player Characters (this is P0x_xx in File 1)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#n20x-player-character-cameos" class="md-nav__link">
+    N20x - Player Character Cameos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hp0x-high-poly-hp-player-characters" class="md-nav__link">
+    HP0x - High Poly (HP) Player Characters
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#e0x_xx-enemies-gameplay-resolution-monsters-and-zombies" class="md-nav__link">
+    E0x_xx - Enemies (gameplay resolution monsters and zombies)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hexx-high-poly-hp-enemies" class="md-nav__link">
+    HExx - High Poly (HP) enemies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nxxx-npcs-non-playable-characters-in-normal-game-some-can-be-earned" class="md-nav__link">
+    Nxxx - NPCs (non-playable characters in normal game, some can be earned)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hnxxx-high-poly-npc-meshes" class="md-nav__link">
+    HNxxx - High-Poly NPC Meshes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gameplay-objects" class="md-nav__link">
+    Gameplay Objects
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gameplay-resolution-objects-within-scenarios" class="md-nav__link">
+    Gameplay Resolution Objects Within Scenarios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cutscene-resolution-objects-within-scenarios" class="md-nav__link">
+    Cutscene Resolution Objects Within Scenarios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-files-of-note" class="md-nav__link">
+    Other Files of Note
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-quick-list-of-outbreak-scenario-numbers" class="md-nav__link">
+    BONUS - Quick List of Outbreak Scenario Numbers
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="models/" class="md-nav__link">
+        Model file formats
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Sound
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sound" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Sound
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sound/" class="md-nav__link">
+        Sound files
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Textures
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Textures" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Textures
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../textures/" class="md-nav__link">
+        Textures files
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#general-observations" class="md-nav__link">
+    General Observations
+  </a>
+  
+    <nav class="md-nav" aria-label="General Observations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#player-characters-this-is-p0x_xx-in-file-1" class="md-nav__link">
+    Player Characters (this is P0x_xx in File 1)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#n20x-player-character-cameos" class="md-nav__link">
+    N20x - Player Character Cameos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hp0x-high-poly-hp-player-characters" class="md-nav__link">
+    HP0x - High Poly (HP) Player Characters
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#e0x_xx-enemies-gameplay-resolution-monsters-and-zombies" class="md-nav__link">
+    E0x_xx - Enemies (gameplay resolution monsters and zombies)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hexx-high-poly-hp-enemies" class="md-nav__link">
+    HExx - High Poly (HP) enemies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nxxx-npcs-non-playable-characters-in-normal-game-some-can-be-earned" class="md-nav__link">
+    Nxxx - NPCs (non-playable characters in normal game, some can be earned)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hnxxx-high-poly-npc-meshes" class="md-nav__link">
+    HNxxx - High-Poly NPC Meshes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gameplay-objects" class="md-nav__link">
+    Gameplay Objects
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gameplay-resolution-objects-within-scenarios" class="md-nav__link">
+    Gameplay Resolution Objects Within Scenarios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cutscene-resolution-objects-within-scenarios" class="md-nav__link">
+    Cutscene Resolution Objects Within Scenarios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-files-of-note" class="md-nav__link">
+    Other Files of Note
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-quick-list-of-outbreak-scenario-numbers" class="md-nav__link">
+    BONUS - Quick List of Outbreak Scenario Numbers
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="characters-enemies-and-object-data-tables">Characters, Enemies, and Object Data Tables<a class="headerlink" href="#characters-enemies-and-object-data-tables" title="Permanent link">&para;</a></h1>
+<details class="info">
+<summary>Authors metadata</summary>
+<ul>
+<li>Author &gt; Richard Mandel version 1.1, revision 1.2 by <a href="https://github.com/Bia10">Bia10</a></li>
+<li>Last update &gt; 24 June 2022</li>
+<li>Last modification &gt; <a href="https://github.com/Bia10">Bia10</a> at 24 June 2022</li>
+</ul>
+</details>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>This is based mostly on the more complete tables of Outbreak File 2. It also applies to Outbreak File 1.</p>
+<p>With this release, I am including my recent research into the data that appears in both of the original Japanese retail versions of
+File 1 and File 2, as well as the U.S. Public Beta 1.0 gametest disc for Outbreak File 1. Anything significant from these will be
+noted as "Japanese" and "Public Beta" respectively.</p>
+<p>This is the first version of this document to include preliminary tables for all items you can obtain in the game - either in normal
+gameplay or high-poly cutscene forms.</p>
+<p>My thanks to Rusty, DXP, and all their friends over at the RE 123 Modding Forums for their original research.</p>
+<h2 id="general-observations">General Observations<a class="headerlink" href="#general-observations" title="Permanent link">&para;</a></h2>
+<p>Here's a good rule-of-thumb regarding Outbreak character model resolutions:</p>
+<ul>
+<li>Super lo-res/lo-poly (&gt;1200 polys) - distance shots of zombies</li>
+<li>Lo-res/lo-poly (~2000 polys) - general gameplay</li>
+<li>Mid-res/mid-poly (~3500 polys) - main characters and some cutscene models</li>
+<li>Hi-res/hi-poly (&gt;7000 polys) - almost all cutscene models</li>
+</ul>
+<p>Likewise, gameplay objects will be fairly low in poly count (usually less than 1000 polys, frequently less than 300)
+and cutscene objects fairly high (2000-3000 or higher).</p>
+<p>You'll soon learn that Outbreak uses the same basic generic face types for various different NPC and zombie characters.
+Each looks different because these generic faces are mapped differently on different models - as well as having different hair,
+zombie features (blood, bruisers, etc.), minor tweaking of facial features to better fit the model, and so on.
+If you spend enough time with these models, you'll also learn to spot most of the basic face types. You can have a lot of fun
+swapping these around yourself to create all-new Outbreak characters, as I did with my custom Ellen Long - a female RPD officer
+with Elena's face on Kathy's head and attached to Rita's body.</p>
+<p>Some models have more than one version - with or without certain gear and clothes, normal or zombie versions, and so on.
+I've tried to distinguish which is which.</p>
+<p>A fair amount of Outbreak data got reused for the two Chronicles games (REUC &amp; REDC). I've tried to let you know when that occurs.
+Generally speaking, ported Outbreak models - especially zombies or NPCs - are usually fairly easy to spot because they will have
+only one or two texture tiles - although they might be large ones intended for high-poly models. With Outbreak models, in most
+cases, it will use one texture for everything, or the first will generally be for the head and the second for the rest of the body.
+High-poly model textures from later Resident Evil games - beginning with RE0 and RE1R - tend to have anywhere from three to six
+textures (as of 2014), and these are usually for dedicated body parts - head, torso, limbs, and so on. This is not a hard-and-fast
+rule - especially where monsters and mutants are concerned - but it helps.</p>
+<h3 id="player-characters-this-is-p0x_xx-in-file-1">Player Characters (this is P0x_xx in File 1)<a class="headerlink" href="#player-characters-this-is-p0x_xx-in-file-1" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>1. P00 - Kevin Ryman (policeman)
+    +  00 - RPD uniform
+    +  01 - Final cutscene (cowboy duds)
+    +  02 - Casual (RPD bomber jacket with plaid shirt and jeans)
+2. P01 - Mark Wilkins (security guard)
+    + 00 - Security guard uniform
+    + 01 - Final cutscene (polar shirt and shorts)
+    + 01 - Army dress greens, rank of lt. colonel (Vietnam service)
+3. P02 - Jim Chapman (subway worker)
+    + 00 - Subway worker uniform
+    + 01 - Final cutscene (&quot;hoopz dudz&quot;)
+    + 02 - Bicycle messenger
+4. P03 - George Hamilton (surgeon)
+    + 00 - Green suit with vest and tie
+    + 01 - Raccoon Volunteer Corps outfit
+    + 02 - Hospital scrubs with mask
+5. P04 - David King (plumber and handyman)
+    + 00 - Plumber&#39;s outfit
+    + 01 - Casual (open-neck white shirt with gold chain and sport jacket)
+    + 02 - Bare-chested
+6. P05 - Alyssa Ashcroft (journalist)
+    + 00 - Newspaper reporter
+    + 01 - Black workout togs with hair bun and green goggles (somewhat similar to outfit worn in final cutscene)
+    + 02 - Red slip and heels (same as Alice in first RE feature film)
+    + 03 - Dojo clothes, aka &quot;karate outfit&quot;
+    + 04 - Marathon runner
+7. P06 - Yoko Suzuki (former Umbrella employee)
+    + 00 - University student
+    + 01 - Simple long green dress
+    + 02 - High school gym clothes (Japanese style)
+    + 03 - Traditional green Chinese pantsuit with Mao cap
+    + 04 - High school swimsuit (Japanese style)
+8. P07 - Cindy Lennox (waitress)
+    + 00 - Waitress uniform
+    + 01 - Final cutscene (blue blouse with white capri pants)
+    + 02 - Playboy bunny suit
+    + 03 - Black leathers and boots
+    + 04 - White bikini (both parts) and &quot;Daisy Dukes&quot; mini-shorts
+</code></pre></div>
+<h3 id="n20x-player-character-cameos">N20x - Player Character Cameos<a class="headerlink" href="#n20x-player-character-cameos" title="Permanent link">&para;</a></h3>
+<p>This is set up as a continuation of the gameplay NPC table, due to the way Outbreak treats player character cameos.</p>
+<p>The Outbreak series apparently uses a player character cameo model whenever it needs to generate one specifically for an event in
+a given scenario. This feature is used a lot in Outbreak File 2. For example, Cindy will appear at the gate to the zoo of
+"Wild Things" if she has not been selected by (any of) the player(s), and she will be killed there (!) when Oscar (the mutant
+elephant) begins his rampage. Here's another example. If not chosen as a player character, David will appear as a zombie in the
+Sewers near the ladder that leads up to the street outside the Apple Inn in "End of the Road." I've personally seen Kevin and
+Yoko appear as zombies in other scenarios as well under similar circumstances (they aren't picked by any players).
+This is my best guess at present as to why the N20x table exists for player characters. For modding/hacking purposes, these models
+are identical to the regular player character gameplay models and can be treated as such.</p>
+<p>There are no player character cameo models of alternate outfits, although they could undoubtedly be swapped in as needed with the
+appropriate data from the normal player character model table.</p>
+<ol>
+<li>N200 - Kevin</li>
+<li>N201 - Mark</li>
+<li>N202 - Jim</li>
+<li>N203 - George</li>
+<li>N204 - David</li>
+<li>N205 - Alyssa</li>
+<li>N206 - Yoko</li>
+<li>N207 - Cindy</li>
+</ol>
+<h3 id="hp0x-high-poly-hp-player-characters">HP0x - High Poly (HP) Player Characters<a class="headerlink" href="#hp0x-high-poly-hp-player-characters" title="Permanent link">&para;</a></h3>
+<p>These are used exclusively for generating in-game cutscenes. There are no hi-poly versions of player character alternate outfits.</p>
+<ol>
+<li>HP00 - Kevin</li>
+<li>HP01 - Mark</li>
+<li>HP02 - Jim</li>
+<li>HP03 - George</li>
+<li>HP04 - David</li>
+<li>HP05 - Alyssa</li>
+<li>HP06 - Yoko</li>
+<li>HP07 - Cindy</li>
+</ol>
+<h3 id="e0x_xx-enemies-gameplay-resolution-monsters-and-zombies">E0x_xx - Enemies (gameplay resolution monsters and zombies)<a class="headerlink" href="#e0x_xx-enemies-gameplay-resolution-monsters-and-zombies" title="Permanent link">&para;</a></h3>
+<p>None of the currently available textures will map properly with the unused zombies. Parts of them can be made to work, but usually
+the head won't map right. For example, none of the USS character textures, either normal human or zombie, will map properly with
+the unused Miguel zombie. Parts of the uniform can be made to work, but that's about it. I wound up having to hack my own custom
+texture for the Miguel zombie. You will have to do the same if you plan on texturing these unused models yourself.</p>
+<p>Ricky's cutscene model texture (slot HN008) can almost be made to work (!) with the unused Subway Worker Zombie 1 (slot E036) -
+provided you retool it so that it is arranged like those of the other Subway Worker Zombies. The only parts that don't match up
+are the (overlaid zombie) eyes and ears, but these may have been located in the proper places on the original low-poly texture
+(if it existed). This could mean that Capcom originally had plans for Ricky to re-animate during "Underbelly" after you found him,
+and then abandoned those plans - but I'm speculating.</p>
+<p>Some of the enemies farther down the enemies table have what seem to be rather high poly counts that defy the general rules of thumb. Bear in mind that these are models of LARGE enemies - so they will have high poly counts as a result. You can compare the few that also exist in the high-poly enemies table to see just how big a difference in detail (usually three times the polys) exist between the two.</p>
+<div class="highlight"><pre><span></span><code>E00 - Licker (two different types, E00_00 and E00_01)
+(see also REUC slot ELK1 and REDC slot ELS1)
+E01 - Various zombies (40-52, 57-58, 90, and 94 are lo-res)
+
+01 - Generic Male Zombie (unused, no texture)
+02 - Generic Sewer Zombie (unused, no texture)
+03 - Bald Zombie 1
+04 - Sewer Zombie 1
+05 - Bald Zombie 2
+06 - Miguel Zombie (unused, no texture - File 2 only)
+07 - Sewer Zombie 2
+08 - Sewer Zombie 3
+09 - Nick Zombie
+10 - Sean Zombie
+11 - Donald Zombie (aka &quot;Don Zombie&quot;)
+12 - Suit Zombie (not same as Phillip - different character)
+13 - Colin Zombie (aka &quot;Denim Zombie&quot;)
+14 - Robert Zombie
+15 - Chuck Zombie
+16 - Ginger Zombie
+17 - Laura Zombie (aka &quot;Businesswoman Zombie 1&quot;)
+18 - Amelia Zombie (aka &quot;Businesswoman Zombie 2&quot;)
+19 - RPD Male Zombie 1 (I named this one &quot;Vince&quot;)
+20 - RPD Male Zombie 2 (I named this one &quot;Bill&quot;)
+21 - RPD Male Zombie 3 (I named this one &quot;Hal&quot; or &quot;Harold&quot;)
+22 - RPD Male Zombie 4 (This was the basis for my David Ford)
+23 - RPD Male Zombie 5 no texture (This was the basis for my Scott Ford)
+24 - RPD Female Zombie 1 (I named this one &quot;Jane&quot;)
+25 - RPD Female Zombie 2 (I named this one &quot;Maria&quot;)
+26 - Generic Doctor Zombie 1
+27 - Generic Doctor Zombie 2
+28 - Generic Doctor Zombie 3
+29 - Nurse Zombie (no texture)
+30 - Nurse Zombie (no texture)
+31 - &quot;Flash Back&quot; Plant Zombie 1 (Ted?)
+32 - &quot;Flash Back&quot; Plant Zombie 2 (Tim?)
+33 - Umbrella Lab Tech Zombie 1
+34 - Umbrella Lab Tech Zombie 2
+35 - Umbrella Lab Tech Zombie 3
+36 - Subway Worker Zombie 1 (unused, no texture - might be Ricky?)
+37 - Subway Worker Zombie 2
+38 - Subway Worker Zombie 3
+39 - U.S.S. Zombie 1
+40 - Colin Zombie (lo-res, File 2 only)
+41 - Robert Zombie - alternate version (lo-res, File 2 only)
+42 - Don Zombie - alternate version (lo-res, File 2 only)
+43 - Nick Zombie - alternate version (lo-res, File 2 only)
+44 - Sean Zombie (lo-res, File 2 only)
+45 - Phillip Zombie (lo-res, File 2 only)
+46 - Amelia Zombie (lo-res, File 2 only)
+47 - Sewer Zombie 3 (lo-res, File 2 only)
+48 - Chuck Zombie (lo-res)
+49 - Matthew Zombie (lo-res)
+50 - Robert Zombie (lo-res)
+51 - Suit Zombie (lo-res)
+52 - Donald Zombie (lo-res)
+54 - Donald Zombie (repeated from slot 11, same resolution)
+56 - Fifteen 2D tiles of a walking zombie (File 2 only - identical poses)
+57 - Laura Zombie (lo-res, File 2 only)
+58 - Nick Zombie (lo-res)
+59 - U.S.S. Zombie 2
+60 - U.S.S. Zombie 3
+90 - Super lo-res zombies 1 (8 different kinds)
+94 - Super lo-res zombies 2 (8 different kinds)
+99 - Zombie Boy (File 2 only, untextured in File 1)
+100 - Matthew Zombie
+
+E02 - Cerebus hounds (four different types, E02-00 to E02-03)
+(E02-01 to E02-03 reused in both REUC and REDC)
+(E02-00 has two heads and a unique body texture; unused in Outbreak)
+
+E03 - Cockroach (also used in REDC)
+E04 - Rat
+E05 - Crow (has wings for both at rest and in flight)
+E06 - Giant bee
+E07 - Giant spider
+E08 - Normal (or &quot;baby&quot;) spider
+E09 - Giant moth (also used in REDC)
+E10 - Giant caterpillar
+E11 - Short roof-hanging plant tentacle with flattened end (&quot;Flash Back&quot;)
+E12 - Long roof-hanging plant tentacle with flattened end (&quot;Flash Back&quot;)
+(Two different versions - E12 and E12_N)
+E13 - Pitcher plant variant (&quot;Flash Back&quot;)
+E14 - Mobile plant branch or vertical tentacle (&quot;Flash Back&quot;)
+(Two different versions - E14 and E14_N)
+E15 - Some kind of bug (crashes on conversion - File 2 only)
+
+E16 - Giant alligator (also seen in REDC)
+
+01 - Intact
+02 - Without tail
+
+E017 - Eight 2D tiles of eight different common zombies (to fill out crowds)
+
+00 - Walking
+01 - Walking
+02 - Dead or immobile
+
+E18 - Giant flea (&quot;Underbelly&quot;)
+E19 - Queen leech (&quot;The Hive&quot;)
+E20 - Regis Licker (&quot;Hellfire&quot;)
+E21 - Early form Grave Digger?
+E22 - Alpha hunter, MA-124 variant (unique to Outbreak)
+(also includes frozen versions in numbering variants - E22_01, etc)
+E23 - Gamma hunter (smaller version used in REDC)
+E24 - Centipede (&quot;Flash Back?&quot;)
+E25 - Mutant Neptune shark (&quot;The Docks&quot; and &quot;Decisions, Decisions&quot;)
+E26 - Mutant Neptune shark, repeated (&quot;The Docks&quot; and &quot;Decisions, Decisions&quot;)
+E27 - Leechman with arms extended, different character bases (&quot;The Hive&quot;)
+
+00 - Leechman Kevin
+01 - Leechman Mark
+02 - Leechman Jim
+03 - Leechman George
+04 - Leechman David
+05 - Leechman Alyssa
+06 - Leechman Yoko
+07 - Leechman Cindy
+08 - Leechman Hirsh
+09 - Leechman Scott Jones (original base)
+
+E28 - Birkin form 1 holding a slime-covered Matthew (unused)
+
+NOTE - Birkin NEVER APPEARS in Outbreak, save in pre-release trailers made
+back when the game was still in its earliest private beta testing phases.
+He was supposed to appear in at least the &quot;USS scenario.&quot; This probably
+explains why Birkin is grouped with the G-Mutant in the enemy data tables.
+This appears to be a low-poly version of the Birkin form 1 mutant that
+appears in the Outbreak File 1 opening credits (but without Matthew in his
+right hand, of course).
+
+E29 - G-Mutant
+
+00 - Full form G-mutant (Outbreak&#39;s is different than RE2 and REDC!)
+01 - G-Embryo
+02 - G-Mutant gibs
+
+E31 - Naked fat zombie with sewn-up stomach (unused)
+E32 - Oscar the infected elephant (&quot;Wild Things&quot;)
+E33 - Infected lions (&quot;Wild Things&quot;)
+
+00 - Male lion
+02 - Lioness (female)
+
+E34_01 - Upright mutant plant stalk (&quot;Flash Back&quot;)
+
+NOTE - There&#39;s apparently bad data at this point starting with the Japanese
+original. Both the coatless normal Tyrant and the long-armed, one-armed
+prototype Tyrant also appear here, in slots E34_01 and E34_02 respectively.
+Were they originally supposed to appear in &quot;Flash Back?&quot; It would be in
+keeping with &quot;Flash Back&#39;s&quot; unique origins. It is based on an abandoned
+sequel to RE1 known as BIOHAZARD DASH. Tyrants would have been encountered
+in the basement levels of the DASH original of the hospital. Probably just
+a coincidence; even so ....
+
+E35 - Mobile plant root (&quot;Flash Back&quot;)
+E36 - Scissortail (E36_00 and E36_02 are brown, E36_01 is &quot;Flash Back&quot; dark gray)
+E37 - EXTREMELY low-poly zombies with darkened textures (only 85 or so polys!)
+
+00 - Mathhew Zombie
+01 - Robert Zombie
+02 - Colin Zombie
+03 - Robert Zombie (repeated)
+
+E38 - Moth cocoon for victim
+E39 - Grubworm (moth larvae, &quot;Below Freezing Point&quot;)
+E40 - Prototype Thantos Tyrant, RE1 style but simpler (unused)
+(somewhat similar to REUC&#39;s slot ETY1 but closer to old RE1 version)
+E41 - Normal Tyrant, &quot;Mister X&quot; outfit (see also REDC slot T103)
+(Elimination Tyrant is the same but with red-tinted texture applied)
+
+Variations (File 2 only)
+
+00 - &quot;Mister X&quot; outfit
+01 - Transformed, retail version
+02 - &quot;Mister X&quot; outfit (repeated)
+03 - Elimination Tyrant (red &quot;Mister X&quot; but has spiked head and is VERY fast)
+
+E42 - Thanatos Tyrant transformed, retail version
+E43 - Thanatos Tyrant
+
+00 - Classic RE1 style, without clothes or gear (unused, not transformed)
+01 - Transformed and injured, only one arm
+
+E44 - Prototype Injured Thanatos Tyrant (one very long arm and one short arm)
+(probably early or original form of E43_01)
+E45 - Axeman Al with axe (&quot;Flash Back&quot;)
+E46 - Large flower bloom (&quot;Flash Back&quot;)
+
+00 - Closed
+01 - Open
+
+E47 - Pitcher plant (&quot;Flash Back&quot;)
+
+00 - Main blossom or &quot;pitcher&quot;
+01 - Long horizontal tentacle or vine (appears to be fixed to roof)
+
+E48 - Normal sized bee (&quot;Flash Back&quot;)
+E59 - Pair of severed arms (for grappling through broken windows?)
+E63 - Baby flea? (File 2 only)
+E65 - Hyena (&quot;Wild Things,&quot; File 2 only)
+</code></pre></div>
+<h3 id="hexx-high-poly-hp-enemies">HExx - High Poly (HP) enemies<a class="headerlink" href="#hexx-high-poly-hp-enemies" title="Permanent link">&para;</a></h3>
+<p>SPECIAL NOTE REGARDING BETA HIGH-POLY ENEMIES</p>
+<p>Not all of the high poly zombies that were created for Outbreak appear in the data tables; however, some of these missing ones
+eventually wound up in the two Chronicles games (REUC &amp; REDC). Almost two dozen Outbreak high-poly enemy models were among the
+Outbreak assets reused (and updated) for the Chronicles series. In such cases, I will attempt to show you both where they should
+have gone in the Outbreak data tables, and where they can be found in the appropriate Chronicles game. It should be noted that all
+of the Outbreak models that got reused for Chronicles received both updated models AND textures, so they may look slightly different
+than their older Outbreak counterparts.</p>
+<div class="highlight"><pre><span></span><code>HE00 - Licker (two different types, HE00_00 and HE00_01)
+(see also REUC slot ELK1 and REDC slot ELS1)
+HE01 - HD Zombies (various types)
+
+01 - Stock zombie boy
+02 - Stock zombie male teenager
+03 - Stock zombie man (black shirt brown trousers)
+04 - Stock zombie man (brown shirt blue jeans)
+06 - Stock zombie man (white shirt green jeans)
+07 - Stock zombie man (blue slacks beginning to decompose)
+08 - Stock zombie man (tan slacks white shirt unbuttoned)
+09 - Nick, aka Nicholas (see also REUC slot EZ30 for alternate version)
+10 - Female RPD officer (top half only, &quot;Desperate Times&quot;) - File 2 only
+11 - Don (Don Zombie) (see also REUC slot EZ31)
+12 - Stock zombie man (tan check shirt blue jeans decomposing)
+(NOTE - This should have been the Suit Zombie - see REUC slot EZ32)
+13 - Colin (Denim Zombie) (see also REUC slot EZ27)
+14 - Robert (Jacket Zombie) - File 2 only (see also REUC slot EZ28)
+15 - Chuck (Red Plaid Zombie) (see also REUC slot EZ33)
+16 - Ginger (not included, see REUC slot EZ34)
+17 - Laura (Businesswoman Zombie #1)
+18 - Amelia (Businesswoman Zombie #2 - not included, see REUC slot EZ35)
+19 - Male RPD officer #1 (not included, see REUC slot EZ36 for alternate ver.)
+(I renamed this one &quot;Vince&quot; for my various efforts)
+20 - Male RPD officer #2 (not included, see REUC slot EZ37)
+(I renamed this one &quot;Bill&quot; for my various efforts)
+22 - Male RPD officer #4 (not included, see REUC slot EZ38)
+(The low-poly version of this was the basis for my custom RE2 David Ford)
+24 - Female RPD officer #1 (&quot;Desperate Times&quot;) - File 2 only
+(I renamed this one Darcy Powell for my various efforts)
+25 - Female RPD officer #2 (not included, see REUC slot EZ29)
+(I renamed this one &quot;Maria&quot; for my various efforts)
+37 - Subway Zombie 2 (not included, see REUC slot EZ26 for alternate version)
+56 - Gibs (severed arm)
+
+HE02 - Cerebus hounds (three different types, HE02-01 to HE02-03)
+(reused in both REUC and REDC)
+HE03 - Kevin Ryman beta version (provided textures won&#39;t map correctly)
+(NOTE - I have no clue as to why this is in the Enemies table)
+HE06 - Giant Bee
+HE07 - Giant Spider
+(same as REDC&#39;s &quot;Web Spinner&quot;)
+HE09 - Giant Moth
+(same as REDC&#39;s &quot;Giant Gypsy Moth&quot;)
+HE18 - Giant Flea
+HE22 - Alpha Hunter (MA-124 variant, unique to Outbreak)
+HE23 - Gamma Hunter
+(smaller version reused in REDC&#39;s &quot;Operation Xavier&quot;)
+HE29 - G-Mutant
+(NOTE - This is different from REDC&#39;s &quot;G-Creature!&quot; The REDC version
+is more like the G-Mutant that appears in RE2 than Outbreak File 1.)
+HE36 - Scissortail
+HE41 - Thanatos Tyrant (various forms)
+
+00 - Normal Tyrant, &quot;Mister X&quot; outfit
+(Elimination Tyrant is same with red texture)
+(see also REDC slot T103)
+01 - Mutated Tyrant, retail version
+
+HE43 - Thanatos Tyrant (injured)
+
+01 - Retail version (one long arm, other missing entirely)
+
+HE99 - Gibs (severed arm, repeated)
+</code></pre></div>
+<h3 id="nxxx-npcs-non-playable-characters-in-normal-game-some-can-be-earned">Nxxx - NPCs (non-playable characters in normal game, some can be earned)<a class="headerlink" href="#nxxx-npcs-non-playable-characters-in-normal-game-some-can-be-earned" title="Permanent link">&para;</a></h3>
+<p>SPECIAL NOTES REGARDING NPC MODELS</p>
+<p>There's an alternate version of the MacDowell beta placeholder model that occasionally appears in the NPC gameplay tables. It has
+texture mapping issues with the head, but this might be an NBDX ripping/conversion error. I've only listed the first occurrence.</p>
+<p>Both Clint and Bone are believed to belong to "The Docks," based on their proximity to Austin and Clint's clothing (he's wearing a
+life vest). Austin was apparently the pilot of the ship in "The Docks" before being reallocated to "Wild Things," per a surviving
+beta test gameplay still.</p>
+<p>The name of the NPC zombie that occupies slot 30 is officially unknown. My guess is that it is Jack, the owner of Jack's Bar
+("J's Bar" in the game) based on his proximity to Bob and his clothing. His outfit is not unlike Will's save for the color, and
+Will is the bartender there ....</p>
+<p>I'm fairly certain that Jake and Gary were intended for "A Day in Raccoon," as they're grouped with Mickey in the game data.
+Jake appears to be some kind of official, possibly an Umbrella executive. He's a George type, with appropriate medical gear, when
+enabled for gameplay. Gary is probably an old acquaintance - possibly antagonistic - and that would make Richard Jake's bodyguard.
+Gary is unique, whereas Richard appears to be a variation on UBCS Arnold, and is most likely an undercover USS operative who was
+assigned the job of guarding Jake. Richard's presence, if I am right, would explain why both Gary and Mickey are shot dead during
+the course of "A Day in Raccoon," and later revive as zombies. Other fans have their own opinions and theories ....</p>
+<p>The Yoko as Umbrella researcher model ("Yoko Z" in the game data) is from the opening cutscene to "Outbreak," the game's very first
+scenario. That's why it has long hair.</p>
+<p>The unused nurse model appears to be an injured version of Raccoon Hospital's Kathy (it has Kathy's head). Elena's head will also
+work with it, although the mesh for their newer outfits won't map correctly on the older model. I wound up having to make my own
+custom texture in order to properly recreate this model.</p>
+<p>Rodney does not appear in any gameplay scenario in either File 1 or File 2 as far as I know; however, he can be earned as a playable
+character. He may have been part of the development for "Streets," and his story would have most likely been told in the unreleased
+Outbreak File 3.</p>
+<div class="highlight"><pre><span></span><code>N000 - Mac, aka MacDowell (UBCS) - lost Streets scenario
+N001 - Rodriguez (USS) - &quot;End of the Road,&quot; lost USS scenario
+N002 - Conrad (USS) - lost USS scenario
+N003 - HUNK (USS) - lost USS scenario
+N004 - HUNK no mask (USS) - lost USS scenario
+N005 - Miguel (USS) - lost USS scenario
+* N006 - MacDowell beta placeholder (INCORRECT!! Actually is Miguel with eye-patch and unfinished texture)
+N007 - Luke (USS) - lost USS scenario
+N008 - MacDowell beta placeholder
+N009 - Arnold (UBCS) - &quot;End of the Road&quot;
+N010 - Matt (UBCS) - lost Streets scenario
+N011 - Billy (UBCS) - lost Streets scenario
+N012 - Hirsh - &quot;The Hive&quot;
+N013 - Hirsh duplicate - &quot;The Hive&quot;
+N014 - Leechman Hirsh - &quot;The Hive&quot;
+N015 - Scott Jones, the original Leechman - &quot;The Hive&quot;
+N016 - Peter Jenkins - &quot;Decisions, Decisions&quot;
+N017 - Marvin (RPD) - &quot;Desperate Times&quot;
+N018 - Fred (RPD) - &quot;Desperate Times&quot;
+N019 - Andy wounded (RPD) - &quot;Desperate Times&quot;
+N020 - Marvin wounded (RPD) - &quot;Desperate Times&quot;
+N021 - Jean (RPD) - &quot;Underbelly&quot;
+N022 - Tony (RPD) - &quot;Desperate Times&quot;
+* N023 - Tony injured (RPD) - &quot;Desperate Times&quot;(File1); Patrick zombie (File2)
+N024 - Patrick Reyes - &quot;Wild Things&quot;
+N025 - Lloyd Stewart - &quot;Wild Things&quot;
+N026 - Austin Taylor - lost Docks scenario
+N027 - Clint - lost Docks scenario
+N028 - Bone (co-worker of David&#39;s) - lost Docks scenario?
+N029 - Bob - &quot;Outbreak&quot;
+N030 - Jack zombie - &quot;Outbreak&quot; unused
+N031 - Nathan Donelly (RPD inmate) - &quot;Desperate Times&quot;
+N032 - Samuel Kirk (RPD inmate) - &quot;Desperate Times&quot;
+N033 - MacDowell beta placeholder
+N034 - Will - &quot;Outbreak&quot;
+N035 - Will zombie - &quot;Outbreak&quot;
+N036 - Roger - stock character (unused?)
+N037 - MacDowell beta placeholder
+N038 - Carter - &quot;End of the Road&quot;
+N039 - Dr. Gregory Mueller - &quot;Decisions, Decisions&quot;
+N040 - Frost - &quot;Below Freezing Point&quot;
+N041 - Frost with unfrozen hand - &quot;Below Freezing Point&quot;
+N042 - Jake - &quot;A Day in Raccoon&quot;
+N043 - Gary - &quot;A Day in Raccoon&quot;
+N044 - Richard - &quot;A Day in Raccoon&quot;
+! N046 - Mickey zombie - &quot;A Day in Raccoon&quot; (I think this should be N45, not N46)
+! N047 - Mickey - &quot;A Day in Raccoon&quot; (I think this should be N46, not N47)
+N047 - Dr. Albert Lester, aka Al - &quot;Flash Back&quot;
+N048 - Al as Axeman - mask and no shirt - &quot;Flash Back&quot;
+N049 - Al no shirt - &quot;Flash Back&quot;
+N050 - Ben Bertolucci - &quot;Desperate Times&quot;
+N051 - Lucy Mallet - &quot;Flash Back&quot; side quest
+N052 - Regen Mallet with bandaged arm - &quot;Flash Back&quot; side quest
+N053 - Regen Mallet no bandage on arm - &quot;Flash Back&quot; side quest
+N054 - Monica Stevens - &quot;Below Freezing Point&quot;
+N055 - Linda Washington - &quot;End of the Road&quot;
+N056 - Rita Burnside (RPD) - &quot;Desperate Times&quot;
+N057 - MacDowell - duplicate (UBCS)
+N058 - Mary - lost Streets scenario
+N059 - Kate - stock character
+N060 - MacDowell beta placeholder
+N061 - MacDowell beta placeholder
+N062 - Danny (fireman) - &quot;Hellfire,&quot; &quot;Decisions, Decisions&quot; (also appears in a still from the lost &quot;Streets&quot; scenario)
+N063 - Danny wearing gear (fireman) &quot;Hellfire,&quot; &quot;Decisions, Decisions&quot;
+N064 - Gill (fireman) - &quot;Hellfire,&quot; &quot;Decisions, Decisions&quot;
+N065 - Gill wearing gear (fireman) - &quot;Hellfire,&quot; &quot;Decisions, Decisions&quot;
+* N069 - Ethan - &quot;The Hive&quot;
+N072 - Cindy stock (cameo) - &quot;Wild Things&quot;
+N073 - Keith (doctor at bridge) - &quot;Flash Back&quot;
+N080 - Kurt - &quot;Flash Back&quot;
+N081 - Kurt Zombie - &quot;Flash Back&quot;
+N082 - Gary Zombie - &quot;A Day in Raccoon&quot;
+N083 - Al young version - &quot;Flash Back&quot;
+N086 - Dorothy Lester - &quot;Flash Back&quot;
+N090 - Yoko long hair - &quot;Outbreak&quot; (opening cutscene)
+N099 - Stickman Mr. Grey
+N100 - Raymond (RPD) - &quot;Outbreak,&quot; &quot;Desperate Times&quot;
+N101 - Arthur (RPD) - &quot;Outbreak&quot;
+N102 - Aaron (RPD) - &quot;Outbreak,&quot; &quot;Desperate Times&quot;
+N103 - Dorian (RPD) - &quot;Desperate Times&quot;
+N104 - Elliot (RPD) - &quot;Outbreak,&quot; &quot;Desperate Times&quot;
+N105 - Eric (RPD) - &quot;Outbreak,&quot;
+N106 - Harry (RPD) - &quot;Outbreak,&quot; &quot;Desperate Times&quot;
+N107 - Stickman Mr. Red
+N108 - Stickman Mr. Blue
+N109 - Stickman Mr. Green
+N110 - Stickman Mr. Gold
+N111 - Stickman Mr. Black
+N112 - Karl (UBCS) - &quot;Decisions, Decisions&quot;
+N113 - Dustin v1 (UBCS) - &quot;Decisions, Decisions&quot;
+N114 - Dustin v2 (UBCS) - &quot;Decisions, Decisions&quot;
+N115 - Derek (USS) - &quot;End of the Road&quot;
+N116 - Stickman Ms. White
+N117 - Stickman Ms. Peach
+N118 - Stickman Ms. Water
+N119 - Len (fireman) - &quot;Hellfire&quot; (doubles as Charlie in same)
+N120 - Nick, aka Nicholas - stock character
+N121 - Sean - stock character
+N122 - Phillip - stock character
+N123 - Don, aka Donald - stock character
+N124 - Matthew - stock character
+N125 - Robert - stock character
+N126 - Chuck - stock character
+N127 - Ginger - stock character
+N128 - Laura, aka Businesswoman v1 - stock character
+N129 - Amelia, aka Businesswoman v2 - stock character
+* N130 - Ethan (duplicate) - &quot;The Hive&quot;
+N131 - Ethan Zombie - &quot;The Hive&quot;
+N132 - Howard - &quot;The Hive&quot;
+N133 - Hospital Zombie 1 - &quot;The Hive&quot;
+N134 - Isaac - &quot;The Hive&quot;
+N135 - Hospital Zombie 2 - &quot;The Hive&quot;
+N136 - Kathy - &quot;The Hive&quot;
+N137 - Kathy zombie - &quot;The Hive&quot;
+N138 - Elena - &quot;The Hive&quot;
+N139 - Elena zombie - &quot;The Hive&quot;
+N140 - Frank - &quot;Decisions, Decisions&quot;
+N141 - Kathy injured (texture missing) - &quot;The Hive&quot;
+N150 - Rodney - unused Streets scenario?
+N199 - Cindy (missing skirt) - use unknown
+</code></pre></div>
+<h3 id="hnxxx-high-poly-npc-meshes">HNxxx - High-Poly NPC Meshes<a class="headerlink" href="#hnxxx-high-poly-npc-meshes" title="Permanent link">&para;</a></h3>
+<p>The high-resolution meshes are for cutscenes only. Some game characters exist only as hi-res meshes - like Tommy Neilson, for
+instance. A small handful of cutscene models (Len, Kurt, etc.) are mid-poly models instead of high-poly ones. I can but guess as
+to the reason why. Fan hackers have found various ways to use the cutscene models within the game itself, but that discussion lies
+well beyond the scope of this document.</p>
+<p>There's a medium-res version of the beta version of UBCS MacDowell that gets repeated again and again as a placeholder. I'm only
+listing its first appearance, save for one important exception (see table).</p>
+<p>The sheer number of unused cutscene models ALONE for "Flash Back" point to a far larger (and probably more entertaining) earlier
+version of this most unique of Outbreak's many scenarios. It (and they) probably got cut due to release deadlines and the fact that
+Outbreak File 1 did not sell as well as had been hoped. It's a shame, because it looks like it would have played a lot closer to its
+source (the synopsis for the undeveloped RE1 sequel BIOHAZARD DASH) than what we ultimately got.</p>
+<p>Of all of the unused high-poly NPC cutscene models, there is only one remaining for which I cannot clearly associate any given
+gameplay scenario. That is the one I have come to call the "U.S.S. Commander" (slot HN087). My placing him with the lost U.S.S.
+scenario is a best guess based on his outfit alone. He could in fact belong to any of the early version, unreleased, or undeveloped
+Outbreak scenarios.</p>
+<p>The cutscene model for Joseph Murrows that was developed for "Wild Things" ultimately went unused. Apparently he was to have been
+the one who was crushed to death at the zoo gate whenever Oscar the elephant makes his first appearance. That part was given to
+Cindy instead (in a cameo appearance) for the retail release of Outbreak File 2.</p>
+<div class="highlight"><pre><span></span><code>HN000 - MacDowell (UBCS) (lost &quot;Streets&quot; scenario)
+HN001 - Rodriguez (USS) (lost USS scenario, &quot;End of the Road&quot;)
+HN002 - Conrad (USS) (USS scenario - unused)
+HN003 - HUNK (USS) (USS scenario - unused - i.e. Rusty&#39;s &quot;HD Luke&quot;)
+HN004 - HUNK no mask (USS) (USS scenario - unused)
+HN005 - Miguel (USS) (USS scenario - unused)
+HN008 - Ricky (&quot;Hellfire&quot; - dead subway worker on toilet)
+HN009 - Arnold (UBCS) (lost USS scenario, &quot;End of the Road&quot;)
+HN010 - Matt (UBCS) (lost &quot;Streets&quot; scenario)
+HN011 - Billy (UBCS) (lost &quot;Streets&quot; scenario)
+HN012 - Hirsh (&quot;The Hive&quot;)
+HN013 - Hirsh (&quot;The Hive&quot;)
+HN014 - Leechman Hirsh (&quot;The Hive&quot;)
+HN015 - Len (fireman) - medium-res (&quot;Hellfire&quot;)
+HN017 - Marvin (RPD) (&quot;Desperate Times&quot;)
+HN018 - Fred (RPD) (&quot;Desperate Times&quot;)
+HN020 - Marvin wounded (RPD) (&quot;Desperate Times&quot;)
+HN026 - Austin Taylor (&quot;The Docks,&quot; &quot;Wild Things&quot;)
+HN027 - Clint (&quot;The Docks&quot;)
+HN029 - Bob (&quot;Outbreak&quot;)
+HN030 - &quot;Jack&quot; (&quot;Outbreak&quot; - unused)
+HN031 - Nathan Donnelly (&quot;Desperate Times,&quot; unused) (as documented in Famitsu)
+HN032 - Samuel Kirk (&quot;Desperate Times,&quot; unused) (as documented in Famitsu)
+HN034 - Will (&quot;Outbreak&quot;)
+HN038 - Carter (&quot;End of the Road&quot;)
+HN039 - Dr. Gregory Mueller, aka Greg (&quot;Decisions, Decisions&quot;)
+HN045 - Mickey zombie (&quot;A Day in Raccoon&quot;)
+HN046 - Mickey (&quot;A Day in Raccoon&quot;)
+HN047 - Dr. Albert Lester, aka Al (&quot;Flash Back&quot;)
+HN048 - &quot;Axeman&quot; early version (&quot;Flash Back&quot; original version)
+HN049 - Al shirtless (&quot;Flash Back&quot;)
+HN051 - Lucy Mallet (&quot;Flash Back&quot; side quest) (this is the Famitsu early beta version with long pigtails)
+HN052 - Regen Mallet (&quot;Flash Back&quot; side quest)
+HN054 - Monica Stevens (&quot;Below Freezing Point&quot;)
+HN055 - Linda Washington (&quot;End of the Road&quot;)
+HN056 - Rita Burnside (&quot;Desperate Times&quot;)
+HN057 - Monica Stevens (&quot;Below Freezing Point,&quot; repeated)
+HN058 - Mary (lost &quot;Streets&quot; scenario)
+HN062 - Danny (lost &quot;Streets&quot; scenario, &quot;Hellfire,&quot; &quot;Decisions ...&quot;)
+HN063 - Gill (&quot;Decisions, Decisions&quot;)
+HN070 - Joseph Murrows (&quot;Wild Things,&quot; unused)
+HN071 - &quot;Pierce&quot; (&quot;The Docks?&quot; - best guess based on outfit)
+HN073 - &quot;Ted&quot; (&quot;Flash Back&quot;)
+HN074 - &quot;Ted&quot; (&quot;Flash Back,&quot; repeated)
+HN075 - Ruby (Madison&#39;s mother) - unused (&quot;The Streets of Raccoon City&quot;)
+HN076 - Ruby Zombie - unused (&quot;The Streets of Raccoon City&quot;)
+HN077 - Madison zombie - unused (&quot;The Streets of Raccoon City&quot;)
+HN078 - Miguel with cracked helmet and gas mask (lost USS scenario)
+HN079 - Nicholai Ginovaef (&quot;Decisions, Decisions&quot;)
+HN080 - Kurt - medium-res (&quot;Flash Back&quot;)
+HN081 - Kurt Zombie (&quot;Flash Back&quot;)
+HN083 - Dr. Albert Lester younger version (&quot;Flash Back&quot; original version)
+HN084 - David King younger version (&quot;Flash Back&quot; original version)
+HN085 - Alyssa Ashcroft younger version (&quot;Flash Back&quot; original version)
+HN086 - Dorothy Lester still human (&quot;Flash Back&quot; original version)
+HN087 - The &quot;U.S.S. Commander&quot; (USS scenario? - unused)
+HN088 - Monica Stevens (repeated)
+HN089 - Frost (&quot;Below Freezing Point&quot;)
+HN090 - &quot;Tim&quot; (&quot;Flash Back?&quot;)
+HN091 - MacDowell beta version (hi-poly version - as documented in Famitsu - lost &quot;Streets&quot; sc.)
+HN096 - Tommy Neilson - &quot;End of the Road&quot;
+HN097 - Dorothy corpse (&quot;Flash Back&quot;)
+HN100 - Raymond Douglas (&quot;Outbreak&quot;)
+HN101 - Arthur (&quot;Outbreak&quot; - cap-wearing officer with bullhorn)
+HN102 - Aaron (&quot;Outbreak, &quot;Desperate Times&quot;)
+HN103 - Dorian (&quot;Outbreak&quot;)
+HN104 - Elliot (&quot;Outbreak,&quot; &quot;Desperate Times&quot;)
+HN105 - Eric (&quot;Outbreak&quot;)
+HN106 - Harry (&quot;Outbreak,&quot; &quot;Desperate Times&quot;)
+HN110 - David King (use unknown)
+HN119 - Len (fireman) - medium-res, repeated
+</code></pre></div>
+<h3 id="gameplay-objects">Gameplay Objects<a class="headerlink" href="#gameplay-objects" title="Permanent link">&para;</a></h3>
+<p>This is set up as a continuation of the Enemies table, for some reason. The similarity in number schemes caused me to overlook them
+when I first put this FAQ together. My thanks to George Chief for asking a question that, while not related, caused me to re-examine
+the data and discover my mistake.</p>
+<p>I have no clue as to why Outbreak considers these "enemies."</p>
+<div class="highlight"><pre><span></span><code>E49 - Tropical bird (&quot;Wild Things&quot;)
+E50 - Long strip of stained wallpaper (&quot;Hellfire?&quot;)
+E51 - Large packing crate
+E53 - Large packing crate (repeated)
+E54 - Claymore; i.e. anti-personnel mine (&quot;End of the Road&quot;)
+E55 - Broken or severed tentacle tip (&quot;Flash Back?&quot;)
+E56 - A group of five long rusted steel rods clustered together in parallel
+E58_00 - Five gallon gasoline jerrican
+E58_01 - Overhead Valve (in particular, &quot;The Hive&quot; final battle)
+E61 - Save Typewriter
+    + 00 - by itself
+    + 01 - on a pedestal
+E62 - Save Typewriter on a pedestal (repeated)
+</code></pre></div>
+<h3 id="gameplay-resolution-objects-within-scenarios">Gameplay Resolution Objects Within Scenarios<a class="headerlink" href="#gameplay-resolution-objects-within-scenarios" title="Permanent link">&para;</a></h3>
+<p>File name format:</p>
+<p>OBJSxx - All of the items you can pick up in scenario number xx - low-poly form
+(weapons, herbs, sprays, tools, papers, etc.)</p>
+<p>These are all grouped together in what I have (somewhat affectionately) come to call "the big pile of s--t." When you rip them and
+then attempt to load the resulting OBJ file, be sure to turn off "Load as single mesh" or whatever similar option exists in your
+favorite 3D modeling program. It's the only way you can load them individually.</p>
+<p>While many objects are the same across gameplay scenarios, there are a few that are not. What I am going to do is give you a list
+of the items that most people seem to want to find. Things like weapons, healing items, and so on. I'll also throw in some rather
+unique items that some of you would probably like to have for your Outbreak mesh model collection - even though they might exist only
+as a low-poly model. While it won't be a complete list of EVERY single item, this should be mostly complete in terms of uniqueness
+of the item(s) in question.</p>
+<p>Just because I don't list something in a given scenario's "pile of s--t" doesn't mean it's not there. Common items, such as
+9mm handguns, 9mm ammo boxes, potted herbs of healing, and so on are present in ALL scenario object data clusters. I just didn't
+feel like listing all of them every single time.</p>
+<p>If you're looking mainly for low-poly weapons, your quickest path is to search the
+data clusters for the Elimination or Extra Battle scenarios. That way you'll get most of them at one shot.</p>
+<div class="highlight"><pre><span></span><code>R001 - &quot;Outbreak&quot; (File 1 - OBJS01.NBD)
+
+9mm Ammo Boxes
+Assorted Tagged Keys (various types)
+Ammo Clip
+Beretta M93R pistol
+Broken Broom Handle (two versions - long and short)
+Browning HP .45 ACP handgun
+Crescent Wrench (double-ended)
+David&#39;s Homemade Handheld Torch (insecticide spray + lighter)
+David&#39;s Homemade Spear (carving knife + broom handle)
+Eric&#39;s Detonator (both versions, with or without handle)
+First Aid Spray
+Grenade Launcher rounds
+Healing Herbs (potted - all three colors)
+Healing Powders (various mixes)
+Insecticide Spray
+Iron Pipes (three kinds - straight, somewhat bent, and really bent)
+Knives (two different kinds - a pairing knife and a big carving knife)
+M203 Grenade Launcher (with shoulder stock)
+Magnum Speedloader
+Molotov Cocktails
+Nail Gun
+Newspaper Pages (various)
+Pills (various)
+Push Broom
+Whiskey Bottle (resembles Jack Daniels [TM] brand)
+Zippo (TM) cigarette lighter
+
+R015 - &quot;Desperate Times&quot; (File 2 - OBJS15.NBD)
+
+NOTE - There&#39;s more handguns in this data cluster than almost any other three
+scenarios put together, with one exception.
+
+Battery
+Beretta &quot;Burst Handgun&quot;
+Burst Handgun Extended Ammo Clip
+Dart Gun (or is that the Pill Shooter?)
+David&#39;s Homemade Taser (iron pipe + battery + wires)
+Frenchi SPAS-12 Shotgun
+Heckler &amp; Koch MP-5 Submachine Gun
+Switch With Wiring
+Knockout Gas Canister
+Wooden Planks
+
+R026 - &quot;Flash Back&quot; (File 1 - OBJS26.NBD)
+
+Axe
+David&#39;s Homemade Mace (iron pipe + rock)
+Remington 12-gauge Pump Shotgun (with shoulder stock)
+Crutch
+Rock
+
+R028 - &quot;The Hive&quot; (File 1 - OBJS28.NBD)
+
+Blood Pack (for i.v. transfusions, used to bait the Leechman)
+Ledgers (various)
+
+R035 - &quot;Below Freezing Point (File 1 - OBJS35.NBD)
+
+(One of the few data clusters with more than one shotgun - two SPAS-12s! I
+also noticed this data cluster has about as many handguns as &quot;Desperate Times.&quot;)
+
+Gasoline Jerrican (5 gallons)
+Handheld Propane Torch
+Large Adjustable Crescent Wrench
+Pill Bottles (various)
+Red Umbrella Key Card
+Valve Handle (an RE classic - you just KNEW it had to be here somewhere!)
+
+R040 - &quot;Wild Things&quot; (File 2 - OBJS40.NBD)
+
+Hunting Rifle (generic .30-06, belongs to Austin)
+Hunting Knife
+
+R041 - &quot;Decisions, Decisions&quot; (File 1 - OBJS41.NBD)
+
+Daylight Anti-Virus Vial
+Colt M4 .223 Machine Gun
+Peter&#39;s Glasses (Peter Jenkins)
+Rocket Launcher
+</code></pre></div>
+<h3 id="cutscene-resolution-objects-within-scenarios">Cutscene Resolution Objects Within Scenarios<a class="headerlink" href="#cutscene-resolution-objects-within-scenarios" title="Permanent link">&para;</a></h3>
+<p>Once you start to tear into the Outbreak scenario data, you'll see a group of files that are named according to the following
+general format:</p>
+<p>File name format:</p>
+<p>OBJnn_nn_L_nn ... - High-poly object(s) that appear within a scenario</p>
+<p>These are "hero" or high-poly versions of Outbreak's common objects, which are intended solely for in-game cutscene use.
+The number of high-poly objects in the Outbreak series are quite limited in comparison to the gameplay resolution ones (both common
+and scenario-specific); however, there are some in this table that appear nowhere else within the series.</p>
+<p>Multiple copies of these appear, usually for different versions of in-game generated cutscenes (for different player characters).
+I'm only going to list the FIRST time a particular high-poly object appears in the scenario data table. It's a waste of time listing
+every single instance or occurrence, as the repeated data is identical.</p>
+<div class="highlight"><pre><span></span><code>R001 - &quot;Outbreak&quot; (File 1)
+
+OBJ00_06_A_00 - Coaster
+OBJ00_06_A_001 - Hexagonal shot glass (version 1)
+OBJ00_06_A_002 - Hexagonal shot glass (version 2)
+OBJ00_06_A_02 - Alyssa&#39;s laptop computer
+OBJ00_06_A_03 - Jim&#39;s book of crosswords
+OBJ00_06_A_04 - Jim&#39;s pencil
+OBJ00_06_A_05 - Mark&#39;s Fork (distorted lengthwise)
+OBJ00_06_A_06 - Mark&#39;s Spoon (distorted lengthwise)
+OBJ00_06_A_07 - Mark&#39;s bowl of soup
+OBJ00_06_A_08 - Mark&#39;s plate of food
+OBJ00_06_A_08 - Mark&#39;s drinking glass
+OBJ02_02_A_00 - Front door of J&#39;s Bar
+OBJ02_08_G_00 - Baseboard vent cover (J&#39;s Bar bathrooms)
+OBJ05_00_A_00 - Beretta M93R pistol
+OBJ09_00_A_00 - Key with round green tag (for alley gate?)
+OBJ11_00_A_00 - Raymond&#39;s SPAS-12 shotgun
+OBJ13_00_A_00 - Raymond&#39;s Zippo (TM) lighter
+OBJ15_03_A_00 - Fire department door tag with Roy DeSoto&#39;s name on it
+(reference to the old NBC-TV series EMERGENCY)
+OBJ18_00_A_00 - RPD SWAT van with windows (static, not moveable)
+OBJ19_00_A_00 - RPD SWAT van with windows (moving version)
+OBJ20_00_A_00 - Jim&#39;s subway uniform ball cap
+OBJ23_00_A_00 - Detonator (no handle)
+OBJ28_00_B_00 - Nail gun
+OBJ31_00_A_00 - Walkie-talkie
+OBJ33_00_A_00 - Arthur&#39;s megaphone (bullhorn)
+
+R002 - &quot;Hellfire&quot; (File 1)
+
+OBJ02_00_A_00 - Walkie-talkie
+OBJ05_01_A_00 - Fire department door tag with Roy DeSoto&#39;s name on it
+(reference to the old NBC-TV series EMERGENCY)
+OBJ31_00_A_00 - Walkie-talkie
+
+R006 - &quot;End of the Road&quot; (File 2)
+
+OBJ01_02_A_00 - Virus sample cylinder, metal ends only
+OBJ01_02_A_01 - Virus sample cylinder, middle glass
+OBJ06_00_A_00 - Stock wooden door
+
+R015 - &quot;Desperate Times&quot; (File 2)
+
+OBJ00_00_A_0x - RPD front gate (00 is one side and 01 the other)
+OBJ00_01_A_00 - Marvin&#39;s map of the RPD&#39;s first floor
+OBJ00_01_A_01 - Walkie-talkie
+OBJ02_00_A_00 - Beretta M93R pistol
+OBJ02_01_A_00 - Stock metal door
+OBJ02_02_A_00 - RPD newer police car (Chevy Caprice)
+OBJ04_00_A_00 - RPD SWAT van (Outbreak version with windows)
+OBJ04_08_A_06 - RPD newer police car with passengers (Cindy and Frost)
+(used to allude to opening of RE2 in closing cutscene)
+
+R026 - &quot;Flash Back&quot; (File 2)
+
+OBJ01_00_A_00 - Stock wooden door (cabin door?)
+OBJ01_00_A_01 - Tabletop picture frame with photo of Al and Dorothy Lester
+OBJ11_00_A_01 - Axeman&#39;s Mask (collapsed as if taken off and dropped)
+
+R028 - &quot;The Hive&quot; (File 1)
+
+OBJ04_00_A_00 - Two glass window panes side-by-side
+OBJ04_00_A_01 - Nurses&#39; Station counter curtains
+OBJ04_00_A_03 - Singler large glass window pane
+OBJ04_00_A_05 - Six-drawer rolling instrument cart
+OBJ11_00_A_00 - Flat-bottom fishing boat with motor
+
+R035 - &quot;Below Freezing Point&quot; (File 1)
+
+OBJ01_00_A_01 - Monica&#39;s Beretta M93R pistol (identical to RPD version)
+OBJ03_00_A_01 - G-virus sample case
+OBJ03_00_A_02 - Red Umbrella card key (Yoko&#39;s)
+OBJ05_00_A_00 - Platform elevator
+OBJ11_01_A_02 - &quot;Shaft Type L&quot; sliding door (Birkin&#39;s lab)
+OBJ11_02_A_03 - Train turntable elevator key
+OBJ20_00_A_00 - Handheld propane torch
+OBJ20_00_A_02 - Control console trip handle (for HVAC system control panel)
+OBJ24_00_A_01 - Virus sample cylinder broken glass
+
+R040 - &quot;Wild Things&quot;
+
+OBJ02_00_A_0x - Raccoon Zoo front gates (01 is one side, 02 is the other)
+OBJ02_00_A_02 - Gate chain
+OBJ08_00_A_00 - City trolley, two cars (camera side only parts present!)
+
+R041 - &quot;Decisions, Decisions&quot; (File 1)
+
+OBJ30_00_A_00 - Rooftop door (cutscene right before final boss battle)
+OBJ30_00_A_01 - Danny and Gill&#39;s helicopter (version with searchlight)
+OBJ31_00_A_00 - Danny and Gill&#39;s helicopter (version without searchlight)
+</code></pre></div>
+<h3 id="other-files-of-note">Other Files of Note<a class="headerlink" href="#other-files-of-note" title="Permanent link">&para;</a></h3>
+<p>EFxx - Gun effects (shells, splats, etc.) for a given scenario</p>
+<h3 id="bonus-quick-list-of-outbreak-scenario-numbers">BONUS - Quick List of Outbreak Scenario Numbers<a class="headerlink" href="#bonus-quick-list-of-outbreak-scenario-numbers" title="Permanent link">&para;</a></h3>
+<p>Outbreak scenarios appear to have been numbered in the order that they were conceived or created, and not when they were intended for
+release. Capcom's programmers also deliberately left gaps in the sequence, as they were planning an entire series of Outbreak games.
+They also backtracked on the numbering scheme in File 2's case, which makes things even more confusing for the Outbreak researcher.
+I've seen public statements and magazine articles talking about up to eighteen scenarios all told in various stages of development
+across the three intended retail released (Files 1-3), but no more. It should be noted there are slots in the Outbreak scenario
+table for far more than that.</p>
+<p>In most cases, all of the texture files for rooms and room objects within a given scenario share the same room number prefix as the
+scenario itself ... but there ARE some interesting exceptions. Some scenarios apparently got renumbered and moved during the
+development process. "The Hive," for instance, apparently originally existed in slot R019 early on, and then got moved wholesale
+to slot R028 - for reasons still unknown. All of its texture tiles have the prefix "R019" instead of "R028," as they should have
+been. "Desperate Times" has three different sets of texture tiles, with prefixes of R015, R019, and R40 respectively. Apparently
+this also got revised a lot during development, which may help explain why it was not released until File 2. There are several other
+examples of this. The room/texture naming scheme alone appears to point to four additional Outbreak scenarios that either never got
+released or existed in forms earlier than what wound up released for retail.</p>
+<p>Most fans believe that "Hellfire" replaced "A Day in Raccoon," and several fan experts have noted numerous similarities between the
+rooms and textures for both. It's quite possible that "A Day in Raccoon" originally occupied slot R002 and was subsequently
+overwritten by "Hellfire" for retail release. If true, this would help explain the similarities between them - but this is
+speculation on my part.</p>
+<p>I do not know where either of the two other documented unreleased Outbreak scenarios - "The Streets of Raccoon City" and "The Docks"
+- fit into this scenario naming scheme. I've made a wild-ass guess in the case of "Streets" - but in either case, there simply isn't
+enough data to be certain.</p>
+<div class="highlight"><pre><span></span><code>R001 - &quot;Outbreak&quot; (File 1) (This is the oldest of all scenarios - &quot;OutbreaK&quot; is its official name)
+R002 - &quot;Hellfire&quot; (File 2) (May have overwritten &quot;A Day in Raccoon&quot; in this slot?)
+R004 - unreleased (This was probably the original version of &quot;Below Freezing Point&quot; - which is also known as the lost U.S.S. scenario)
+R006 - &quot;End of the Road&quot; (File 2)
+R010 - &quot;Underbelly&quot; (File 1)
+R015 - &quot;Desperate Times&quot; (File 2)
+R016 - unreleased (lots of city-based texture tiles came from here - is this where &quot;Streets&quot; went?)
+R019 - unreleased(This was probably the original version of &quot;The Hive&quot; - the one that also had the EXTERIOR of Raccoon Hospital as well as the park across the street, per RE3 and early game trailers)
+R020 - practice level (based on File 1&#39;s &quot;Outbreak&quot;)
+R021 - Elimination/Battle level - mixed rooms (?)
+R022 - Elimination/Battle level - mixed rooms (?)
+R023 - Elimination/Battle level - mixed rooms (?)
+R026 - &quot;Flash Back&quot; (File 2)
+(There were apparently plans for a somewhat different version of &quot;Flash Back&quot;
+that did not make it to retail. Some of the early trailer shots don&#39;t agree
+with the retail data, and unused [but present] cutscene models exist that
+appear to point to events that took place six years earlier. Only allusions
+and references to these past events appear in the final retail version. The
+fully rendered cutscene models for both the younger Al and Dorothy Lester
+are part of this data - only a picture of them exists in gameplay proper.)
+R027 - Elimination/Battle level - mixed rooms (?)
+R028 - &quot;The Hive&quot; (retail version) (Almost all of its texture tiles originally belonged to R019)
+R029 - Elimination/Battle level - mixed rooms (?)
+R030 - Elimination/Battle level - mixed rooms (?)
+R035 - &quot;Below Freezing Point&quot; (File 1)(Most of its texture tiles originally belonged to R004)
+R039 - unreleased(A scene involving an aerial tram car from this lost scenario appears in some Elimination or Battle levels. That is all that is known about it.)
+R040 - &quot;Wild Things&quot; (File 2) (this appears to have been the last official addition to the scenario lineup for retail release - texture data from it appears in the final retail version of &quot;Desperate Times&quot;)
+R041 - &quot;Decisions, Decisions&quot; (File 1)
+</code></pre></div>
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../mechanics/characterSpeed/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Character Speed" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Character Speed
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="models/" class="md-footer__link md-footer__link--next" aria-label="Next: Model file formats" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Model file formats
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.0238f547.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
