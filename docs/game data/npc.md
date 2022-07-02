@@ -37,3 +37,20 @@ We can see 5 npc cameos begin defined:
 - 4rd npc cameo starts at 0x0001C0 and has size of 0x000088 (136) bytes of data.
 - 5rd npc cameo starts at 0x000248 and has size of 0x000088 (136) bytes of data.
 ```
+
+#### Data section
+
+```
+Offset 00-03: Always 01 00 00 00 (Probably start of data marker as this is used in .emd files too.)
+Offset 04-08: Always 08 00 00 00 - Unknown function
+Offset 09-0B: Always 01 00 00 00 - Unknown function
+Offset 0C-0F: Room ID 
+Offset 10-13: Room sub-ID (usually 00, but some rooms have multiple models due to events)
+Offset 14-17: NPC model ID (main character cameos use the N20x.NBD versions, not the P0x_0x.nbd)
+Offset 18-1B: Spawning position X coordinates
+Offset 1C-1F: Spawning position Y (elevation) coordinates
+Offset 20-23: Spawning position Z coordinates
+Offset 24-27: Spawning position rotation value
+Offset 28-33: Always 00 00 00 00 - Unknown function
+Offset 34-37: Message ID ?? (These messages are located in r040.bin)
+```
